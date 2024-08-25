@@ -10,25 +10,23 @@
 >
 > ./install.sh
 
- Turn your steamdeck to a media-center (relatively privacy-friendly) - two clicks away!
+# Turn your steamdeck to a media-center (relatively privacy-friendly) - a button in game-mode away!
 
  Streaming, Music, Movies, Pictures, Radio, TV – central, one place.
- Just one press of a button away in gaming-mode.
 
- preconfigured: 200+ streaming-services -- incl. paid like netflix, disney+, amazon, crunchyroll, mubi, youtube, spotify, twitch, imdb & others (mostly 1080p+) + arthouse providers & nearly every free public broadcasting tv & radio-stations.
+ **preconfigured: 200+ streaming-services (mostly 1080p+)** -- incl. paid like netflix, disney+, amazon, crunchyroll, mubi, youtube, spotify, twitch, imdb & others + arthouse providers & nearly every   free public broadcasting tv & radio-stations.
 
- preinstalled: no need to fiddle with addon-installation -- pictures, music, videos - directly through desktop-mode-directories.
+ preinstalled: **no need to fiddle with addon-installation** -- pictures, music, videos - directly through desktop-mode-directories.
 
  customize: everywhere you are – just click right, set current content as 'favorite' -- and find it again in 'favorites'.
 
  extend : choose between hundreds of other preinstalled addons & install them easily.
 
-
 # FAQ
 ## how do i use netflix?
 to get secure access to 1080p-streaming you need to login once through a browser to get a credential-file as well as a code. use 'netflix.sh' for this.
 
-> cd SteamOS-kodi-Installer
+> cd SteamOS-Kodi-Installer
 >
 > ./netflix.sh
 
@@ -52,7 +50,7 @@ also see: https://en.wikipedia.org/wiki/Kodi_(software) as well as https://kodi.
 # Disclaimer
 1. Use at your own risk!
 2. This is for educational and research purposes only!
-3. No Responsibility taken for any local customizations of the git.
+3. No responsibility taken for any local customizations of the git!
 
 
 <a href="https://artsandculture.google.com/experiment/viola-the-bird/nAEJVwNkp-FnrQ?cp=e30."><img src="https://images.pling.com/img/00/00/78/78/79/2160403/proxy-image1.jpeg"/></a>
