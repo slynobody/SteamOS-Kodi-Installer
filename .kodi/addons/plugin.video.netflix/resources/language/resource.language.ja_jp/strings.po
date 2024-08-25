@@ -1,0 +1,1256 @@
+# Kodi Media Center language file
+# Addon Name: Netflix
+# Addon id: plugin.video.netflix
+# Addon Provider: libdev, jojo, asciidisco, caphm, castagnait
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.netflix\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.video.netflix\n"
+"POT-Creation-Date: 2017-07-24 16:15+0000\n"
+"PO-Revision-Date: 2020-07-02 18:20+0900\n"
+"Last-Translator: Allen Choi<37539914+Thunderbird2086@users.noreply.github.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "Addon Description"
+msgid "Netflix VOD Services Add-on"
+msgstr "Netflixアドオン"
+
+msgctxt "Addon Disclaimer"
+msgid "The use of this add-on may not be legal in your country of residence - please check with your local laws before installing."
+msgstr "一部の国では、このアドオンを使用するのが不法でありますので、設置する前に必ず関連法律を確認してください"
+
+msgctxt "#30001"
+msgid "Recommendations"
+msgstr "オススメ"
+
+msgctxt "#30002"
+msgid "Enter PIN to watch restricted content"
+msgstr "制限コンテンツを見るのにはPINを入力してください。"
+
+#. Unused 30003
+msgctxt "#30004"
+msgid "Password"
+msgstr "暗証番号"
+
+msgctxt "#30005"
+msgid "E-mail"
+msgstr "メールアドレス"
+
+msgctxt "#30006"
+msgid "Enter PIN to access this profile"
+msgstr "このプロフィールを使うにはPINを入力してください。"
+
+msgctxt "#30007"
+msgid "Parental Control PIN (4 digits)"
+msgstr "視聴制限PIN(4桁)"
+
+msgctxt "#30008"
+msgid "Login failed"
+msgstr "ログイン失敗"
+
+msgctxt "#30009"
+msgid "Please check your e-mail and password"
+msgstr "ログインＩＤや暗証番号を確認してください"
+
+msgctxt "#30010"
+msgid "Lists of all kinds"
+msgstr "ジャンル"
+
+#. Unused 30011
+msgctxt "#30012"
+msgid "Profiles options and parental control"
+msgstr "プロフィールオプションと視聴制限"
+
+msgctxt "#30013"
+msgid "In the profile list, open the context menu in the chosen profile"
+msgstr "プロフィールリストから選び、コンテキストメニューを開きましょう。"
+
+msgctxt "#30014"
+msgid "Account"
+msgstr "アカウント"
+
+msgctxt "#30015"
+msgid "Other options"
+msgstr "その他"
+
+msgctxt "#30016"
+msgid "If you log out, all account data will be deleted, but the exported video files in the Kodi library will be preserved.[CR]Do you want to continue?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Logout"
+msgstr "ログアウト"
+
+msgctxt "#30018"
+msgid "Export to library"
+msgstr "ライブラリに追加"
+
+msgctxt "#30019"
+msgid "Rate on Netflix"
+msgstr "評価"
+
+msgctxt "#30020"
+msgid "Remove from 'My list'"
+msgstr "マイリストから削除"
+
+msgctxt "#30021"
+msgid "Add to 'My list'"
+msgstr "マイリストに追加"
+
+msgctxt "#30022"
+msgid "(between 0 and 10)"
+msgstr "(0-10)"
+
+msgctxt "#30023"
+msgid "Expert"
+msgstr "エキスパート"
+
+msgctxt "#30024"
+msgid "SSL verification"
+msgstr "SSL認証"
+
+msgctxt "#30025"
+msgid "Library"
+msgstr "ライブラリ"
+
+msgctxt "#30026"
+msgid "Enable custom library folder"
+msgstr "カスタムライブラリフォルダを使用"
+
+msgctxt "#30027"
+msgid "Custom library path"
+msgstr "カスタムライブラリパース"
+
+msgctxt "#30028"
+msgid "Playback error"
+msgstr "再生エラー"
+
+#. Unused 30029
+msgctxt "#30030"
+msgid "Remove from library"
+msgstr "ライブラリから削除"
+
+msgctxt "#30031"
+msgid "General"
+msgstr "一般設定"
+
+msgctxt "#30032"
+msgid "Codecs"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Enable Dolby Digital Plus codec (Atmos on Premium account)"
+msgstr ""
+
+#. Unused 30034
+msgctxt "#30035"
+msgid "InputStream Adaptive settings..."
+msgstr "インプットストリームアドオン設定"
+
+#. Unused 30036
+msgctxt "#30037"
+msgid "Skin viewtypes"
+msgstr "スキンビュータイプ"
+
+msgctxt "#30038"
+msgid "Enable custom viewtypes"
+msgstr "カスタム・ビュー使用"
+
+msgctxt "#30039"
+msgid "View ID for folders"
+msgstr "フォルダーのビューID"
+
+msgctxt "#30040"
+msgid "View ID for movies"
+msgstr "映画のビューID"
+
+msgctxt "#30041"
+msgid "View ID for shows"
+msgstr "TV番組のビューID"
+
+msgctxt "#30042"
+msgid "View ID for seasons"
+msgstr "シーズンのビューID"
+
+msgctxt "#30043"
+msgid "View ID for episodes"
+msgstr "エピソードのビューID"
+
+msgctxt "#30044"
+msgid "View ID for profiles"
+msgstr "プロフィールのビューID"
+
+msgctxt "#30045"
+msgid "Thumb rating removed|You rated a thumb down|You rated a thumb up"
+msgstr "親指評価なし|サムズアップ|サムズダウン"
+
+msgctxt "#30046"
+msgid "There is a problem with InputStream Adaptive add-on or the Widevine library. May be missing or not enabled, the operation will be cancelled."
+msgstr "InputStream Adaptive又はWidevineに問題があるようです。インストールされなかったり、無効になっておりますので、起動をキャンセルします。"
+
+msgctxt "#30047"
+msgid "Library update in progress"
+msgstr "ライブラリ更新中"
+
+msgctxt "#30048"
+msgid "Exported"
+msgstr "エクスポートされた項目"
+
+msgctxt "#30049"
+msgid "Library"
+msgstr "ライブラリ"
+
+msgctxt "#30050"
+msgid "Enable Kodi library management"
+msgstr ""
+
+#. Unused 30051
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30052"
+msgid "{} Set for library playback"
+msgstr "{} ライブラリから再生を設定"
+
+#. Unused 30053, 30054
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30055"
+msgid "{} Set at start-up"
+msgstr ""
+
+#. Unused 30056
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30057"
+msgid "{} Remember PIN"
+msgstr ""
+
+#. Unused 30058
+msgctxt "#30059"
+msgid "Be careful, you are about to update many titles {}.[CR]This may cause service problems or temporary ban of the account.[CR]Do you want to continue?"
+msgstr "警告！多め({}個)のタイトルを更新しようとします。[CR]これは大変な問題を起こすか、アカウントが一時的にブロックされる可能性があります。[CR]宜しいですか。"
+
+msgctxt "#30060"
+msgid "Enable HEVC codec (4k/HDR/DolbyVision for Android)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Update inside library"
+msgstr "ライブラリ更新"
+
+msgctxt "#30062"
+msgid "Parental controls"
+msgstr "ペアレンタルコントロール"
+
+msgctxt "#30063"
+msgid "An update is already in progress"
+msgstr "更新中です。"
+
+msgctxt "#30064"
+msgid "Perform auto-update"
+msgstr "更新タイミング"
+
+msgctxt "#30065"
+msgid "Video library update"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Enable debug logging"
+msgstr "デバグロギング"
+
+msgctxt "#30067"
+msgid "daily"
+msgstr "毎日"
+
+msgctxt "#30068"
+msgid "every other day"
+msgstr "二日に一回"
+
+msgctxt "#30069"
+msgid "every 5 days"
+msgstr "五日に一回"
+
+msgctxt "#30070"
+msgid "weekly"
+msgstr "毎週"
+
+msgctxt "#30071"
+msgid "Time of Day"
+msgstr "実行時刻"
+
+msgctxt "#30072"
+msgid "Only start after 5 minutes of idle"
+msgstr "5分以上何もしなかったら"
+
+msgctxt "#30073"
+msgid "Always show codec information during video playback"
+msgstr "コーデック情報を常に表示"
+
+msgctxt "#30074"
+msgid "View for exported"
+msgstr "エクスポート"
+
+msgctxt "#30075"
+msgid "Ask to skip intro and recap"
+msgstr "スキップを確認"
+
+msgctxt "#30076"
+msgid "Skip intro"
+msgstr "イントロをスキップ"
+
+msgctxt "#30077"
+msgid "Skip recap"
+msgstr "本編へスキップ"
+
+msgctxt "#30078"
+msgid "Playback"
+msgstr "再生"
+
+msgctxt "#30079"
+msgid "Skip automatically"
+msgstr "オートスキップ"
+
+msgctxt "#30080"
+msgid "Pause when skipping"
+msgstr "スキップする際に停止"
+
+msgctxt "#30081"
+msgid "Force HDCP version on video streams"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Remember audio / subtitle preferences"
+msgstr "音声・字幕設定を保存"
+
+msgctxt "#30083"
+msgid "Force the display of forced subtitles only with the audio language set"
+msgstr "音声に含まれた強制字幕は無条件に表示"
+
+msgctxt "#30084"
+msgid "Cache objects TTL (minutes)"
+msgstr "キャッシュ保存時間(分)"
+
+msgctxt "#30085"
+msgid "Cache metadata TTL (days)"
+msgstr "メタデータのキャッシュ保存期間(日)"
+
+msgctxt "#30086"
+msgid "Cache objects 'My list' TTL (minutes)"
+msgstr "'マイリスト'のキャッシュ保存期間(分)"
+
+msgctxt "#30087"
+msgid "Contains {} and more..."
+msgstr "{}に関連する項目"
+
+msgctxt "#30088"
+msgid "Browse related content"
+msgstr "こちらもオススメ"
+
+msgctxt "#30089"
+msgid "Browse subgenres"
+msgstr "ジャンル"
+
+msgctxt "#30090"
+msgid "Browse through related video lists and discover more content."
+msgstr "関連メディアリストを検索し、他のコンテンツを見つかる。"
+
+msgctxt "#30091"
+msgid "Browse and manage contents that were exported to the Kodi library."
+msgstr "Kodiライブラリにエクスポートされた項目を管理する。"
+
+msgctxt "#30092"
+msgid "Search for content and easily find what you want to watch."
+msgstr "コンテンツを検索し、見たいものを見つかる。"
+
+msgctxt "#30093"
+msgid "Browse content by genre and easily discover related content."
+msgstr "ジャンル毎にコンテンツをみて、より簡単にオススメを見つかる。"
+
+msgctxt "#30094"
+msgid "Browse recommendations and pick up on something new you might like."
+msgstr "オススメを検索し、もしもの作品を選んでみる。"
+
+msgctxt "#30095"
+msgid "All TV shows"
+msgstr "全てのTV番組・ドラマ"
+
+msgctxt "#30096"
+msgid "All Movies"
+msgstr "全ての映画"
+
+msgctxt "#30097"
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+msgctxt "#30098"
+msgid "Enable HDR10"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Enable Dolby Vision"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Results for '{}'"
+msgstr "'{}'の検索結果"
+
+msgctxt "#30101"
+msgid "Netflix returned an unknown error."
+msgstr "Netflixからのアンノーンエラー"
+
+msgctxt "#30102"
+msgid "Netflix returned the following error:"
+msgstr "Netflixからのエラーメッセージ:"
+
+msgctxt "#30103"
+msgid "Error details have been written to the Kodi log file. If the error message does not provide guidance on how to resolve the issue or you continue to receive this error, please report it on GitHub by following the Readme instructions."
+msgstr "エラーの詳細はログファイルに書いてあります。解決方法が見つからなかったり同じエラー続くと、GithubのReadmeの指示通り報告してください。"
+
+msgctxt "#30104"
+msgid "The add-on encountered the following error:"
+msgstr "エラーが発生しました:"
+
+msgctxt "#30105"
+msgid "Netflix Add-on Error"
+msgstr "Netflixアドオンエラー"
+
+msgctxt "#30106"
+msgid "Invalid PIN"
+msgstr "PIN誤り"
+
+msgctxt "#30107"
+msgid "PIN protection is off."
+msgstr "PINによる制限をしない。"
+
+msgctxt "#30108"
+msgid "All content is protected by PIN."
+msgstr "PINによるコンテンツ制限"
+
+msgctxt "#30109"
+msgid "Login successful"
+msgstr "ログイン成功"
+
+#. Unused 30110
+msgctxt "#30111"
+msgid "There is no contents"
+msgstr "コンテンツなし！"
+
+msgctxt "#30112"
+msgid "You need to be logged in to use Netflix"
+msgstr "Netflixを見るのには、ログインしてください"
+
+msgctxt "#30113"
+msgid "Logout successful"
+msgstr "ログアウト成功"
+
+#. Unused 30114, 30115
+msgctxt "#30116"
+msgid "Advanced Add-on Configuration"
+msgstr "上級者向け設定"
+
+msgctxt "#30117"
+msgid "Cache"
+msgstr "キャッシュ"
+
+#. Unused 30118, 30119
+msgctxt "#30120"
+msgid "Cannot automatically remove a season from Kodi library, please do it manually"
+msgstr "Kodiライブラリからシーズンを削除しませんでしたので、手動で削除してください"
+
+msgctxt "#30121"
+msgid "Perform full sync now"
+msgstr "これから全ての同期化を実行します。"
+
+msgctxt "#30122"
+msgid "Sync 'My list' to Kodi library"
+msgstr "マイリストとKodiライブラリの同期化"
+
+msgctxt "#30123"
+msgid "Do you want to continue?[CR]The full synchronization will delete all previously exported titles.[CR]If there are many titles this operation may take some time."
+msgstr "全ての同期化を実行することによって以前エクスポートしたタイトルが削除されます。[CR]タイトルが多い場合は時間が掛かります。[CR]宜しいですか。"
+
+msgctxt "#30124"
+msgid "Do you want to remove this item from the library?"
+msgstr "この項目を削除しますか。"
+
+msgctxt "#30125"
+msgid "Delete library contents"
+msgstr "ライブラリ削除"
+
+msgctxt "#30126"
+msgid "Do you really want to purge your library?[CR]All exported items will be deleted."
+msgstr "ライブラリを削除しますか。[CR]エクスポートをされた項目を全て削除します。"
+
+msgctxt "#30127"
+msgid "Awarded rating of {}"
+msgstr "{}の評価により授与しました。"
+
+msgctxt "#30128"
+msgid "Select a profile"
+msgstr "プロフィールを選ぶ"
+
+msgctxt "#30129"
+msgid "Enable Up Next integration"
+msgstr "Up Next 機能を使う"
+
+msgctxt "#30130"
+msgid "Install Up Next add-on"
+msgstr "Up Nextアドオンインストール"
+
+msgctxt "#30131"
+msgid "Check the logfile for detailed information"
+msgstr "詳細はログファイルを確認してください。"
+
+msgctxt "#30132"
+msgid "Clear in-memory cache"
+msgstr "メモリキャッシュを削除"
+
+msgctxt "#30133"
+msgid "Clear in-memory and on-disk cache"
+msgstr "メモリとディスクキャッシュを削除"
+
+msgctxt "#30134"
+msgid "Enable execution timing"
+msgstr "実行タイミング"
+
+msgctxt "#30135"
+msgid "Cache cleared"
+msgstr "キャッシュを削除しました。"
+
+msgctxt "#30136"
+msgid "Waiting for service start-up..."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Enable VP9 codec"
+msgstr ""
+
+msgctxt "#30138"
+msgid "The background services may not yet be available if you just started Kodi/the add-on. In this case, try again in a moment."
+msgstr "Kodiやアドオンを起動したばかりの場合、バックグラウンドサービスの準備が出来てない可能性があります。しばらく経ってからもう一度。"
+
+msgctxt "#30139"
+msgid "Enable IPC over HTTP (use when Addon Signals timeout messages appear)"
+msgstr "HTTP経由IPCを使う(アドオンタイムアウトが発生したら試してください)"
+
+msgctxt "#30140"
+msgid "Import existing library"
+msgstr "既存のライブラリをインポート"
+
+#. Unused 30141 to 30143
+msgctxt "#30144"
+msgid "Disable WebVTT subtitle support"
+msgstr "WebVTT字幕を使わない"
+
+msgctxt "#30145"
+msgid "Recently added"
+msgstr "新着"
+
+msgctxt "#30146"
+msgid "Discover the latest content added."
+msgstr "最近追加された新作を探す。"
+
+msgctxt "#30147"
+msgid "Next page »"
+msgstr "次へ »"
+
+msgctxt "#30148"
+msgid "« Previous page"
+msgstr "« 前へ"
+
+msgctxt "#30149"
+msgid "Sort results by"
+msgstr "並び替え"
+
+msgctxt "#30150"
+msgid "Alphabetical order (A-Z)"
+msgstr "昇順(作品名)"
+
+msgctxt "#30151"
+msgid "Alphabetical order (Z-A)"
+msgstr "降順(作品名)"
+
+msgctxt "#30152"
+msgid "Suggestions for you"
+msgstr "あなたにオススメ"
+
+msgctxt "#30153"
+msgid "Year released"
+msgstr "公開年"
+
+msgctxt "#30154"
+msgid "Netflix configuration wizard"
+msgstr "Netflixアドオン設定"
+
+msgctxt "#30155"
+msgid "Do you have a Netflix Premium account?"
+msgstr "Netflixプレミアムアカウントをお持ちですか。"
+
+#. Unused 30156
+msgctxt "#30157"
+msgid "The configuration has been completed"
+msgstr "設定を完了しました。"
+
+msgctxt "#30158"
+msgid "Restore the add-on default configuration"
+msgstr ""
+
+msgctxt "#30159"
+msgid "View ID for main menu"
+msgstr "メインメニューのビューID"
+
+msgctxt "#30160"
+msgid "View ID for search"
+msgstr "検索のビューID"
+
+msgctxt "#30161"
+msgid "View ID for exported"
+msgstr "エクスポートのビューID"
+
+msgctxt "#30162"
+msgid "Last used"
+msgstr "最近使った設定"
+
+msgctxt "#30163"
+msgid "Audio description"
+msgstr "副音声・音声ガイド付き"
+
+msgctxt "#30164"
+msgid "Browse contents with audio description."
+msgstr "副音声・音声ガイド付き"
+
+msgctxt "#30165"
+msgid "View ID for 'My list'"
+msgstr "マイリストのビューID"
+
+msgctxt "#30166"
+msgid "Main menu items"
+msgstr "メインメニュー"
+
+msgctxt "#30167"
+msgid "My list"
+msgstr "マイリスト"
+
+msgctxt "#30168"
+msgid "Continue watching"
+msgstr "視聴中コンテンツ"
+
+msgctxt "#30169"
+msgid "Top picks"
+msgstr "あなたにイチオシ！"
+
+msgctxt "#30170"
+msgid "New releases"
+msgstr "新作・準新作"
+
+msgctxt "#30171"
+msgid "Trending now"
+msgstr "人気急上昇中の作品"
+
+msgctxt "#30172"
+msgid "Popular on Netflix"
+msgstr "Netflixでの人気の作品"
+
+msgctxt "#30173"
+msgid "Netflix Originals"
+msgstr "Netflixオリジナル作品"
+
+msgctxt "#30174"
+msgid "TV show genres"
+msgstr "TV番組・ドラマ"
+
+msgctxt "#30175"
+msgid "Movie genres"
+msgstr "映画"
+
+msgctxt "#30176"
+msgid "Enable STRM resume workaround"
+msgstr "中断した所から続いて観る"
+
+msgctxt "#30177"
+msgid "Ask to resume the video"
+msgstr "中断した所から観るか聞く"
+
+msgctxt "#30178"
+msgid "Open Up Next add-on settings"
+msgstr "Up Next アドオン設定画面"
+
+msgctxt "#30179"
+msgid "Show trailers and more"
+msgstr "予告編など"
+
+msgctxt "#30180"
+msgid "There has been a problem with login, it is possible that your account has not been confirmed or reactivated."
+msgstr "ログイン失敗、アカウント確認がまだ取れてないか再入会が出来なかった可能性があります。"
+
+msgctxt "#30181"
+msgid "Always show the subtitles when the preferred audio language is not available"
+msgstr "希望の音声がない場合、常に字幕を表示"
+
+msgctxt "#30182"
+msgid "Export NFO files"
+msgstr "NFOファイルエクスポート"
+
+msgctxt "#30183"
+msgid "Do you want to export NFO files for the {}?"
+msgstr "{}のNFOファイルをエクスポートしますか。"
+
+msgctxt "#30184"
+msgid "NFO Files"
+msgstr "NFOファイル"
+
+msgctxt "#30185"
+msgid "Enable NFO files export"
+msgstr "NFOファイルをエクスポートする"
+
+msgctxt "#30186"
+msgid "For Movies"
+msgstr "映画"
+
+msgctxt "#30187"
+msgid "For TV show"
+msgstr "TV番組・ドラマ"
+
+msgctxt "#30188"
+msgid "Ask"
+msgstr "聞く"
+
+msgctxt "#30189"
+msgid "movie"
+msgstr "映画"
+
+msgctxt "#30190"
+msgid "TV show"
+msgstr "TV番組・ドラマ"
+
+#. Unused 30191
+msgctxt "#30192"
+msgid "[CR]These files are used by the provider information scrapers to integrate movies and TV shows info, useful with bonus episodes or director's cut"
+msgstr "[CR]このファイルは、映画やTV番組の情報、ボーナスエピソードや監督版などの情報を収集する情報提供者により使われます。"
+
+msgctxt "#30193"
+msgid "Include tv show NFO details"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Limit video stream resolution to"
+msgstr "解像度を制限"
+
+msgctxt "#30195"
+msgid "Export new episodes"
+msgstr "新エピソードをエクスポート"
+
+msgctxt "#30196"
+msgid "Exclude from auto update"
+msgstr "自動更新を除く"
+
+msgctxt "#30197"
+msgid "Include in auto update"
+msgstr "自動更新を含む"
+
+msgctxt "#30198"
+msgid "Exporting new episodes"
+msgstr "新エピソードをエクスポート中"
+
+msgctxt "#30199"
+msgid "Shared library (Kodi MySQL server is required)"
+msgstr "共有ライブラリ(Kodi MySQLサーバーが必要)"
+
+msgctxt "#30200"
+msgid "Use shared library MySQL-database"
+msgstr "MySQL共有ライブラリデータベースを使う。"
+
+msgctxt "#30201"
+msgid "Username"
+msgstr "ユーザー名"
+
+msgctxt "#30202"
+msgid "Connection to the MySQL-database was successful"
+msgstr "MySQLデータベースと接続出来ました。"
+
+msgctxt "#30203"
+msgid "Host IP"
+msgstr "ホストIP"
+
+msgctxt "#30204"
+msgid "Port"
+msgstr "ポート"
+
+msgctxt "#30205"
+msgid "Test database connection"
+msgstr "データベース接続テスト"
+
+msgctxt "#30206"
+msgid "ERROR: The MySQL-database is not reachable - the local database will be used"
+msgstr "エラー: MySQLデータベースに繋がらない - ローカルデータベースを使う"
+
+msgctxt "#30207"
+msgid "Set this device as main auto-updates manager"
+msgstr "このデバイスを自動更新マネージャーにする。"
+
+msgctxt "#30208"
+msgid "Check if this device is the main auto-update manager"
+msgstr "このデバイスが自動更新マネージャーかをチェック"
+
+msgctxt "#30209"
+msgid "This device now handles the auto-updates of the shared library"
+msgstr "このデバイスは共有ライブラリを自動更新します。"
+
+msgctxt "#30210"
+msgid "This device handles the auto-updates of the shared library"
+msgstr "このデバイスが共有ライブラリを自動更新します。"
+
+msgctxt "#30211"
+msgid "Another device handles the auto-updates of the shared library"
+msgstr "別のデバイスが共有ライブラリを自動更新します。"
+
+msgctxt "#30212"
+msgid "There is no device that handles the auto-updates of the shared library"
+msgstr "共有ライブラリを自動更新するデバイスがありません。"
+
+msgctxt "#30213"
+msgid "InputStream Helper settings..."
+msgstr "インプットストリームヘルパーアドオン設定"
+
+msgctxt "#30214"
+msgid "Force refresh"
+msgstr "強制更新する"
+
+msgctxt "#30215"
+msgid "Color of the titles included in \"My list\""
+msgstr "マイリストにあるタイトルの色"
+
+msgctxt "#30216"
+msgid "Color of the titles marked as \"Remind me\""
+msgstr ""
+
+#. Unused 30217 to 30218
+msgctxt "#30219"
+msgid "Disable notification for synchronization completed"
+msgstr "同期化完了の通知を使わない。"
+
+msgctxt "#30220"
+msgid "The Kodi library has been updated"
+msgstr "Kodiライブラリを更新しました。"
+
+msgctxt "#30221"
+msgid "Owner account"
+msgstr "オーナーアカウント"
+
+msgctxt "#30222"
+msgid "Kid account"
+msgstr "お子様アカウント"
+
+#. Unused 30223
+msgctxt "#30224"
+msgid "Auto update mode"
+msgstr "自動更新"
+
+msgctxt "#30225"
+msgid "Manual"
+msgstr "マニュアル"
+
+msgctxt "#30226"
+msgid "Scheduled"
+msgstr "自動"
+
+msgctxt "#30227"
+msgid "Synchronize Kodi library with 'My list'"
+msgstr "マイリストとKodiライブラリの同期化"
+
+msgctxt "#30228"
+msgid "Set a profile for synchronization"
+msgstr "同期化用プロフィール設定"
+
+msgctxt "#30229"
+msgid "When Kodi starts"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Check for updates now"
+msgstr "今、更新内容を確認"
+
+msgctxt "#30231"
+msgid "Do you want to check update now?"
+msgstr "更新内容を確認しましょうか。"
+
+msgctxt "#30232"
+msgid "Profile maturity rating for {}"
+msgstr "{}さんの年齢制限"
+
+msgctxt "#30233"
+msgid "Only show titles rated [B]{}[/B]."
+msgstr "[B]{}[/B]の作品のみ視聴できます。"
+
+#. Unused 30234
+msgctxt "#30235"
+msgid "Synchronize the watched status of the videos with Netflix"
+msgstr "視聴状態をNetflixと同期する。"
+
+msgctxt "#30236"
+msgid "Change watched status (locally)"
+msgstr "視聴状態を変更(ローカルのみ)"
+
+msgctxt "#30237"
+msgid "Marked as watched|Marked as unwatched|Restored Netflix watched status"
+msgstr "視聴済みにする|未視聴にする|視聴状態をNetflixから持って来る"
+
+msgctxt "#30238"
+msgid "Up Next notifications (watch next video)"
+msgstr "Up Next知らせ(続きをみる)"
+
+msgctxt "#30239"
+msgid "Color of supplemental plot info"
+msgstr "追加情報の色"
+
+msgctxt "#30240"
+msgid "The background services cannot be started due to this problem:[CR]{}"
+msgstr "バッググラウンドサービスが起動しなかった理由は:[CR]{}"
+
+msgctxt "#30241"
+msgid "Open Connect CDN (the lower index is better)"
+msgstr "Open Connect CDNサーバー設定(低いほど良い)"
+
+msgctxt "#30242"
+msgid "Top 10"
+msgstr "トップ10"
+
+msgctxt "#30243"
+msgid "Select first unwatched TV show episode"
+msgstr "最初の未視聴のエピソードを選択"
+
+#. Unused 30244
+msgctxt "#30245"
+msgid "Deleting files exported to the library"
+msgstr "ライブラリにエクスポートしたファイルを削除中"
+
+msgctxt "#30246"
+msgid "There are {} titles that cannot be imported.[CR]Do you want to delete these files?"
+msgstr "{}個のタイトルはインポート出来ません。[CR]削除しましょうか。"
+
+msgctxt "#30247"
+msgid "Results per page (in case of timeout error decrease it)"
+msgstr "1頁の検索結果(タイムアウトの場合は減らしましょ)"
+
+#. Unused 30248 to 30299
+msgctxt "#30300"
+msgid "Do you want to remove watched status of \"{}\"?"
+msgstr "{}の視聴状態を削除しますか。"
+
+msgctxt "#30301"
+msgid "Include Kodi library (only sending data)"
+msgstr "Kodiライブラリに追加(送ったデータのみ)"
+
+#. Unused 30302 to 30339
+msgctxt "#30340"
+msgid "Choose the login method[CR](if the login with E-Mail/Password always returns \"incorrect password\", then use Authentication key, instructions in the GitHub ReadMe)"
+msgstr "ログイン方法を選択してください。[CR](Eメール/パスワードで\"パスワード誤り\"が続出すると、認証キーを試してください。詳細はGitHubのReadMeまで)"
+
+msgctxt "#30341"
+msgid "E-Mail/Password"
+msgstr "Eメール/パスワード"
+
+msgctxt "#30342"
+msgid "Authentication key"
+msgstr "認証キー"
+
+msgctxt "#30343"
+msgid "The selected file is not compatible or corrupted"
+msgstr "交換性のないか壊れたファイルを選択しました。"
+
+msgctxt "#30344"
+msgid "The authentication key file is expired"
+msgstr "認証キーが無効です。"
+
+msgctxt "#30345"
+msgid "Enter PIN"
+msgstr "PINを入力してください。"
+
+#. Unused 30346 to 30398
+msgctxt "#30399"
+msgid "Sort history by"
+msgstr "履歴の並び順"
+
+msgctxt "#30400"
+msgid "Search"
+msgstr "検索"
+
+msgctxt "#30401"
+msgid "Type of search"
+msgstr "検索方法"
+
+msgctxt "#30402"
+msgid "Search titles, people, genres"
+msgstr "タイトル、人物、ジャンル"
+
+msgctxt "#30403"
+msgid "New search..."
+msgstr "新たな検索"
+
+msgctxt "#30404"
+msgid "Clear search history"
+msgstr "検索履歴削除"
+
+msgctxt "#30405"
+msgid "Select the language"
+msgstr "言語"
+
+msgctxt "#30406"
+msgid "Do you want to delete the entire contents?"
+msgstr "全てを削除しますか。"
+
+msgctxt "#30407"
+msgid "No matches found"
+msgstr "一致する項目はありませんでした。"
+
+#. Unused 30408, 30409
+msgctxt "#30410"
+msgid "By term"
+msgstr "項目"
+
+msgctxt "#30411"
+msgid "By audio language"
+msgstr "音声"
+
+msgctxt "#30412"
+msgid "By subtitles language"
+msgstr "字幕"
+
+msgctxt "#30413"
+msgid "By genre/subgenre ID"
+msgstr "ジャンル／サーブジャンルID"
+
+#. Unused 30414 to 30499
+msgctxt "#30500"
+msgid "Prefer the audio/subtitle language with country code (if available)"
+msgstr "(利用可能であれば)国名コード付きの音声・字幕を優先"
+
+msgctxt "#30501"
+msgid "Prefer stereo audio tracks by default"
+msgstr "デフォルトでステレオ音声を優先"
+
+#. Unused 30502 to 30599
+msgctxt "#30600"
+msgid "ESN / Widevine settings"
+msgstr "ESN/Widevine設定"
+
+msgctxt "#30601"
+msgid "ESN:"
+msgstr "ESN:"
+
+msgctxt "#30602"
+msgid "Change ESN"
+msgstr "ESN更新"
+
+msgctxt "#30603"
+msgid "Save system info"
+msgstr "システム情報保存"
+
+msgctxt "#30604"
+msgid "Widevine - Force security level"
+msgstr "Widevine - 強制セキュリティレベル"
+
+msgctxt "#30605"
+msgid "Force {}"
+msgstr "強制{}"
+
+msgctxt "#30606"
+msgid "ESN set successfully[CR]Try to play a video"
+msgstr "ESN設定しました。[CR]ビデオを再生して見てね。"
+
+msgctxt "#30607"
+msgid "This ESN cannot be used[CR]Try change ESN or reset ESN.[CR][CR]Error details:[CR]{}"
+msgstr "使えないESNです。[CR]ESNを更新するかリセットしてください。[CR][CR]エラー詳細:[CR]{}"
+
+msgctxt "#30608"
+msgid "Wrong ESN format"
+msgstr "ESNフォーマット誤り"
+
+msgctxt "#30609"
+msgid "Do you want to reset all settings?"
+msgstr "全ての設定をリセットしましょうか。"
+
+msgctxt "#30610"
+msgid "Use system-based encryption for credentials"
+msgstr "システムベースの暗号化使用"
+
+# Help description for setting id 30610
+msgctxt "#30611"
+msgid "[B]If disabled it will cause a security leak[/B]. If your operating system does not support it, you will be prompted to login each time you reboot the device, [B]only[/B] in this case disable it. If you change this setting you will be prompted to login again in the next time you reboot."
+msgstr "[B]無効にするとセキュリティ漏洩の可能性があります。[/B]OSが[B]サーポートしない場合のみ[/B]無効にしてください。この場合は再起動する度にログインしないと行けません。この設定を変えると次回の再起動時に再ログインすることになります。"
+
+msgctxt "#30612"
+msgid "MSL manifest version"
+msgstr "MSLマニファストバージョン"
+
+#. Unused 30613 to 30619
+msgctxt "#30620"
+msgid "This title will be available from:[CR]{}"
+msgstr "{}[CR]配信開始"
+
+msgctxt "#30621"
+msgid "Do you want to play the promo trailer?"
+msgstr "予告編を再生しましょうか。"
+
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30622"
+msgid "{} Remind me"
+msgstr "リマインドする {}"
+
+#. Unused 30623 to 30699
+msgctxt "#30700"
+msgid "New and popular"
+msgstr "新作＆人気作"
+
+msgctxt "#30701"
+msgid "Marks started tv shows as watched"
+msgstr "見始めたTV番組・ドラマを視聴済みにする。"
+
+#. Description of setting ID #30701
+msgctxt "#30702"
+msgid "Please note that by enabling this setting if filters are enabled in your Skin settings, items marked as watched may not be visible."
+msgstr "有効化するとスキン設定によって視聴済みとなったアイテムが表示されない場合があります。"
+
+msgctxt "#30703"
+msgid "Override stream selection type"
+msgstr "ストリーム選択方法を無効化"
+
+msgctxt "#30704"
+msgid "Override the Stream selection type setting of the InputStream Adaptive add-on, to set how the audio / video streams quality will be chosen during playback."
+msgstr "InputStream Adaptiveアドオンの設定を無効化し、再生中に音声や解像度を選択する。"
+
+msgctxt "#30705"
+msgid "Adaptive quality"
+msgstr "解像度自動設定"
+
+msgctxt "#30706"
+msgid "Fixed video quality"
+msgstr "解像度固定"
+
+msgctxt "#30707"
+msgid "Ask video quality"
+msgstr "解像度選択"
+
+msgctxt "#30720"
+msgid "Please note that enabling this setting will force the removal of streams that are not within the set range and this may affect the operation of InputStream Adaptive. If possible try limiting the quality from the InputStream Adaptive settings first."
+msgstr "有効化すると設定範囲外のストリームを削除することでInputStream Adaptiveの動作に影響を与える可能性があります。可能であればInputStream Adaptiveの設定から解像度制限を行ってください。"
+
+msgctxt "#30721"
+msgid "Size"
+msgstr ""
+
+#. Description of setting ID #30721
+msgctxt "#30722"
+msgid "Minimise the black bars by apply a zoom effect. [ Fixed ] Sets the percentage of screen space that black bars can occupy, will be constant for all videos. [ Relative ] Sets the percentage of black band minimisation, will depend on each video size. [ Reset ] Reset the zoom effect previously applied."
+msgstr ""
+
+#. Unused 30723
+#. Description of setting ID #30723
+msgctxt "#30724"
+msgid "This feature make use of Kodi zoom effect that is permanently stored in the \"View mode\" video setting, if you disable this feature in the future the zoom will be preserved, to reset the zoom change to \"Reset\" setting mode."
+msgstr ""
+
+#. Unused 30725, 30726
+msgctxt "#30727"
+msgid "Enable AV1 codec"
+msgstr ""
+
+msgctxt "#30728"
+msgid "Add Netflix folders to Kodi library sources"
+msgstr ""
+
+msgctxt "#30729"
+msgid "The folders \"Netflix-Movies\" and \"Netflix-Shows\" have been added to Kodi sources, restart Kodi to view them in the Kodi [TV Shows] / [Movies] menus. Then edit the folders to set the appropriate content type and information provider scraper."
+msgstr ""
+
+#. Description of setting ID 30224
+msgctxt "#30730"
+msgid "[Manual] updates must be done manually by using \"Export new episodes\" context menu on each tv show, [Scheduled] you can establish automatic updates at scheduled times, [When Kodi starts] automatic updates start at Kodi start-up and will only be done once a day."
+msgstr ""
+
+#. Description of setting ID 30227
+msgctxt "#30731"
+msgid "Synchronises the library with My list, if my list has been modified externally e.g. mobile app or website, the update will be postponed to the scheduled time."
+msgstr ""
+
+#. Description of setting ID 30185
+msgctxt "#30732"
+msgid "If enabled, adds information to episodes or movies that are useful when Kodi information provider scraper does not provide data. This will also add the duration of the videos."
+msgstr ""
+
+#. Description of setting ID 30193
+msgctxt "#30733"
+msgid "Only enable if \"Local Information\" information provider scraper is used, or if certain titles are not displayed in Kodi library despite having been added."
+msgstr ""
+
+msgctxt "#30734"
+msgid "Support"
+msgstr ""
+
+msgctxt "#30735"
+msgid "About Netflix add-on"
+msgstr ""
+
+msgctxt "#30736"
+msgid "Automatically generates new ESNs (workaround for 540p limit)"
+msgstr ""
+
+msgctxt "#30737"
+msgid "WARNING: Do not use the original device ESN of the official app."
+msgstr ""
+
+msgctxt "#30738"
+msgid "Enable audio offset"
+msgstr ""
+
+msgctxt "#30739"
+msgid "Audio offset"
+msgstr ""
+
+#. Description of setting ID 30739
+msgctxt "#30740"
+msgid "Sets the audio offset by overriding the Kodi setting"
+msgstr ""
+
+msgctxt "#30741"
+msgid "Enable VP9 Profile 2 (10/12 bit color depth)"
+msgstr ""
+
+msgctxt "#30742"
+msgid "Do you want to enable HDR10 support?"
+msgstr ""
+
+msgctxt "#30743"
+msgid "Do you want to enable HDR Dolby Vision support?"
+msgstr ""
+
+#. Description of setting ID 30081
+msgctxt "#30744"
+msgid "The add-on already sets the appropriate HDCP version, but if required you can force the request of video streams for a different HDCP version."
+msgstr ""
+
+msgctxt "#30745"
+msgid "If your device does not support this codec, you may experience black screen, no image or corrupted images. If so disable the codec."
+msgstr ""
+
+msgctxt "#30746"
+msgid "Black bars minimise mode"
+msgstr ""
+
+msgctxt "#30747"
+msgid "Fixed"
+msgstr ""
+
+msgctxt "#30748"
+msgid "Relative"
+msgstr ""
+
+msgctxt "#30749"
+msgid "Reset"
+msgstr ""

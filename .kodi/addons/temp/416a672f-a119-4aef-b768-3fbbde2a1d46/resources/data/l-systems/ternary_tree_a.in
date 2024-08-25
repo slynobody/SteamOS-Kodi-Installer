@@ -1,0 +1,22 @@
+/*
+   Tree-like structure with ternary branching
+   Figure 2.8a pg. 60
+   This has been augmented with a tropism-enabling production
+    at the beginning and a relative width scaling so limbs
+    are visible; it still doesn't look much like the image in
+    the text.
+ */
+#define maxgen 6
+
+#define d1 94.74    /* divergence angle 1 */
+#define d2 132.63   /* divergence angle 2 */
+#define a  18.95    /* branching angle */
+#define lr 1.109    /* elongation rate */
+#define vr 1.732    /* width increase rate */
+
+#define width 100
+
+START : t(0,-1,0,0.22)!(1)F(200)/(45)A
+p1 : A	  -> !(vr)'(1)F(50)[&(a)F(50)A]/(d1)'(2)[&(a)F(50)A]/(d2)'(3)[&(a)F(50)A]
+p2 : F(l) -> F(l*lr)
+p3 : !(w) -> !(w*vr)

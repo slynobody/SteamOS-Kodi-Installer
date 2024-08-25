@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<playercorefactory>
+  <!-- This file created by the 'plugin.audio.spotify' addon. -->     
+  <rules name="system rules">
+    <rule name="http" protocols="http" player="VideoPlayer" />
+  </rules>
+</playercorefactory>

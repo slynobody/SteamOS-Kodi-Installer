@@ -1,0 +1,1258 @@
+# Kodi Media Center language file
+# Addon Name: Netflix
+# Addon id: plugin.video.netflix
+# Addon Provider: libdev, jojo, asciidisco, caphm, castagnait
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.netflix\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.video.netflix\n"
+"POT-Creation-Date: 2020-10-22 11:24+0200\n"
+"PO-Revision-Date: 2023-05-07 11:20+0200\n"
+"Last-Translator: Ignacio Hernández Rial <naciohr@gmail.com>\n"
+"Language-Team: Galego\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgctxt "Addon Summary"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "Addon Description"
+msgid "Netflix VOD Services Add-on"
+msgstr "Netflix, un servizo de Vídeo Baixo Demanda"
+
+msgctxt "Addon Disclaimer"
+msgid "The use of this add-on may not be legal in your country of residence - please check with your local laws before installing."
+msgstr "O uso deste complemento pode non ser legal no seu país de residencia - por favor, verifique as súas leis locais antes de instalar."
+
+msgctxt "#30001"
+msgid "Recommendations"
+msgstr "Recomendacións"
+
+msgctxt "#30002"
+msgid "Enter PIN to watch restricted content"
+msgstr "Insira o PIN para ver o contido restrinxido"
+
+#. Unused 30003
+msgctxt "#30004"
+msgid "Password"
+msgstr "Contrasinal"
+
+msgctxt "#30005"
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+msgctxt "#30006"
+msgid "Enter PIN to access this profile"
+msgstr "Insira  o PIN para acceder a este perfil"
+
+msgctxt "#30007"
+msgid "Parental Control PIN (4 digits)"
+msgstr "PIN de Control Parental (4 díxitos)"
+
+msgctxt "#30008"
+msgid "Login failed"
+msgstr "Erro ao iniciar sesión"
+
+msgctxt "#30009"
+msgid "Please check your e-mail and password"
+msgstr "Por favor, revise as súas credenciais de acceso"
+
+msgctxt "#30010"
+msgid "Lists of all kinds"
+msgstr "Listar todos os tipos"
+
+#. Unused 30011
+msgctxt "#30012"
+msgid "Profiles options and parental control"
+msgstr "Opcións de perfís e control parental"
+
+msgctxt "#30013"
+msgid "In the profile list, open the context menu in the chosen profile"
+msgstr "Na lista de perfís, abre o menú contextual no perfil escollido"
+
+msgctxt "#30014"
+msgid "Account"
+msgstr "Conta"
+
+msgctxt "#30015"
+msgid "Other options"
+msgstr "Outras opcións"
+
+msgctxt "#30016"
+msgid "If you log out, all account data will be deleted, but the exported video files in the Kodi library will be preserved.[CR]Do you want to continue?"
+msgstr "Se pechas sesión se borrará toda a información da túa conta; só se conservarán os arquivos de vídeo exportados na biblioteca do Kodi.[CR]Queres continuar?"
+
+msgctxt "#30017"
+msgid "Logout"
+msgstr "Rematar sesión"
+
+msgctxt "#30018"
+msgid "Export to library"
+msgstr "Exportar para a biblioteca"
+
+msgctxt "#30019"
+msgid "Rate on Netflix"
+msgstr "Valorar o Netflix"
+
+msgctxt "#30020"
+msgid "Remove from 'My list'"
+msgstr "Eliminar da 'Miña Lista'"
+
+msgctxt "#30021"
+msgid "Add to 'My list'"
+msgstr "Engadir a 'Miña Lista'"
+
+msgctxt "#30022"
+msgid "(between 0 and 10)"
+msgstr "(Entre 0 e 10)"
+
+msgctxt "#30023"
+msgid "Expert"
+msgstr "Experto"
+
+msgctxt "#30024"
+msgid "SSL verification"
+msgstr "Verificación SSL"
+
+msgctxt "#30025"
+msgid "Library"
+msgstr "Biblioteca"
+
+msgctxt "#30026"
+msgid "Enable custom library folder"
+msgstr "Activar o cartafol de biblioteca personalizada"
+
+msgctxt "#30027"
+msgid "Custom library path"
+msgstr "Ruta da biblioteca personalizada"
+
+msgctxt "#30028"
+msgid "Playback error"
+msgstr "Erro de reprodución"
+
+#. Unused 30029
+msgctxt "#30030"
+msgid "Remove from library"
+msgstr "Eliminar da biblioteca"
+
+msgctxt "#30031"
+msgid "General"
+msgstr "Xeral"
+
+msgctxt "#30032"
+msgid "Codecs"
+msgstr "Codecs"
+
+msgctxt "#30033"
+msgid "Enable Dolby Digital Plus codec (Atmos on Premium account)"
+msgstr "Activar o codec Dolby Digital Plus (Atmos na conta Premium)"
+
+#. Unused 30034
+msgctxt "#30035"
+msgid "InputStream Adaptive settings..."
+msgstr "Axustes do complemento InputStream..."
+
+#. Unused 30036
+msgctxt "#30037"
+msgid "Skin viewtypes"
+msgstr "Aspecto para modos de vista"
+
+msgctxt "#30038"
+msgid "Enable custom viewtypes"
+msgstr "Activar modos de vista personalizados"
+
+msgctxt "#30039"
+msgid "View ID for folders"
+msgstr "ID de vista para cartafoles"
+
+msgctxt "#30040"
+msgid "View ID for movies"
+msgstr "ID de vista para filmes"
+
+msgctxt "#30041"
+msgid "View ID for shows"
+msgstr "ID de vista para series TV"
+
+msgctxt "#30042"
+msgid "View ID for seasons"
+msgstr "ID de vista para tempadas"
+
+msgctxt "#30043"
+msgid "View ID for episodes"
+msgstr "ID de vista para episodios"
+
+msgctxt "#30044"
+msgid "View ID for profiles"
+msgstr "ID de vista para perfiles"
+
+msgctxt "#30045"
+msgid "Thumb rating removed|You rated a thumb down|You rated a thumb up"
+msgstr "Avaliación eliminada|Avaliou negativamente|Avaliou positivamente"
+
+msgctxt "#30046"
+msgid "There is a problem with InputStream Adaptive add-on or the Widevine library. May be missing or not enabled, the operation will be cancelled."
+msgstr "Hai un problema co complemento InputStream Adaptive ou a biblioteca Widevine. Pode non estar dispoñíbel ou non habilitado; a operación será cancelada."
+
+msgctxt "#30047"
+msgid "Library update in progress"
+msgstr "Actualización da biblioteca en progreso"
+
+msgctxt "#30048"
+msgid "Exported"
+msgstr "Exportado"
+
+msgctxt "#30049"
+msgid "Library"
+msgstr "Biblioteca"
+
+msgctxt "#30050"
+msgid "Enable Kodi library management"
+msgstr "Activar a xestión da biblioteca do Kodi"
+
+#. Unused 30051
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30052"
+msgid "{} Set for library playback"
+msgstr "{} Definir para reproducir dende a biblioteca"
+
+#. Unused 30053, 30054
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30055"
+msgid "{} Set at start-up"
+msgstr "{} definido para o arrinque"
+
+#. Unused 30056
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30057"
+msgid "{} Remember PIN"
+msgstr "{} Lembrar PIN"
+
+#. Unused 30058
+msgctxt "#30059"
+msgid "Be careful, you are about to update many titles {}.[CR]This may cause service problems or temporary ban of the account.[CR]Do you want to continue?"
+msgstr "Coidado, está a piques de actualizar moitos títulos {}.[CR]Isto pode causar problemas do servizo ou bloquear temporalmente a conta.[CR]Desexa continuar?"
+
+msgctxt "#30060"
+msgid "Enable HEVC codec (4k/HDR/DolbyVision for Android)"
+msgstr "Activar codec HEVC (4k/HDR/DolbyVision para Android)"
+
+msgctxt "#30061"
+msgid "Update inside library"
+msgstr "Actualizar dentro da biblioteca"
+
+msgctxt "#30062"
+msgid "Parental controls"
+msgstr "Controles Parentais"
+
+msgctxt "#30063"
+msgid "An update is already in progress"
+msgstr "Xa hai unha actualización en curso"
+
+msgctxt "#30064"
+msgid "Perform auto-update"
+msgstr "Realizar actualización automática"
+
+msgctxt "#30065"
+msgid "Video library update"
+msgstr "Actualización da biblioteca de vídeo"
+
+msgctxt "#30066"
+msgid "Enable debug logging"
+msgstr "Activar rexistro de depuración"
+
+msgctxt "#30067"
+msgid "daily"
+msgstr "diariamente"
+
+msgctxt "#30068"
+msgid "every other day"
+msgstr "días alternos"
+
+msgctxt "#30069"
+msgid "every 5 days"
+msgstr "cada 5 días"
+
+msgctxt "#30070"
+msgid "weekly"
+msgstr "semanalmente"
+
+msgctxt "#30071"
+msgid "Time of Day"
+msgstr "Hora do día"
+
+msgctxt "#30072"
+msgid "Only start after 5 minutes of idle"
+msgstr "Comezar após permanecer inactivo durante 5 minutos"
+
+msgctxt "#30073"
+msgid "Always show codec information during video playback"
+msgstr "Mostrar sempre a información do codec durante a reprodución de vídeo"
+
+msgctxt "#30074"
+msgid "View for exported"
+msgstr "Vista para exportados"
+
+msgctxt "#30075"
+msgid "Ask to skip intro and recap"
+msgstr "Perguntar para omitir a intro e recapitulación"
+
+msgctxt "#30076"
+msgid "Skip intro"
+msgstr "Omitir intro"
+
+msgctxt "#30077"
+msgid "Skip recap"
+msgstr "Omitir recapitulación"
+
+msgctxt "#30078"
+msgid "Playback"
+msgstr "Reprodución"
+
+msgctxt "#30079"
+msgid "Skip automatically"
+msgstr "Omitr automaticamente"
+
+msgctxt "#30080"
+msgid "Pause when skipping"
+msgstr "Pausar ao omitir"
+
+msgctxt "#30081"
+msgid "Force HDCP version on video streams"
+msgstr "Forzar a versión HDCP nos fluxos de vídeo"
+
+msgctxt "#30082"
+msgid "Remember audio / subtitle preferences"
+msgstr "Lembrar preferencias de son / subtítulos"
+
+msgctxt "#30083"
+msgid "Force the display of forced subtitles only with the audio language set"
+msgstr "Forzar a visualización de subtítulos forzados soamente coa lingua do audio configurada"
+
+msgctxt "#30084"
+msgid "Cache objects TTL (minutes)"
+msgstr "Tempo de vida útil dos elementos na caché (minutos)"
+
+msgctxt "#30085"
+msgid "Cache metadata TTL (days)"
+msgstr "Tempo de vida útil dos metadados (días)"
+
+msgctxt "#30086"
+msgid "Cache objects 'My list' TTL (minutes)"
+msgstr "Tempo de vida útil dos elementos na cache de ‘Miña Lista’ (minutos)"
+
+msgctxt "#30087"
+msgid "Contains {} and more..."
+msgstr "Contén {} e mais..."
+
+msgctxt "#30088"
+msgid "Browse related content"
+msgstr "Navegue por contidos relacionados"
+
+msgctxt "#30089"
+msgid "Browse subgenres"
+msgstr "Navegue por subxéneros"
+
+msgctxt "#30090"
+msgid "Browse through related video lists and discover more content."
+msgstr "Navegue polas listas de vídeos relacionados e descubra máis contido."
+
+msgctxt "#30091"
+msgid "Browse and manage contents that were exported to the Kodi library."
+msgstr "Navegue e xestione os contidos que foron exportados na biblioteca do Kodi."
+
+msgctxt "#30092"
+msgid "Search for content and easily find what you want to watch."
+msgstr "Procure e atope doadamente o que desexa ver."
+
+msgctxt "#30093"
+msgid "Browse content by genre and easily discover related content."
+msgstr "Navegue polo contido por xénero e descubra doadamente contido relacionado."
+
+msgctxt "#30094"
+msgid "Browse recommendations and pick up on something new you might like."
+msgstr "Navegue polas recomendacións e escolla algo novo que lle poida gustar."
+
+msgctxt "#30095"
+msgid "All TV shows"
+msgstr "Todas as series TV"
+
+msgctxt "#30096"
+msgid "All Movies"
+msgstr "Todos os Filmes"
+
+msgctxt "#30097"
+msgid "Main Menu"
+msgstr "Menú Principal"
+
+msgctxt "#30098"
+msgid "Enable HDR10"
+msgstr "Activar HDR10"
+
+msgctxt "#30099"
+msgid "Enable Dolby Vision"
+msgstr "Activar Dolby Vision"
+
+msgctxt "#30100"
+msgid "Results for '{}'"
+msgstr "Resultados para '{}'"
+
+msgctxt "#30101"
+msgid "Netflix returned an unknown error."
+msgstr "Netflix devolveu un erro descoñecido."
+
+msgctxt "#30102"
+msgid "Netflix returned the following error:"
+msgstr "Netflix devolveu o seguinte erro:"
+
+msgctxt "#30103"
+msgid "Error details have been written to the Kodi log file. If the error message does not provide guidance on how to resolve the issue or you continue to receive this error, please report it on GitHub by following the Readme instructions."
+msgstr "Os detalles do erro escribíronse no arquivo de log do Kodi. Se a mensaxe de erro non fornecer axuda sobre como resolver o problema ou continúa recibindo este erro, notifíqueo no GitHub seguindo as instrucións do Leme."
+
+msgctxt "#30104"
+msgid "The add-on encountered the following error:"
+msgstr "O complemento atopou o seguinte erro:"
+
+msgctxt "#30105"
+msgid "Netflix Add-on Error"
+msgstr "Erro no complemento do Netflix"
+
+msgctxt "#30106"
+msgid "Invalid PIN"
+msgstr "PIN Inválido"
+
+msgctxt "#30107"
+msgid "PIN protection is off."
+msgstr "A protección por PIN está desactivada."
+
+msgctxt "#30108"
+msgid "All content is protected by PIN."
+msgstr "Todo o contido está protexido por PIN."
+
+msgctxt "#30109"
+msgid "Login successful"
+msgstr "Inicio de sesión correcto"
+
+#. Unused 30110
+msgctxt "#30111"
+msgid "There is no contents"
+msgstr "Sen contidos"
+
+msgctxt "#30112"
+msgid "You need to be logged in to use Netflix"
+msgstr "Precisa iniciar sesión para usar Netflix"
+
+msgctxt "#30113"
+msgid "Logout successful"
+msgstr "Sesión finalizada correctamente"
+
+#. Unused 30114, 30115
+msgctxt "#30116"
+msgid "Advanced Add-on Configuration"
+msgstr "Axustes avanzados"
+
+msgctxt "#30117"
+msgid "Cache"
+msgstr "Caché"
+
+#. Unused 30118, 30119
+msgctxt "#30120"
+msgid "Cannot automatically remove a season from Kodi library, please do it manually"
+msgstr "Non é posíbel eliminar automaticamente unha tempada da biblioteca do Kodi, por favor fágao manualmente"
+
+msgctxt "#30121"
+msgid "Perform full sync now"
+msgstr "Realizar unha sincronización completa agora"
+
+msgctxt "#30122"
+msgid "Sync 'My list' to Kodi library"
+msgstr "Sincronizar ‘Miña lista’ coa biblioteca do Kodi"
+
+msgctxt "#30123"
+msgid "Do you want to continue?[CR]The full synchronization will delete all previously exported titles.[CR]If there are many titles this operation may take some time."
+msgstr "Desexa continuar?[CR]A sincronización completa borrará todos os títulos exportados anteriormente.[CR]Se hai moitos títulos, esta operación poderá demorar algún tempo."
+
+msgctxt "#30124"
+msgid "Do you want to remove this item from the library?"
+msgstr "Desexa realmente eliminar este elemento da biblioteca?"
+
+msgctxt "#30125"
+msgid "Delete library contents"
+msgstr "Borrar contidos da biblioteca"
+
+msgctxt "#30126"
+msgid "Do you really want to purge your library?[CR]All exported items will be deleted."
+msgstr "Realmente desexa limpar sua biblioteca?[CR]Borraranse todos os elementos exportados."
+
+msgctxt "#30127"
+msgid "Awarded rating of {}"
+msgstr "Nota atribuída de {}"
+
+msgctxt "#30128"
+msgid "Select a profile"
+msgstr "Seleccionar un perfil"
+
+msgctxt "#30129"
+msgid "Enable Up Next integration"
+msgstr "Activar integración 'Up Next'"
+
+msgctxt "#30130"
+msgid "Install Up Next add-on"
+msgstr "Instalar o complemento 'Up Next'"
+
+msgctxt "#30131"
+msgid "Check the logfile for detailed information"
+msgstr "Comprobe o arquivo de rexistro para información detallada"
+
+msgctxt "#30132"
+msgid "Clear in-memory cache"
+msgstr "Limpar caché da memória"
+
+msgctxt "#30133"
+msgid "Clear in-memory and on-disk cache"
+msgstr "Limpar caché da memória e do disco"
+
+msgctxt "#30134"
+msgid "Enable execution timing"
+msgstr "Activar tempo de execución"
+
+msgctxt "#30135"
+msgid "Cache cleared"
+msgstr "Caché limpa"
+
+msgctxt "#30136"
+msgid "Waiting for service start-up..."
+msgstr "Agardando ao arrinque do servizo..."
+
+msgctxt "#30137"
+msgid "Enable VP9 codec"
+msgstr "Activar codec VP9"
+
+msgctxt "#30138"
+msgid "The background services may not yet be available if you just started Kodi/the add-on. In this case, try again in a moment."
+msgstr "Pode que os servizos de segundo plano non estean listos aínda se acaba de iniciar o Kodi ou o complemento. Nese caso, tente novamente nun intre."
+
+msgctxt "#30139"
+msgid "Enable IPC over HTTP (use when Addon Signals timeout messages appear)"
+msgstr "Activar IPC sobre HTTP (usar cando aparezan mensaxes de tempo excedido do complemento)"
+
+msgctxt "#30140"
+msgid "Import existing library"
+msgstr "Importar biblioteca existente"
+
+#. Unused 30141 to 30143
+msgctxt "#30144"
+msgid "Disable WebVTT subtitle support"
+msgstr "Desactivar o soporte de subtítulos WebVTT"
+
+msgctxt "#30145"
+msgid "Recently added"
+msgstr "Engadidos recentemente"
+
+msgctxt "#30146"
+msgid "Discover the latest content added."
+msgstr "Descubra o contido engadido recentemente."
+
+msgctxt "#30147"
+msgid "Next page »"
+msgstr "Páxina seguinte »"
+
+msgctxt "#30148"
+msgid "« Previous page"
+msgstr "« Páxina anterior"
+
+msgctxt "#30149"
+msgid "Sort results by"
+msgstr "Ordenar resultados por"
+
+msgctxt "#30150"
+msgid "Alphabetical order (A-Z)"
+msgstr "Orden alfabética (A-Z)"
+
+msgctxt "#30151"
+msgid "Alphabetical order (Z-A)"
+msgstr "Orden alfabética (Z-A)"
+
+msgctxt "#30152"
+msgid "Suggestions for you"
+msgstr "Suxestións para ti"
+
+msgctxt "#30153"
+msgid "Year released"
+msgstr "Ano de lanzamento"
+
+msgctxt "#30154"
+msgid "Netflix configuration wizard"
+msgstr "Asistente de configuración do Netflix"
+
+msgctxt "#30155"
+msgid "Do you have a Netflix Premium account?"
+msgstr "Ten unha conta Netflix Premium?"
+
+#. Unused 30156
+msgctxt "#30157"
+msgid "The configuration has been completed"
+msgstr "Completouse a configuración"
+
+msgctxt "#30158"
+msgid "Restore the add-on default configuration"
+msgstr "Restablecer a configuración por defecto do complemento"
+
+msgctxt "#30159"
+msgid "View ID for main menu"
+msgstr "ID de vista para o menú principal"
+
+msgctxt "#30160"
+msgid "View ID for search"
+msgstr "ID de vista para a procura"
+
+msgctxt "#30161"
+msgid "View ID for exported"
+msgstr "ID de vista para exportados"
+
+msgctxt "#30162"
+msgid "Last used"
+msgstr "Último usado"
+
+msgctxt "#30163"
+msgid "Audio description"
+msgstr "Descrición de son"
+
+msgctxt "#30164"
+msgid "Browse contents with audio description."
+msgstr "Navegar polos contidos con descrición de son."
+
+msgctxt "#30165"
+msgid "View ID for 'My list'"
+msgstr "ID de vista para 'A miña lista'"
+
+msgctxt "#30166"
+msgid "Main menu items"
+msgstr "Elementos do menú principal"
+
+msgctxt "#30167"
+msgid "My list"
+msgstr "A miña lista"
+
+msgctxt "#30168"
+msgid "Continue watching"
+msgstr "Continuar vendo"
+
+msgctxt "#30169"
+msgid "Top picks"
+msgstr "Recomendados"
+
+msgctxt "#30170"
+msgid "New releases"
+msgstr "Lanzamentos"
+
+msgctxt "#30171"
+msgid "Trending now"
+msgstr "Tendencias"
+
+msgctxt "#30172"
+msgid "Popular on Netflix"
+msgstr "Popular no Netflix"
+
+msgctxt "#30173"
+msgid "Netflix Originals"
+msgstr "Orixinais do Netflix"
+
+msgctxt "#30174"
+msgid "TV show genres"
+msgstr "Xéneros de series TV"
+
+msgctxt "#30175"
+msgid "Movie genres"
+msgstr "Xéneros de filmes"
+
+msgctxt "#30176"
+msgid "Enable STRM resume workaround"
+msgstr "Activar solución para retomar o STRM"
+
+msgctxt "#30177"
+msgid "Ask to resume the video"
+msgstr "Perguntar para retomar o vídeo"
+
+msgctxt "#30178"
+msgid "Open Up Next add-on settings"
+msgstr "Abrir axustes do complemento 'Up Next'"
+
+msgctxt "#30179"
+msgid "Show trailers and more"
+msgstr "Mostrar avance e máis"
+
+msgctxt "#30180"
+msgid "There has been a problem with login, it is possible that your account has not been confirmed or reactivated."
+msgstr "Houbo un problema co acceso; é posíbel que a súa conta non fose confirmada ou reactivada."
+
+msgctxt "#30181"
+msgid "Always show the subtitles when the preferred audio language is not available"
+msgstr "Mostrar sempre os subtítulos cando a lingua preferida do audio non está dispoñíbel"
+
+msgctxt "#30182"
+msgid "Export NFO files"
+msgstr "Exportar arquivos NFO"
+
+msgctxt "#30183"
+msgid "Do you want to export NFO files for the {}?"
+msgstr "Desexa exportar os arquivos NFO para o {}?"
+
+msgctxt "#30184"
+msgid "NFO Files"
+msgstr "Arquivos NFO"
+
+msgctxt "#30185"
+msgid "Enable NFO files export"
+msgstr "Activar exportación de arquivos NFO"
+
+msgctxt "#30186"
+msgid "For Movies"
+msgstr "Para filmes"
+
+msgctxt "#30187"
+msgid "For TV show"
+msgstr "Para series TV"
+
+msgctxt "#30188"
+msgid "Ask"
+msgstr "Perguntar"
+
+msgctxt "#30189"
+msgid "movie"
+msgstr "filme"
+
+msgctxt "#30190"
+msgid "TV show"
+msgstr "Series TV"
+
+#. Unused 30191
+msgctxt "#30192"
+msgid "[CR]These files are used by the provider information scrapers to integrate movies and TV shows info, useful with bonus episodes or director's cut"
+msgstr "[CR]Estes arquivos empréganos os extractores de información para integraren a información de filmes e series TV; son útiles con episodios bonus ou edición do director"
+
+msgctxt "#30193"
+msgid "Include tv show NFO details"
+msgstr "Incluír os detalles NFO da serie tv"
+
+msgctxt "#30194"
+msgid "Limit video stream resolution to"
+msgstr "Limitar a resolución do fluxo de vídeo a"
+
+msgctxt "#30195"
+msgid "Export new episodes"
+msgstr "Exportar novos episodios"
+
+msgctxt "#30196"
+msgid "Exclude from auto update"
+msgstr "Excluír da actualización automática"
+
+msgctxt "#30197"
+msgid "Include in auto update"
+msgstr "Incluír na actualización automática"
+
+msgctxt "#30198"
+msgid "Exporting new episodes"
+msgstr "Exportando novos episódios"
+
+msgctxt "#30199"
+msgid "Shared library (Kodi MySQL server is required)"
+msgstr "Biblioteca compartida (precísase o servidor Kodi MySQL)"
+
+msgctxt "#30200"
+msgid "Use shared library MySQL-database"
+msgstr "Usar biblioteca compartida MySQL"
+
+msgctxt "#30201"
+msgid "Username"
+msgstr "Nome de usuario"
+
+msgctxt "#30202"
+msgid "Connection to the MySQL-database was successful"
+msgstr "A conexión coa base de datos MySQL estableceuse correctamente"
+
+msgctxt "#30203"
+msgid "Host IP"
+msgstr "IP do Host"
+
+msgctxt "#30204"
+msgid "Port"
+msgstr "Porto"
+
+msgctxt "#30205"
+msgid "Test database connection"
+msgstr "Probar conexión á base de datos"
+
+msgctxt "#30206"
+msgid "ERROR: The MySQL-database is not reachable - the local database will be used"
+msgstr "ERRO: A base de datos MySQL non está dispoñíbel - empregarase a base de datos local"
+
+msgctxt "#30207"
+msgid "Set this device as main auto-updates manager"
+msgstr "Definir este dispositivo como xestor principal das actualizacións automáticas"
+
+msgctxt "#30208"
+msgid "Check if this device is the main auto-update manager"
+msgstr "Comprobar se este dispositivo é o xestor principal das actualizacións automáticas"
+
+msgctxt "#30209"
+msgid "This device now handles the auto-updates of the shared library"
+msgstr "Este dispositivo encárgarase das actualizacións automáticas da biblioteca compartida a partir de agora"
+
+msgctxt "#30210"
+msgid "This device handles the auto-updates of the shared library"
+msgstr "Este dispositivo encárgase das actualizacións automáticas da biblioteca compartida"
+
+msgctxt "#30211"
+msgid "Another device handles the auto-updates of the shared library"
+msgstr "Outro dispositivo encárgase das actualizacións automáticas da biblioteca compartida"
+
+msgctxt "#30212"
+msgid "There is no device that handles the auto-updates of the shared library"
+msgstr "Non hai ningún dispositivo que se encargue das actualizacións automáticas da biblioteca compartida"
+
+msgctxt "#30213"
+msgid "InputStream Helper settings..."
+msgstr "Axustes do complemento InputStream Helper..."
+
+msgctxt "#30214"
+msgid "Force refresh"
+msgstr "Forzar actualización"
+
+msgctxt "#30215"
+msgid "Color of the titles included in \"My list\""
+msgstr "Cor dos títulos incluídos en ‘Miña lista’"
+
+msgctxt "#30216"
+msgid "Color of the titles marked as \"Remind me\""
+msgstr "Cor dos títulos marcados como \"Acórdame\""
+
+#. Unused 30217 to 30218
+msgctxt "#30219"
+msgid "Disable notification for synchronization completed"
+msgstr "Desactivar notificación de sincronización finalizada"
+
+msgctxt "#30220"
+msgid "The Kodi library has been updated"
+msgstr "A biblioteca do Kodi foi actualizada"
+
+msgctxt "#30221"
+msgid "Owner account"
+msgstr "Conta principal"
+
+msgctxt "#30222"
+msgid "Kid account"
+msgstr "Conta cativa"
+
+#. Unused 30223
+msgctxt "#30224"
+msgid "Auto update mode"
+msgstr "Modo de actualización automática"
+
+msgctxt "#30225"
+msgid "Manual"
+msgstr "Manual"
+
+msgctxt "#30226"
+msgid "Scheduled"
+msgstr "Axendada"
+
+msgctxt "#30227"
+msgid "Synchronize Kodi library with 'My list'"
+msgstr "Sincronizar a biblioteca do Kodi con ‘Miña lista’"
+
+msgctxt "#30228"
+msgid "Set a profile for synchronization"
+msgstr "Definir un perfil para a sincronización"
+
+msgctxt "#30229"
+msgid "When Kodi starts"
+msgstr "No arrinque do Kodi"
+
+msgctxt "#30230"
+msgid "Check for updates now"
+msgstr "Comprobar actualizacións agora"
+
+msgctxt "#30231"
+msgid "Do you want to check update now?"
+msgstr "Desexa comprobar agora se hai actualizacións?"
+
+msgctxt "#30232"
+msgid "Profile maturity rating for {}"
+msgstr "Valoración do perfil de madurez para {}"
+
+msgctxt "#30233"
+msgid "Only show titles rated [B]{}[/B]."
+msgstr "Mostrar soamente os títulos con valoracións [B]{}[/B]."
+
+#. Unused 30234
+msgctxt "#30235"
+msgid "Synchronize the watched status of the videos with Netflix"
+msgstr "Sincronizar co Netflix o estado da visualización dos vídeos"
+
+msgctxt "#30236"
+msgid "Change watched status (locally)"
+msgstr "Mudar o estado da visualización (localmente)"
+
+msgctxt "#30237"
+msgid "Marked as watched|Marked as unwatched|Restored Netflix watched status"
+msgstr "Marcar como visto|Marcado como non vistor|Restaurado o estado de visualización no Netflix"
+
+msgctxt "#30238"
+msgid "Up Next notifications (watch next video)"
+msgstr "Notificacións 'Up Next' (ver seguinte vídeo)"
+
+msgctxt "#30239"
+msgid "Color of supplemental plot info"
+msgstr "Cor da información adicional da sinopse"
+
+msgctxt "#30240"
+msgid "The background services cannot be started due to this problem:[CR]{}"
+msgstr "Os servizos en segundo plano non se puideron iniciar debido a este problema:[CR]{}"
+
+msgctxt "#30241"
+msgid "Open Connect CDN (the lower index is better)"
+msgstr "Open Connect CDN (o índice mais baixo é mellor)"
+
+msgctxt "#30242"
+msgid "Top 10"
+msgstr "Os 10 mellores"
+
+msgctxt "#30243"
+msgid "Select first unwatched TV show episode"
+msgstr "Seleccionar o primeiro episodio non visto da serie TV"
+
+#. Unused 30244
+msgctxt "#30245"
+msgid "Deleting files exported to the library"
+msgstr "Borrando os arquivos exportados á biblioteca"
+
+msgctxt "#30246"
+msgid "There are {} titles that cannot be imported.[CR]Do you want to delete these files?"
+msgstr "Existen {} títulos que non se poden importar.[CR]Desexa borrar estes arquivos?"
+
+msgctxt "#30247"
+msgid "Results per page (in case of timeout error decrease it)"
+msgstr "Resultados por páxina (en caso de erro por tempo excedido, diminúao)"
+
+#. Unused 30248 to 30299
+msgctxt "#30300"
+msgid "Do you want to remove watched status of \"{}\"?"
+msgstr "Desexa eliminar o estado de visualización de \"{}\"?"
+
+msgctxt "#30301"
+msgid "Include Kodi library (only sending data)"
+msgstr "Incluír a biblioteca do Kodi (soamente enviando datos)"
+
+#. Unused 30302 to 30339
+msgctxt "#30340"
+msgid "Choose the login method[CR](if the login with E-Mail/Password always returns \"incorrect password\", then use Authentication key, instructions in the GitHub ReadMe)"
+msgstr "Escolla o método de acceso[CR](se o acceso con Correo electrónico/Contrasinal devolve sempre \"contrasinal incorrecto\", entón empregue a chave de autenticación - instrucións no Leme do GitHub)"
+
+msgctxt "#30341"
+msgid "E-Mail/Password"
+msgstr "Correo electrónico/Contrasinal"
+
+msgctxt "#30342"
+msgid "Authentication key"
+msgstr "Chave de autenticación"
+
+msgctxt "#30343"
+msgid "The selected file is not compatible or corrupted"
+msgstr "O arquivo seleccionado non é compatíbel ou está danado"
+
+msgctxt "#30344"
+msgid "The authentication key file is expired"
+msgstr "Expirou o arquivo coa chave de autenticación"
+
+msgctxt "#30345"
+msgid "Enter PIN"
+msgstr "Insira PIN"
+
+#. Unused 30346 to 30398
+msgctxt "#30399"
+msgid "Sort history by"
+msgstr "Ordenar histórico por"
+
+msgctxt "#30400"
+msgid "Search"
+msgstr "Procurar"
+
+msgctxt "#30401"
+msgid "Type of search"
+msgstr "Tipo de procura"
+
+msgctxt "#30402"
+msgid "Search titles, people, genres"
+msgstr "Procurar títulos, pessoas, gêneros"
+
+msgctxt "#30403"
+msgid "New search..."
+msgstr "Nova procura…"
+
+msgctxt "#30404"
+msgid "Clear search history"
+msgstr "Limpar histórico de procura"
+
+msgctxt "#30405"
+msgid "Select the language"
+msgstr "Seleccione a lingua"
+
+msgctxt "#30406"
+msgid "Do you want to delete the entire contents?"
+msgstr "Desexa borrar todos os contidos?"
+
+msgctxt "#30407"
+msgid "No matches found"
+msgstr "Non se atoparon coincidencias"
+
+#. Unused 30408, 30409
+msgctxt "#30410"
+msgid "By term"
+msgstr "Por termo"
+
+msgctxt "#30411"
+msgid "By audio language"
+msgstr "Pola lingua do son"
+
+msgctxt "#30412"
+msgid "By subtitles language"
+msgstr "Pola lingua dos subtítulos"
+
+msgctxt "#30413"
+msgid "By genre/subgenre ID"
+msgstr "Polo ID do xénero/subxénero"
+
+#. Unused 30414 to 30499
+msgctxt "#30500"
+msgid "Prefer the audio/subtitle language with country code (if available)"
+msgstr "Preferir a lingua do audio/subtítulo co código do país (se dispoñíbel)"
+
+msgctxt "#30501"
+msgid "Prefer stereo audio tracks by default"
+msgstr "Preferir pistas de audio en estéreo por defecto"
+
+#. Unused 30502 to 30599
+msgctxt "#30600"
+msgid "ESN / Widevine settings"
+msgstr "Configuración ESN/ Widevine"
+
+msgctxt "#30601"
+msgid "ESN:"
+msgstr "ESN:"
+
+msgctxt "#30602"
+msgid "Change ESN"
+msgstr "Mudar ESN"
+
+msgctxt "#30603"
+msgid "Save system info"
+msgstr "Gardar información do sistema"
+
+msgctxt "#30604"
+msgid "Widevine - Force security level"
+msgstr "Widevine - Forzar nivel de seguranza"
+
+msgctxt "#30605"
+msgid "Force {}"
+msgstr "Forzar {}"
+
+msgctxt "#30606"
+msgid "ESN set successfully[CR]Try to play a video"
+msgstr "O ESN configurouse correctamente[CR]Tenta reproducir un vídeo"
+
+msgctxt "#30607"
+msgid "This ESN cannot be used[CR]Try change ESN or reset ESN.[CR][CR]Error details:[CR]{}"
+msgstr "Non se pode empregar este ESN[CR]Tenta mudar o ESN ou reinicialo.[CR][CR]Detalles do erro:[CR]{}"
+
+msgctxt "#30608"
+msgid "Wrong ESN format"
+msgstr "Formato incorrecto do ESN"
+
+msgctxt "#30609"
+msgid "Do you want to reset all settings?"
+msgstr "Queres reiniciar todos os parámetros?"
+
+msgctxt "#30610"
+msgid "Use system-based encryption for credentials"
+msgstr "Empregar a encriptación do sistema para as credenciais"
+
+# Help description for setting id 30610
+msgctxt "#30611"
+msgid "[B]If disabled it will cause a security leak[/B]. If your operating system does not support it, you will be prompted to login each time you reboot the device, [B]only[/B] in this case disable it. If you change this setting you will be prompted to login again in the next time you reboot."
+msgstr "[B]Se se deshabilita provocará unha grecha de seguranza[/B]. Se o teu sistema operativo non o soporta, che saltará o control de acceso cada vez que reinicies o dispositivo, deshabilítao [B]tan só[/B] neste caso. Se mudas este parámetro che saltará o control de acceso de novo a vindeira vez que reincies."
+
+msgctxt "#30612"
+msgid "MSL manifest version"
+msgstr "Versión do manifesto MSL"
+
+#. Unused 30613 to 30619
+msgctxt "#30620"
+msgid "This title will be available from:[CR]{}"
+msgstr "Este contido estará dispoñíbel a partir de:[CR]{}"
+
+msgctxt "#30621"
+msgid "Do you want to play the promo trailer?"
+msgstr "Desexas reproducir o vídeo promocional?"
+
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30622"
+msgid "{} Remind me"
+msgstr "{} Acórdame"
+
+#. Unused 30623 to 30699
+msgctxt "#30700"
+msgid "New and popular"
+msgstr "Novo e popular"
+
+msgctxt "#30701"
+msgid "Marks started tv shows as watched"
+msgstr "Marca as series TV como vistas"
+
+#. Description of setting ID #30701
+msgctxt "#30702"
+msgid "Please note that by enabling this setting if filters are enabled in your Skin settings, items marked as watched may not be visible."
+msgstr "Nótese que, ao activares esta opción, se tiveres filtros activados na configuración de aspecto, poida que non se amosen os elementos marcados como vistos."
+
+msgctxt "#30703"
+msgid "Override stream selection type"
+msgstr "Modificar a selección do tipo de fluxo"
+
+msgctxt "#30704"
+msgid "Override the Stream selection type setting of the InputStream Adaptive add-on, to set how the audio / video streams quality will be chosen during playback."
+msgstr "Modificar o axuste da selección do tipo de fluxo do complemento InputStream Adaptive, para establecer como se escollerá a calidade dos fluxos de audio e vídeo durante a reprodución."
+
+msgctxt "#30705"
+msgid "Adaptive quality"
+msgstr "Calidade adaptativa"
+
+msgctxt "#30706"
+msgid "Fixed video quality"
+msgstr "Calidade de vídeo fixa"
+
+msgctxt "#30707"
+msgid "Ask video quality"
+msgstr "Preguntar a calidade de vídeo"
+
+msgctxt "#30720"
+msgid "Please note that enabling this setting will force the removal of streams that are not within the set range and this may affect the operation of InputStream Adaptive. If possible try limiting the quality from the InputStream Adaptive settings first."
+msgstr "Nótese que ao activar este axuste se van descartar automaticamente os fluxos fóra do rango establecido e isto pode afectar a operación do InputStream Adaptive. Se for posíbel, primeiro tenta limitar a calidade dende os axustes do InputStream Adaptive."
+
+msgctxt "#30721"
+msgid "Size"
+msgstr "Tamaño"
+
+#. Description of setting ID #30721
+msgctxt "#30722"
+msgid "Minimise the black bars by apply a zoom effect. [ Fixed ] Sets the percentage of screen space that black bars can occupy, will be constant for all videos. [ Relative ] Sets the percentage of black band minimisation, will depend on each video size. [ Reset ] Reset the zoom effect previously applied."
+msgstr "Minimizar as barras negras aplicando un effecto de zoom. [ Fixo ] Configura a porcentaxe do espazo da pantalla cás barras negras poden ocupar, sendo constante para todos os vídeos. [ Relativo ] Configura a porcentaxe de redución das bandas negras, dependerá do tamaño do vídeo. [ Restablecer ] Restablece o efecto zoom aplicado previamente."
+
+#. Unused 30723
+#. Description of setting ID #30723
+msgctxt "#30724"
+msgid "This feature make use of Kodi zoom effect that is permanently stored in the \"View mode\" video setting, if you disable this feature in the future the zoom will be preserved, to reset the zoom change to \"Reset\" setting mode."
+msgstr "Esta función fai uso do efecto zoom do Kodi gardado de forma permanente na configuración de vídeo do \"Modo vista\". Se desactivas esta función no futuro, o zoom se manterá. Para restableceres o zoom selecciona o modo \"Restablecer\"."
+
+#. Unused 30725, 30726
+msgctxt "#30727"
+msgid "Enable AV1 codec"
+msgstr "Activar codec AV1"
+
+msgctxt "#30728"
+msgid "Add Netflix folders to Kodi library sources"
+msgstr "Engadir os cartafoles do Netflix ás fontes da biblioteca do Kodi"
+
+msgctxt "#30729"
+msgid "The folders \"Netflix-Movies\" and \"Netflix-Shows\" have been added to Kodi sources, restart Kodi to view them in the Kodi [TV Shows] / [Movies] menus. Then edit the folders to set the appropriate content type and information provider scraper."
+msgstr "Engadíronse os cartafoles \"Netflix-Movies\" e \"Neflix-Shows\" ás fontes do Kodi, reinicia o Kodi para vérelos nos menús do Kodi Series TV e Filmes. Despois, edita os cartafoles para estableceres o tipo de contido e o extractor provedor de información axeitados."
+
+#. Description of setting ID 30224
+msgctxt "#30730"
+msgid "[Manual] updates must be done manually by using \"Export new episodes\" context menu on each tv show, [Scheduled] you can establish automatic updates at scheduled times, [When Kodi starts] automatic updates start at Kodi start-up and will only be done once a day."
+msgstr "[Manual] as actualizacións deben facerse manualmente empregando o menú contextual \"Exportar novos episodios\" en cada serie tv, [Programado] podes programar a hora das actualizacións, [Cando o Kodi arrinque] as actualizacións realizaranse automaticamente cand o Kodi arrinque e realizaranse unha vez ao día soamente."
+
+#. Description of setting ID 30227
+msgctxt "#30731"
+msgid "Synchronises the library with My list, if my list has been modified externally e.g. mobile app or website, the update will be postponed to the scheduled time."
+msgstr "Sincroniza a biblioteca coa Miña Lista, se A Miña Lista for modificada externamente, por exemplo cun móbil ou pola web, a actualización posporíase até a hora programada."
+
+#. Description of setting ID 30185
+msgctxt "#30732"
+msgid "If enabled, adds information to episodes or movies that are useful when Kodi information provider scraper does not provide data. This will also add the duration of the videos."
+msgstr "Se está activo, engade a información dos episodios ou dos filmes que axudan ao Kodi no caso que o extractor provedor de información non atope esta información. Tamén engadirá a duración dos vídeos."
+
+#. Description of setting ID 30193
+msgctxt "#30733"
+msgid "Only enable if \"Local Information\" information provider scraper is used, or if certain titles are not displayed in Kodi library despite having been added."
+msgstr "Engadir unicamente se se emprega o extractor provedor de información \"Información local\", ou se houber algúns títulos que non se amosan la biblioteca do Kodi aínque que se engadiran."
+
+msgctxt "#30734"
+msgid "Support"
+msgstr "Axuda"
+
+msgctxt "#30735"
+msgid "About Netflix add-on"
+msgstr "Sobre o complemento do Netflix"
+
+msgctxt "#30736"
+msgid "Automatically generates new ESNs (workaround for 540p limit)"
+msgstr "Xera automatic novos ESNs (solución para o límite de 540p)"
+
+msgctxt "#30737"
+msgid "WARNING: Do not use the original device ESN of the official app."
+msgstr "AVISO: Non empregar o ESN do dispositivo orixinal da aplicación oficial."
+
+msgctxt "#30738"
+msgid "Enable audio offset"
+msgstr "Activar a compensación de audio"
+
+msgctxt "#30739"
+msgid "Audio offset"
+msgstr "Compensación de audio"
+
+#. Description of setting ID 30739
+msgctxt "#30740"
+msgid "Sets the audio offset by overriding the Kodi setting"
+msgstr "Establece a compensación de audio modificando o axuste do Kodi"
+
+msgctxt "#30741"
+msgid "Enable VP9 Profile 2 (10/12 bit color depth)"
+msgstr "Activar VP9 Profile 2 (10/12 bit color depth)"
+
+msgctxt "#30742"
+msgid "Do you want to enable HDR10 support?"
+msgstr "Queres activar o soporte HDR10?"
+
+msgctxt "#30743"
+msgid "Do you want to enable HDR Dolby Vision support?"
+msgstr "Queres activar o soporte HDR Dolby Vision?"
+
+#. Description of setting ID 30081
+msgctxt "#30744"
+msgid "The add-on already sets the appropriate HDCP version, but if required you can force the request of video streams for a different HDCP version."
+msgstr "O complemento xa establece a versión HDCP axeitada, pero de ser preciso podes forzar que os fluxos de vído empreguen unha versión HDCP diferente."
+
+msgctxt "#30745"
+msgid "If your device does not support this codec, you may experience black screen, no image or corrupted images. If so disable the codec."
+msgstr "Se o teu dispositivo non soporta este codec, podes experimentar pantallas negras e fallas na imaxe. Nese caso, desactiva o codec."
+
+msgctxt "#30746"
+msgid "Black bars minimise mode"
+msgstr "Modo minimizar barras negras"
+
+msgctxt "#30747"
+msgid "Fixed"
+msgstr "Fixo"
+
+msgctxt "#30748"
+msgid "Relative"
+msgstr "Relativo"
+
+msgctxt "#30749"
+msgid "Reset"
+msgstr "Restablecer"

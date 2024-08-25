@@ -1,0 +1,15 @@
+<settings version="2">
+    <setting id="lastpresetidx" default="true">0</setting>
+    <setting id="presetfile" default="true" />
+    <setting id="showhelp" default="true" />
+    <setting id="ownshader" default="true">false</setting>
+    <setting id="shader" default="true" />
+    <setting id="texture0-sound" default="true">true</setting>
+    <setting id="texture0" default="true" />
+    <setting id="texture1-sound" default="true">false</setting>
+    <setting id="texture1" default="true" />
+    <setting id="texture2-sound" default="true">false</setting>
+    <setting id="texture2" default="true" />
+    <setting id="texture3-sound" default="true">false</setting>
+    <setting id="texture3" default="true" />
+</settings>

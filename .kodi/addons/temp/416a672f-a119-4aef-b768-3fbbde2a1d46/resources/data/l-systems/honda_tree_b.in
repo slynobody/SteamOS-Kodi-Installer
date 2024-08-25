@@ -1,0 +1,18 @@
+/*
+   Monopoidal tree-like structure of Honda
+   Figure 2.6b pg. 56
+ */
+#define maxgen 10
+
+#define r1 0.9	    /* contraction ratio for the trunk */
+#define r2 0.9	    /* contraction ratio for the branches */
+#define a0 45	    /* branching angle from the trunk */
+#define a2 45	    /* branching angle for lateral axes */
+#define d  137.5    /* divergence angle */
+#define wr 0.707    /* width decrease rate */
+
+START : A(1,10)
+
+p1 : A(l,w) : * -> !(w)F(l)[&(a0)B(l*r2,w*wr)]/(d)A(l*r1,w*wr)
+p2 : B(l,w) : * -> !(w)F(l)[-(a0)$C(l*r2,w*wr)]C(l*r1,w*wr)
+p3 : C(l,w) : * -> !(w)F(l)[+(a0)$B(l*r2,w*wr)]B(l*r1,w*wr)

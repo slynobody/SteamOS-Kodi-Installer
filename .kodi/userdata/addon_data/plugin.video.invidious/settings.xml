@@ -1,0 +1,5 @@
+<settings version="2">
+    <setting id="auto_instance">true</setting>
+    <setting id="instance_url">https://iv.ggtyler.dev</setting>
+    <setting id="disable_dash" default="true">false</setting>
+</settings>

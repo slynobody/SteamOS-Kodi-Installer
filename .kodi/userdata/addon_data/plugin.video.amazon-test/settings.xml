@@ -1,0 +1,84 @@
+<settings version="2">
+    <setting id="playmethod">3</setting>
+    <setting id="browser" default="true">0</setting>
+    <setting id="cust_path" default="true">false</setting>
+    <setting id="br_path" default="true" />
+    <setting id="ownappdata" default="true">false</setting>
+    <setting id="kiosk">true</setting>
+    <setting id="scr_path" default="true" />
+    <setting id="scr_param" default="true">{f} &quot;{u}&quot;</setting>
+    <setting id="framerate">true</setting>
+    <setting id="fullscreen" default="true">false</setting>
+    <setting id="clickwait" default="true">10</setting>
+    <setting id="pininput" default="true">false</setting>
+    <setting id="pin" default="true">0</setting>
+    <setting id="waitprepin" default="true">10</setting>
+    <setting id="waitpin" default="true">5</setting>
+    <setting id="pref_host" default="true">Auto</setting>
+    <setting id="is_settings" default="true" />
+    <setting id="age_settings" default="true" />
+    <setting id="wvl1_device" default="true">false</setting>
+    <setting id="enable_uhd" default="true">false</setting>
+    <setting id="enable_hdr10" default="true">false</setting>
+    <setting id="enable_dovi" default="true">false</setting>
+    <setting id="enable_atmos" default="true">false</setting>
+    <setting id="use_h265" default="true">false</setting>
+    <setting id="proxy_mpdalter">true</setting>
+    <setting id="skip_scene">1</setting>
+    <setting id="send_vp">4</setting>
+    <setting id="remotectrl" default="true">false</setting>
+    <setting id="remote_vol" default="true">false</setting>
+    <setting id="audio_description" default="true">false</setting>
+    <setting id="sub_stretch" default="true">false</setting>
+    <setting id="sub_stretch_factor" default="true">0</setting>
+    <setting id="pv_language" default="true" />
+    <setting id="ssl_verif" default="true">false</setting>
+    <setting id="items_perpage" default="true">40</setting>
+    <setting id="region" default="true">0</setting>
+    <setting id="profiles">true</setting>
+    <setting id="show_pass">true</setting>
+    <setting id="multiuser" default="true">false</setting>
+    <setting id="rememberme">true</setting>
+    <setting id="login_acc" default="true" />
+    <setting id="data_source" default="true">0</setting>
+    <setting id="catalog_cache_expiry">2</setting>
+    <setting id="pv_clearcache" default="true" />
+    <setting id="paginate_everything" default="true">false</setting>
+    <setting id="paginate_watchlist" default="true">false</setting>
+    <setting id="paginate_collections" default="true">false</setting>
+    <setting id="paginate_search">true</setting>
+    <setting id="reset_home" default="true" />
+    <setting id="paycont" default="true">false</setting>
+    <setting id="disptvshow" default="true">false</setting>
+    <setting id="preload_seasons">true</setting>
+    <setting id="preload_all_seasons" default="true">false</setting>
+    <setting id="hide_trailers" default="true">false</setting>
+    <setting id="pv_episode_thumbnails">true</setting>
+    <setting id="tmdb_art">1</setting>
+    <setting id="tvdb_art">1</setting>
+    <setting id="useshowfanart">true</setting>
+    <setting id="viewenable" default="true">false</setting>
+    <setting id="movieview">5</setting>
+    <setting id="movieid" default="true">0</setting>
+    <setting id="showview">4</setting>
+    <setting id="showid" default="true">0</setting>
+    <setting id="seasonview">4</setting>
+    <setting id="seasonid" default="true">0</setting>
+    <setting id="episodeview">3</setting>
+    <setting id="episodeid" default="true">0</setting>
+    <setting id="enablelibraryfolder" default="true">false</setting>
+    <setting id="customlibraryfolder" default="true">special://profile/addon_data/plugin.video.amazon-test</setting>
+    <setting id="cr_nfo">true</setting>
+    <setting id="mediasource_movie" default="true">Amazon Movies</setting>
+    <setting id="mediasource_tv" default="true">Amazon TV</setting>
+    <setting id="wl_export" default="true">false</setting>
+    <setting id="search_history">true</setting>
+    <setting id="wl_order" default="true">0</setting>
+    <setting id="logging" default="true">false</setting>
+    <setting id="json_dump" default="true">false</setting>
+    <setting id="json_dump_raw" default="true">false</setting>
+    <setting id="json_dump_collisions" default="true">false</setting>
+    <setting id="log_http" default="true">false</setting>
+    <setting id="create_zip" default="true" />
+    <setting id="rm_logs" default="true" />
+</settings>

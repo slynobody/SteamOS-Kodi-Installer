@@ -1,0 +1,8 @@
+/*
+   http://paulbourke.net/fractals/lsys/
+ */
+#define maxgen 3
+#define delta 36.0
+
+START : F++F++F++F++F
+p1 : F -> F++F++F|F-F++F

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Searching">
+		<setting id="playable" type='bool' label='Show only playable films' default="true"/>
+		
+
+	</category>
+	<!--
+	<category label="Dane - DEV">
+		<setting id="logged" type='text' label='logged' default="false"/>
+		<setting id="token" type='text' label='token' default=""/>
+		<setting id="userID" type='text' label='userID' default=""/>
+		<setting id="deviceID" type='text' label='deviceID' default=""/>
+
+	</category>
+	-->
+</settings>

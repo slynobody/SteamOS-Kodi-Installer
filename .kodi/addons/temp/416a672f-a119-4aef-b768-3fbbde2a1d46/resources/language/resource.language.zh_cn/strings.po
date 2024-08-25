@@ -1,0 +1,63 @@
+# Kodi Media Center language file
+# Addon Name: Goom 2k4 Visualization
+# Addon id: visualization.goom-pp
+# Addon Provider: Team-Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Addons\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-03 07:32+0000\n"
+"Last-Translator: 撷星芒 <mofa2020@qq.com>\n"
+"Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/visualization-goom/zh_cn/>\n"
+"Language: zh_cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8.1\n"
+
+msgctxt "Addon Summary"
+msgid "Goom 2k4 Visualization"
+msgstr "Goom 2k4可视化程序"
+
+msgctxt "Addon Description"
+msgid "The Goom 2k4 visualization supports effects like Tentacles, Flash, Stars, Fireworks, Waves, Blurs and Glows and includes a large number of trippy hypnotic effects that dance, swirl and pop with the music,"
+msgstr "Goom 2k4 可视化支持像触须、闪光、星星、烟花、波浪、模糊和发光这样的效果，并包括大量随着音乐跳舞、旋转和流行的迷幻催眠效果，"
+
+# settings labels
+msgctxt "#30000"
+msgid "Show titles always"
+msgstr "始终显示标题"
+
+msgctxt "#30001"
+msgid "If set, the title will be displayed continuously, otherwise it will only be shown briefly on change."
+msgstr "如果启用，标题将持续显示，否则仅在更改时短暂显示。"
+
+msgctxt "#30002"
+msgid "Render quality"
+msgstr "渲染质量"
+
+msgctxt "#30003"
+msgid "If the system does not do the display in a high resolution, it can be reduced."
+msgstr "如果系统不能以高分辨率显示，可以降低分辨率。"
+
+msgctxt "#30004"
+msgid "Lowest (512x256)"
+msgstr "最低（512x256）"
+
+msgctxt "#30005"
+msgid "Lower (640x360)"
+msgstr "较低（640x360）"
+
+msgctxt "#30006"
+msgid "Standard (1280x720)"
+msgstr "标准（1280x720）"
+
+msgctxt "#30007"
+msgid "Use OpenGL Pixel Buffer Objects"
+msgstr "使用OpenGL像素缓冲区对象"
+
+msgctxt "#30008"
+msgid "If set, then OpenGL will use a faster pixel data transfer option for the Goom window."
+msgstr "如果设置，那么OpenGL将为Goom窗口使用更快的像素数据传输选项。"

@@ -1,0 +1,460 @@
+{
+    "title": "Amazon Video On Demand",
+    "id": "root",
+    "categories": [
+        {
+            "title": "\u6620\u753b\u30fb\u30d3\u30c7\u30aa",
+            "categories": [
+                {
+                    "id": "prime",
+                    "categories": [
+                        {
+                            "title": "Editor's Picks",
+                            "id": "movies_prime_editors_picks",
+                            "categories": [
+                                {
+                                    "title": "\u6700\u8fd1\u30d7\u30e9\u30a4\u30e0\u306b\u8ffd\u52a0\u3055\u308c\u305f\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&ContentType=Movie&OrderBy=AvailabilityDate&MinAmazonRatingCount=40&HideNum=T&Preorder=F&Detailed=T&AID=1",
+                                    "id": "prime-movie-editor-1"
+                                },
+                                {
+                                    "title": "\u30d7\u30e9\u30a4\u30e0\u306e\u4eba\u6c17\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&OrderBy=MostPopular&Preorder=F&ContentType=Movie&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                                    "id": "prime-movie-editor-2"
+                                },
+                                {
+                                    "title": "\u30d7\u30e9\u30a4\u30e0\u306e\u30ad\u30c3\u30ba\u5411\u3051\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&ContentType=Movie&Genre=KidsFamily,Family&OrderBy=SalesRank&ExcludeContentRating=R18%2B&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&HideNum=T&AID=1&Preorder=F",
+                                    "id": "prime-movie-editor-4"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Genres",
+                            "categories": [
+                                {
+                                    "title": "\u5916\u56fd\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=ForeignMovies&ContentType=Movie&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-1"
+                                },
+                                {
+                                    "title": "\u65e5\u672c\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=JapaneseMovies&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-2"
+                                },
+                                {
+                                    "title": "\u30a2\u30b8\u30a2\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=AsianMovies&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-3"
+                                },
+                                {
+                                    "title": "\u30a2\u30cb\u30e1\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Anime&ContentType=Movie&OrderBy=MostPopular&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-4"
+                                },
+                                {
+                                    "title": "\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Music&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-5"
+                                },
+                                {
+                                    "title": "\u304a\u7b11\u3044\u30fb\u30d0\u30e9\u30a8\u30c6\u30a3\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Comedy/Variety&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-6"
+                                },
+                                {
+                                    "title": "\u30b9\u30dd\u30fc\u30c4\u30fb\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Sports&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-7"
+                                },
+                                {
+                                    "title": "\u30ad\u30c3\u30ba\u30fb\u30d5\u30a1\u30df\u30ea\u30fc\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=KidsFamily,Family&ContentType=Movie&OrderBy=MostPopular&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-8"
+                                },
+                                {
+                                    "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30bf\u30ea\u30fc\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Documentary&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-9"
+                                },
+                                {
+                                    "title": "\u30b9\u30c6\u30fc\u30b8\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Stage&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-10"
+                                },
+                                {
+                                    "title": "\u30a2\u30a4\u30c9\u30eb\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Idol&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-11"
+                                },
+                                {
+                                    "title": "\u30db\u30d3\u30fc\u30fb\u5b9f\u7528\u6620\u753b",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Hobby&ContentType=Movie&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-movie-genre-12"
+                                },
+                                {
+                                    "title": "\u30d7\u30e9\u30a4\u30e0\u306e\u30ad\u30c3\u30ba\u5411\u3051\u4f5c\u54c1",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=KidsFamily,Family&ContentType=Movie,TVEpisode&RollupToSeason=T&OrderBy=SalesRank&ExcludeContentRating=R18%2B&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&HideNum=T&AID=1&Preorder=F",
+                                    "id": "prime-movie-genre-18"
+                                }
+                            ],
+                            "id": "movies_prime_genres"
+                        }
+                    ],
+                    "title": "\u30d7\u30e9\u30a4\u30e0\u6620\u753b"
+                },
+                {
+                    "id": "all",
+                    "categories": [
+                        {
+                            "title": "\u4eba\u6c17\u6620\u753b",
+                            "query": "OrderBy=SalesRank&ContentType=Movie&HideNum=T&Detailed=T&AID=1&IncludeNonWeb=T&Adult=F&Preorder=F&ContentRating=g,all_ages",
+                            "id": "all-movie-1"
+                        },
+                        {
+                            "title": "\u65b0\u7740\u6620\u753b",
+                            "query": "ContentType=Movie&OrderBy=-ReleaseDate&HideNum=T&Detailed=T&AID=1&parentalControlsFilter=false&NumberOfResults=250&isAdult=F&AvailabilityDateStart=20&OfferType=Rental&ContentRating=g&Preorder=F",
+                            "id": "all-movie-2"
+                        },
+                        {
+                            "title": "\u30ab\u30c6\u30b4\u30ea\u30fc\u4e00\u89a7",
+                            "categories": [
+                                {
+                                    "title": "\u5916\u56fd\u6620\u753b",
+                                    "query": "Genre=ForeignMovies&OrderBy=SalesRank&ContentType=Movie&HideNum=T&Detailed=T&AID=1&IncludeNonWeb=T&Adult=F&Preorder=F",
+                                    "id": "all-movie-category-1"
+                                },
+                                {
+                                    "title": "\u65e5\u672c\u6620\u753b",
+                                    "query": "Genre=JapaneseMovies&OrderBy=SalesRank&ContentType=Movie&HideNum=T&Detailed=T&AID=1&IncludeNonWeb=T&Adult=F&Preorder=F",
+                                    "id": "all-movie-category-2"
+                                },
+                                {
+                                    "title": "\u30ad\u30c3\u30ba\u30fb\u30d5\u30a1\u30df\u30ea\u30fc\u6620\u753b",
+                                    "query": "Genre=KidsFamily&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-3"
+                                },
+                                {
+                                    "title": "\u30a2\u30cb\u30e1\u6620\u753b",
+                                    "query": "Genre=Anime&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-4"
+                                },
+                                {
+                                    "title": "\u30df\u30e5\u30fc\u30b8\u30c3\u30af\u6620\u753b",
+                                    "query": "Genre=Music&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-5"
+                                },
+                                {
+                                    "title": "\u30db\u30d3\u30fc\u30fb\u5b9f\u7528\u6620\u753b",
+                                    "query": "Genre=Hobby&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-6"
+                                },
+                                {
+                                    "title": "\u30b9\u30c6\u30fc\u30b8\u6620\u753b",
+                                    "query": "Genre=Stage&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-7"
+                                },
+                                {
+                                    "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30bf\u30ea\u30fc\u6620\u753b",
+                                    "query": "Genre=Documentary&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-8"
+                                },
+                                {
+                                    "title": "\u30b9\u30dd\u30fc\u30c4\u30fb\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9\u6620\u753b",
+                                    "query": "Genre=SportsFitness&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-9"
+                                },
+                                {
+                                    "title": "\u30a2\u30a4\u30c9\u30eb\u6620\u753b",
+                                    "query": "Genre=Idol&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&ExcludeContractID=UJGG1&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-category-10"
+                                },
+                                {
+                                    "title": "\u30a2\u30b8\u30a2\u6620\u753b",
+                                    "query": "Genre=AsianMovies&OrderBy=SalesRank&ContentType=Movie&HideNum=T&Detailed=T&AID=1&IncludeNonWeb=T&Adult=F&Preorder=F",
+                                    "id": "all-movie-category-11"
+                                }
+                            ],
+                            "id": "movies_all_categories"
+                        },
+                        {
+                            "title": "\u65e5\u672c\u6620\u753b",
+                            "query": "Genre=JapaneseMovies&ContentType=Movie&OrderBy=salesrank&HideNum=T&Detailed=T&AID=1&IncludeNonWeb=T&Adult=F&Preorder=F&ExcludeContentRating=R15%2B",
+                            "id": "all-movie-4"
+                        },
+                        {
+                            "title": "\u30b8\u30e3\u30f3\u30eb\uff08\u6620\u753b)",
+                            "categories": [
+                                {
+                                    "title": "\u30c9\u30e9\u30de",
+                                    "query": "Genre=Drama&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-1"
+                                },
+                                {
+                                    "title": "\u30df\u30b9\u30c6\u30ea\u30fc\u30fb\u30b5\u30b9\u30da\u30f3\u30b9",
+                                    "query": "Genre=MysterySuspense&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-2"
+                                },
+                                {
+                                    "title": "\u304a\u7b11\u3044\u30fb\u30d0\u30e9\u30a8\u30c6\u30a3\u6620\u753b",
+                                    "query": "Genre=ComedyVariety&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-3"
+                                },
+                                {
+                                    "title": "\u30e9\u30d6\u30ed\u30de\u30f3\u30b9",
+                                    "query": "Genre=LoveRomance&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-4"
+                                },
+                                {
+                                    "title": "\u30a2\u30c9\u30d9\u30f3\u30c1\u30e3\u30fc",
+                                    "query": "Genre=Adventure&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-5"
+                                },
+                                {
+                                    "title": "\u30ad\u30c3\u30ba\uff06\u30d5\u30a1\u30df\u30ea\u30fc",
+                                    "query": "Genre=Family&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-6"
+                                },
+                                {
+                                    "title": "\u9752\u6625",
+                                    "query": "Genre=YouthSchool&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-7"
+                                },
+                                {
+                                    "title": "\u30d5\u30a1\u30f3\u30bf\u30b8\u30fc",
+                                    "query": "Genre=Fantasy&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-8"
+                                },
+                                {
+                                    "title": "\u30df\u30e5\u30fc\u30b8\u30ab\u30eb\u30fb\u97f3\u697d\u6620\u753b",
+                                    "query": "Genre=MusicalMusic&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-9"
+                                },
+                                {
+                                    "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30bf\u30ea\u30fc",
+                                    "query": "Genre=Documentary&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-movie-genre-10"
+                                }
+                            ],
+                            "id": "movies_all_genres"
+                        },
+                        {
+                            "title": "\u30a2\u30cb\u30e1",
+                            "query": "Genre=Anime&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                            "id": "all-movie-5"
+                        },
+                        {
+                            "title": "\u30ad\u30c3\u30ba",
+                            "query": "Genre=KidsFamily&ContentType=Movie&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                            "id": "all-movie-6"
+                        }
+                    ],
+                    "title": "\u6620\u753b"
+                }
+            ],
+            "id": "movies"
+        },
+        {
+            "id": "tv_shows",
+            "categories": [
+                {
+                    "title": "\u30d7\u30e9\u30a4\u30e0TV\u756a\u7d44",
+                    "id": "prime",
+                    "categories": [
+                        {
+                            "id": "tv_shows_prime_editors_picks",
+                            "categories": [
+                                {
+                                    "title": "\u6700\u8fd1\u30d7\u30e9\u30a4\u30e0\u306b\u8ffd\u52a0\u3055\u308c\u305fTV\u756a\u7d44",
+                                    "query": "OfferGroups=B0043YVHMY&ContentType=TVEpisode&RollUpToSeason=T&OrderBy=AvailabilityDate&MinAmazonRatingCount=40&HideNum=T&Preorder=F&Detailed=T&AID=1",
+                                    "id": "prime-tv-editor-1"
+                                },
+                                {
+                                    "title": "\u30d7\u30e9\u30a4\u30e0\u306e\u4eba\u6c17TV\u756a\u7d44",
+                                    "query": "OfferGroups=B0043YVHMY&OrderBy=MostPopular&Preorder=F&ContentType=TVEpisode&RollupToSeason=T&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                                    "id": "prime-tv-editor-2"
+                                },
+                                {
+                                    "title": "\u30d7\u30e9\u30a4\u30e0\u306e\u30ad\u30c3\u30ba\u5411\u3051TV\u756a\u7d44",
+                                    "query": "OfferGroups=B0043YVHMY&ContentType=TVEpisode&RollupToSeason=T&Genre=KidsFamily,Family&OrderBy=SalesRank&ExcludeContentRating=R18%2B&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&HideNum=T&AID=1&Preorder=F",
+                                    "id": "prime-tv-editor-4"
+                                }
+                            ],
+                            "title": "Editor's Picks"
+                        },
+                        {
+                            "title": "Genres",
+                            "categories": [
+                                {
+                                    "title": "\u30a2\u30cb\u30e1TV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Anime&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-1"
+                                },
+                                {
+                                    "title": "\u30df\u30e5\u30fc\u30b8\u30c3\u30afTV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Music&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-2"
+                                },
+                                {
+                                    "title": "\u65e5\u672c\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=JapaneseTVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-3"
+                                },
+                                {
+                                    "title": "\u30a2\u30e1\u30ea\u30ab\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=AmericanTVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F&IncludeAll=T",
+                                    "id": "prime-tv-genre-4"
+                                },
+                                {
+                                    "title": "\u30a4\u30ae\u30ea\u30b9\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=BritishTVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-6"
+                                },
+                                {
+                                    "title": "\u4e2d\u56fd\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=ChineseTVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-7"
+                                },
+                                {
+                                    "title": "\u53f0\u6e7e\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=TaiwaneseTVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-8"
+                                },
+                                {
+                                    "title": "\u305d\u306e\u4ed6\u5916\u56fd\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=OtherCountries'TVDrama&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-9"
+                                },
+                                {
+                                    "title": "\u304a\u7b11\u3044\u30fb\u30d0\u30e9\u30a8\u30c6\u30a3TV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Comedy/Variety&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-10"
+                                },
+                                {
+                                    "title": "\u30b9\u30dd\u30fc\u30c4\u30fb\u30d5\u30a3\u30c3\u30c8\u30cd\u30b9TV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Sports&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-11"
+                                },
+                                {
+                                    "title": "\u30ad\u30c3\u30ba\u30fb\u30d5\u30a1\u30df\u30ea\u30fcTV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=KidsFamily,Family&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-12"
+                                },
+                                {
+                                    "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30bf\u30ea\u30fcTV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Documentary&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-13"
+                                },
+                                {
+                                    "title": "\u30b9\u30c6\u30fc\u30b8TV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Stage&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-14"
+                                },
+                                {
+                                    "title": "\u30a2\u30a4\u30c9\u30ebTV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Idol&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-15"
+                                },
+                                {
+                                    "title": "\u30db\u30d3\u30fc\u30fb\u5b9f\u7528TV",
+                                    "query": "OfferGroups=B0043YVHMY&Genre=Hobby&ContentType=TVEpisode&RollupToSeason=T&OrderBy=MostPopular&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                                    "id": "prime-tv-genre-16"
+                                }
+                            ],
+                            "id": "tv_shows_prime_genres"
+                        }
+                    ]
+                },
+                {
+                    "title": "TV\u756a\u7d44",
+                    "id": "all",
+                    "categories": [
+                        {
+                            "title": "\u4eba\u6c17TV\u756a\u7d44",
+                            "query": "OrderBy=SalesRank&ContentType=TVSeason&parentalControlsFilter=true&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                            "id": "all-tv-1"
+                        },
+                        {
+                            "title": "\u65b0\u7740TV\u756a\u7d44",
+                            "query": "ContentType=TVEpisode&RollUpToSeason=T&OrderBy=AvailabilityDate&MinAmazonRatingCount=40&HideNum=T&Preorder=F&Detailed=T&AID=1",
+                            "id": "all-tv-2"
+                        },
+                        {
+                            "id": "tv_shows_all_deals",
+                            "categories": [
+                                {
+                                    "title": "\u7121\u6599\u52d5\u753b",
+                                    "query": "MaxPrice=1&amp;ContentType=TVSeason&OrderBy=SalesRank&ExcludeContentRating=R18%2B&ExcludeStudio=tbd,test",
+                                    "id": "all-tv-deal-4"
+                                }
+                            ],
+                            "title": "\u30bb\u30fc\u30eb\u30fb\u7279\u96c6"
+                        },
+                        {
+                            "title": "\u30ab\u30c6\u30b4\u30ea\u30fc\u4e00\u89a7",
+                            "id": "tv_shows_by_category",
+                            "categories": [
+                                {
+                                    "title": "\u30a2\u30e1\u30ea\u30ab\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "Genre=AmericanTVDrama&ContentType=TVSeason&OrderBy=SalesRank&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&parentalControlsFilter=true&HideNum=T&AID=1",
+                                    "id": "all-tv-category-1"
+                                },
+                                {
+                                    "title": "\u65e5\u672c\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "Genre=JapaneseTVDrama&OrderBy=SalesRank&amp;ContentType=TVSeason&parentalControlsFilter=true&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                                    "id": "all-tv-category-2"
+                                },
+                                {
+                                    "title": "\u305d\u306e\u4ed6\u5916\u56fd\u306eTV\u30c9\u30e9\u30de",
+                                    "query": "Genre=OtherForeignTVDrama&ContentType=TVEpisode&amp;OrderBy=SalesRank&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&parentalControlsFilter=true&HideNum=T&AID=1",
+                                    "id": "all-tv-category-3"
+                                },
+                                {
+                                    "title": "\u30a2\u30cb\u30e1TV",
+                                    "query": "Genre=Anime&OrderBy=SalesRank&ContentType=TVEpisode&RollupToSeason=t&RollupToSeason=t&parentalControlsFilter=true&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                                    "id": "all-tv-category-4"
+                                },
+                                {
+                                    "title": "\u30ad\u30c3\u30ba\u30fb\u30d5\u30a1\u30df\u30ea\u30fcTV",
+                                    "query": "Genre=KidsFamily&ContentType=TVSeason&OrderBy=SalesRank&HasImage=T&Detailed=T&parentalControlsFilter=false&HideNum=T&AID=1&Preorder=F",
+                                    "id": "all-tv-category-5"
+                                },
+                                {
+                                    "title": "\u304a\u7b11\u3044\u30fb\u30d0\u30e9\u30a8\u30c6\u30a3TV",
+                                    "query": "Genre=ComedyVariety&ContentType=TVSeason&OrderBy=SalesRank",
+                                    "id": "all-tv-category-6"
+                                },
+                                {
+                                    "title": "\u30c9\u30ad\u30e5\u30e1\u30f3\u30bf\u30ea\u30fcTV",
+                                    "query": "Genre=Documentary&amp;ContentType=TVSeason&OrderBy=SalesRank&ExcludeContentRating=G,PG,TV-Y,TV-Y7,TV-Y7-FV,TV-G,TV-PG,NR&ExcludeContractId=UXCF1&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&parentalControlsFilter=true&HideNum=T&AID=1",
+                                    "id": "all-tv-category-7"
+                                },
+                                {
+                                    "title": "\u30db\u30d3\u30fc\u30fb\u5b9f\u7528TV",
+                                    "query": "Genre=Hobby&ContentType=TVEpisode&RollupToSeason=T&OrderBy=SalesRank&ExcludeContentRating=G,PG,TV-Y,TV-Y7,TV-Y7-FV,TV-G,TV-PG,NR&ExcludeContractId=UXCF1&HasImage=T&SuppressBlackedoutEST=T&Detailed=T&parentalControlsFilter=true&HideNum=T&AID=1",
+                                    "id": "all-tv-category-8"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "\u30a2\u30e1\u30ea\u30ab\u306eTV\u30c9\u30e9\u30de",
+                            "query": "Genre=AmericanTVDrama&OrderBy=SalesRank&ContentType=TVSeason&parentalControlsFilter=true&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                            "id": "all-tv-3"
+                        },
+                        {
+                            "title": "\u65e5\u672c\u306eTV\u30c9\u30e9\u30de",
+                            "query": "Genre=JapaneseTVDrama&amp;ContentType=TVSeason&OrderBy=SalesRank&ExcludeContentRating=R18%2B&HasImage=T&Preorder=F",
+                            "id": "all-tv-4"
+                        },
+                        {
+                            "title": "\u30a2\u30cb\u30e1TV",
+                            "query": "Genre=Anime&OrderBy=SalesRank&ContentType=TVEpisode&RollupToSeason=t&RollupToSeason=t&parentalControlsFilter=true&HideNum=T&Detailed=T&AID=1&SuppressBlackedoutEST=T",
+                            "id": "all-tv-5"
+                        }
+                    ]
+                }
+            ],
+            "title": "TV\u756a\u7d44"
+        }
+    ]
+}

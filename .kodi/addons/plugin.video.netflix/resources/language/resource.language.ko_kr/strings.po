@@ -1,0 +1,1256 @@
+# Kodi Media Center language file
+# Addon Name: Netflix
+# Addon id: plugin.video.netflix
+# Addon Provider: libdev, jojo, asciidisco, caphm, castagnait
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.netflix\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.video.netflix\n"
+"POT-Creation-Date: 2017-07-24 16:15+0000\n"
+"PO-Revision-Date: 2020-07-02 18:20+0900\n"
+"Last-Translator: Allen Choi<37539914+Thunderbird2086@users.noreply.github.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "Addon Description"
+msgid "Netflix VOD Services Add-on"
+msgstr "Netflix VOD 애드온"
+
+msgctxt "Addon Disclaimer"
+msgid "The use of this add-on may not be legal in your country of residence - please check with your local laws before installing."
+msgstr "일부 국가에서는 이 애드온을 사용하는 것이 불법일 수도 있으니, 설치하기전 관련 법을 확인하기 바랍니다."
+
+msgctxt "#30001"
+msgid "Recommendations"
+msgstr "추천콘텐츠"
+
+msgctxt "#30002"
+msgid "Enter PIN to watch restricted content"
+msgstr "제한된 콘텐츠를 보려면 PIN을 입력해야 합니다."
+
+#. Unused 30003
+msgctxt "#30004"
+msgid "Password"
+msgstr "암호"
+
+msgctxt "#30005"
+msgid "E-mail"
+msgstr "E-mail"
+
+msgctxt "#30006"
+msgid "Enter PIN to access this profile"
+msgstr "이 프로파일을 이용하려면 PIN을 입력하십시오."
+
+msgctxt "#30007"
+msgid "Parental Control PIN (4 digits)"
+msgstr "자녀보호PIN(4자리숫자)"
+
+msgctxt "#30008"
+msgid "Login failed"
+msgstr "로그인 실패"
+
+msgctxt "#30009"
+msgid "Please check your e-mail and password"
+msgstr "로그인 암호를 확인하십시오."
+
+msgctxt "#30010"
+msgid "Lists of all kinds"
+msgstr "장르"
+
+#. Unused 30011
+msgctxt "#30012"
+msgid "Profiles options and parental control"
+msgstr "프로파일 설정 및 시청제한"
+
+msgctxt "#30013"
+msgid "In the profile list, open the context menu in the chosen profile"
+msgstr "프로파일 목록에서 선택한 후, 바로가기 메뉴를 이용하십시오."
+
+msgctxt "#30014"
+msgid "Account"
+msgstr "계정"
+
+msgctxt "#30015"
+msgid "Other options"
+msgstr "기타"
+
+msgctxt "#30016"
+msgid "If you log out, all account data will be deleted, but the exported video files in the Kodi library will be preserved.[CR]Do you want to continue?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Logout"
+msgstr "로그아웃"
+
+msgctxt "#30018"
+msgid "Export to library"
+msgstr "라이브러리로 보내기"
+
+msgctxt "#30019"
+msgid "Rate on Netflix"
+msgstr "평점주기"
+
+msgctxt "#30020"
+msgid "Remove from 'My list'"
+msgstr "찜한 것들에서 삭제"
+
+msgctxt "#30021"
+msgid "Add to 'My list'"
+msgstr "찜한 것들에 추가"
+
+msgctxt "#30022"
+msgid "(between 0 and 10)"
+msgstr "(0-10 사이)"
+
+msgctxt "#30023"
+msgid "Expert"
+msgstr "고급설정"
+
+msgctxt "#30024"
+msgid "SSL verification"
+msgstr "SSL인증"
+
+msgctxt "#30025"
+msgid "Library"
+msgstr "라이브러리"
+
+msgctxt "#30026"
+msgid "Enable custom library folder"
+msgstr "개인라이브러리를 사용합니다."
+
+msgctxt "#30027"
+msgid "Custom library path"
+msgstr "개인라이브러리 위치"
+
+msgctxt "#30028"
+msgid "Playback error"
+msgstr "재생 오류"
+
+#. Unused 30029
+msgctxt "#30030"
+msgid "Remove from library"
+msgstr "라이브러리에서 지우기"
+
+msgctxt "#30031"
+msgid "General"
+msgstr "일반설정"
+
+msgctxt "#30032"
+msgid "Codecs"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Enable Dolby Digital Plus codec (Atmos on Premium account)"
+msgstr ""
+
+#. Unused 30034
+msgctxt "#30035"
+msgid "InputStream Adaptive settings..."
+msgstr "InputStream 애드온 설정"
+
+#. Unused 30036
+msgctxt "#30037"
+msgid "Skin viewtypes"
+msgstr "스킨뷰 타입"
+
+msgctxt "#30038"
+msgid "Enable custom viewtypes"
+msgstr "커스텀뷰 사용"
+
+msgctxt "#30039"
+msgid "View ID for folders"
+msgstr "폴더의 뷰아이디"
+
+msgctxt "#30040"
+msgid "View ID for movies"
+msgstr "영화의 뷰아이디"
+
+msgctxt "#30041"
+msgid "View ID for shows"
+msgstr "TV프로그램의 뷰아이디"
+
+msgctxt "#30042"
+msgid "View ID for seasons"
+msgstr "시즌의 뷰아이디"
+
+msgctxt "#30043"
+msgid "View ID for episodes"
+msgstr "에피소드의 뷰아이디"
+
+msgctxt "#30044"
+msgid "View ID for profiles"
+msgstr "프로파일의 뷰아이디"
+
+msgctxt "#30045"
+msgid "Thumb rating removed|You rated a thumb down|You rated a thumb up"
+msgstr "엄지평점 없음|별로에요|좋아요"
+
+msgctxt "#30046"
+msgid "There is a problem with InputStream Adaptive add-on or the Widevine library. May be missing or not enabled, the operation will be cancelled."
+msgstr "InputStream Adaptive 혹은 Widevine에 문제가 있습니다. 설치되지 않았거나 사용하지 않음으로 되어 있어 동작을 취소합니다."
+
+msgctxt "#30047"
+msgid "Library update in progress"
+msgstr "라이브러를 새로 고치는 중"
+
+msgctxt "#30048"
+msgid "Exported"
+msgstr "내보낸 것들"
+
+msgctxt "#30049"
+msgid "Library"
+msgstr "라이브러리"
+
+msgctxt "#30050"
+msgid "Enable Kodi library management"
+msgstr ""
+
+#. Unused 30051
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30052"
+msgid "{} Set for library playback"
+msgstr "{} 라이브러리로부터 재생 설정"
+
+#. Unused 30053, 30054
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30055"
+msgid "{} Set at start-up"
+msgstr ""
+
+#. Unused 30056
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30057"
+msgid "{} Remember PIN"
+msgstr ""
+
+#. Unused 30058
+msgctxt "#30059"
+msgid "Be careful, you are about to update many titles {}.[CR]This may cause service problems or temporary ban of the account.[CR]Do you want to continue?"
+msgstr "상당히 많은 수({})를 새로 고치려고하는 군요.[CR]심각한 문제를 일으키거나 잠시 계정을 사용하지 못할 수도 있으니 주의하십시오.[CR]계속 하시렵니까?"
+
+msgctxt "#30060"
+msgid "Enable HEVC codec (4k/HDR/DolbyVision for Android)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Update inside library"
+msgstr "라이브러리 새로 고침"
+
+msgctxt "#30062"
+msgid "Parental controls"
+msgstr "부모의 통제"
+
+msgctxt "#30063"
+msgid "An update is already in progress"
+msgstr "새로 고치고 있는 중입니다."
+
+msgctxt "#30064"
+msgid "Perform auto-update"
+msgstr "언제?"
+
+msgctxt "#30065"
+msgid "Video library update"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Enable debug logging"
+msgstr "디버그로그 사용"
+
+msgctxt "#30067"
+msgid "daily"
+msgstr "매일"
+
+msgctxt "#30068"
+msgid "every other day"
+msgstr "이틀에 한번"
+
+msgctxt "#30069"
+msgid "every 5 days"
+msgstr "닷새에 한번"
+
+msgctxt "#30070"
+msgid "weekly"
+msgstr "매주"
+
+msgctxt "#30071"
+msgid "Time of Day"
+msgstr "실행 시간"
+
+msgctxt "#30072"
+msgid "Only start after 5 minutes of idle"
+msgstr "5분이상 빈둥거리면 시작합니다."
+
+msgctxt "#30073"
+msgid "Always show codec information during video playback"
+msgstr "코덱정보를 항상 표시"
+
+msgctxt "#30074"
+msgid "View for exported"
+msgstr "내보낸 것들"
+
+msgctxt "#30075"
+msgid "Ask to skip intro and recap"
+msgstr "건너뛸 때 물어보기"
+
+msgctxt "#30076"
+msgid "Skip intro"
+msgstr "오프닝 건너뛰기"
+
+msgctxt "#30077"
+msgid "Skip recap"
+msgstr "줄거리 건너뛰기"
+
+msgctxt "#30078"
+msgid "Playback"
+msgstr "재생"
+
+msgctxt "#30079"
+msgid "Skip automatically"
+msgstr "자동으로 건너뛰기"
+
+msgctxt "#30080"
+msgid "Pause when skipping"
+msgstr "건너뛸 때 멈추기"
+
+msgctxt "#30081"
+msgid "Force HDCP version on video streams"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Remember audio / subtitle preferences"
+msgstr "음성/자막 설정 기억하기"
+
+msgctxt "#30083"
+msgid "Force the display of forced subtitles only with the audio language set"
+msgstr "음성에 포함된 강제자막은 무조건 표시"
+
+msgctxt "#30084"
+msgid "Cache objects TTL (minutes)"
+msgstr "캐쉬보존시간(분단위)"
+
+msgctxt "#30085"
+msgid "Cache metadata TTL (days)"
+msgstr "메타데이타의 캐쉬보존기간(일단위)"
+
+msgctxt "#30086"
+msgid "Cache objects 'My list' TTL (minutes)"
+msgstr "'내가 찜한것'의 캐쉬보존기간(분단위)"
+
+msgctxt "#30087"
+msgid "Contains {} and more..."
+msgstr "{}을(를) 포함한 것들..."
+
+msgctxt "#30088"
+msgid "Browse related content"
+msgstr "비슷한 콘텐츠"
+
+msgctxt "#30089"
+msgid "Browse subgenres"
+msgstr "쟝르"
+
+msgctxt "#30090"
+msgid "Browse through related video lists and discover more content."
+msgstr "비슷한 비디오리스트를 검색하여 더 많은 컨텐츠를 찾습니다."
+
+msgctxt "#30091"
+msgid "Browse and manage contents that were exported to the Kodi library."
+msgstr "Kodi라이브러리로 내보낸 컨텐츠를 관리합니다."
+
+msgctxt "#30092"
+msgid "Search for content and easily find what you want to watch."
+msgstr "컨텐츠를 검색하여 보고 싶은 것을 쉽게 찾습니다."
+
+msgctxt "#30093"
+msgid "Browse content by genre and easily discover related content."
+msgstr "콘텐츠를 검색하여 비슷한 것을 찾습니다."
+
+msgctxt "#30094"
+msgid "Browse recommendations and pick up on something new you might like."
+msgstr "추천목록을 검색하여 혹시 좋아할 지도 모를 컨텐츠를 골라봅니다."
+
+msgctxt "#30095"
+msgid "All TV shows"
+msgstr "TV 프로그램 전체"
+
+msgctxt "#30096"
+msgid "All Movies"
+msgstr "영화 전체"
+
+msgctxt "#30097"
+msgid "Main Menu"
+msgstr "홈"
+
+msgctxt "#30098"
+msgid "Enable HDR10"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Enable Dolby Vision"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Results for '{}'"
+msgstr "'{}'의 검색 결과"
+
+msgctxt "#30101"
+msgid "Netflix returned an unknown error."
+msgstr "Netflix로부터 알수 없는 오류."
+
+msgctxt "#30102"
+msgid "Netflix returned the following error:"
+msgstr "Netflix로부터의 오류내용:"
+
+msgctxt "#30103"
+msgid "Error details have been written to the Kodi log file. If the error message does not provide guidance on how to resolve the issue or you continue to receive this error, please report it on GitHub by following the Readme instructions."
+msgstr "자세한 내용은 Kodi 로그파일을 참고하십시오. 로그에 해결 방법이 나와 았지 않거나 계속 이 내용을 보게 되면, Github의 Readme에 나온 대로 우리에게 알려 주십시오."
+
+msgctxt "#30104"
+msgid "The add-on encountered the following error:"
+msgstr "오류가 생겼습니다:"
+
+msgctxt "#30105"
+msgid "Netflix Add-on Error"
+msgstr "Netflix애드온 오류"
+
+msgctxt "#30106"
+msgid "Invalid PIN"
+msgstr "PIN이 틀렸습니다."
+
+msgctxt "#30107"
+msgid "PIN protection is off."
+msgstr "PIN보호 사용안함"
+
+msgctxt "#30108"
+msgid "All content is protected by PIN."
+msgstr "모든 콘텐츠에 PIN을 사용합니다."
+
+msgctxt "#30109"
+msgid "Login successful"
+msgstr "로그인 성공"
+
+#. Unused 30110
+msgctxt "#30111"
+msgid "There is no contents"
+msgstr "없습니다."
+
+msgctxt "#30112"
+msgid "You need to be logged in to use Netflix"
+msgstr "Netflix를 보려면 먼저 로그인 하십시오."
+
+msgctxt "#30113"
+msgid "Logout successful"
+msgstr "로그인 하였습니다."
+
+#. Unused 30114, 30115
+msgctxt "#30116"
+msgid "Advanced Add-on Configuration"
+msgstr "고급설정"
+
+msgctxt "#30117"
+msgid "Cache"
+msgstr "캐쉬"
+
+#. Unused 30118, 30119
+msgctxt "#30120"
+msgid "Cannot automatically remove a season from Kodi library, please do it manually"
+msgstr "Kodi라이브러리에서 시진을 지우지 못 했습니다. 수동으로 삭제해 주십시오."
+
+msgctxt "#30121"
+msgid "Perform full sync now"
+msgstr "전체 동기를 시작합니다."
+
+msgctxt "#30122"
+msgid "Sync 'My list' to Kodi library"
+msgstr "찜한 것들과 Kodi 라이브러리를 동기화"
+
+msgctxt "#30123"
+msgid "Do you want to continue?[CR]The full synchronization will delete all previously exported titles.[CR]If there are many titles this operation may take some time."
+msgstr "전체 동기를 하면 전에 내보냈던 것들이 모두 지워집니다.[CR]타이틀이 많은 경우에는 시간이 걸립니다.[CR]계속 하시렵니까?"
+
+msgctxt "#30124"
+msgid "Do you want to remove this item from the library?"
+msgstr "정말로 지우시렵니까?"
+
+msgctxt "#30125"
+msgid "Delete library contents"
+msgstr "라이브러리를 지웁니다."
+
+msgctxt "#30126"
+msgid "Do you really want to purge your library?[CR]All exported items will be deleted."
+msgstr "라이브러리를 삭제하시렵니까?[CR]내보낸 것들을 모두 지웁니다."
+
+msgctxt "#30127"
+msgid "Awarded rating of {}"
+msgstr "{}의 평가로 상을 받았습니다."
+
+msgctxt "#30128"
+msgid "Select a profile"
+msgstr "프로파일 선택"
+
+msgctxt "#30129"
+msgid "Enable Up Next integration"
+msgstr "Up Next 기능 사용"
+
+msgctxt "#30130"
+msgid "Install Up Next add-on"
+msgstr "Up Next 애드온 설치"
+
+msgctxt "#30131"
+msgid "Check the logfile for detailed information"
+msgstr "자세한 내용은 로그파일을 확인하십시오."
+
+msgctxt "#30132"
+msgid "Clear in-memory cache"
+msgstr "메모리캐쉬 삭제"
+
+msgctxt "#30133"
+msgid "Clear in-memory and on-disk cache"
+msgstr "메모리/디스크 캐쉬 삭제"
+
+msgctxt "#30134"
+msgid "Enable execution timing"
+msgstr "실행시간"
+
+msgctxt "#30135"
+msgid "Cache cleared"
+msgstr "캐쉬를 지웠습니다."
+
+msgctxt "#30136"
+msgid "Waiting for service start-up..."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Enable VP9 codec"
+msgstr ""
+
+msgctxt "#30138"
+msgid "The background services may not yet be available if you just started Kodi/the add-on. In this case, try again in a moment."
+msgstr "이제 막 Kodi 혹은 애드온을 실행했으면, 백그라운드 서비스가 준비 되지 않았을 수 있으니 잠시후 다시 해 보십시오."
+
+msgctxt "#30139"
+msgid "Enable IPC over HTTP (use when Addon Signals timeout messages appear)"
+msgstr "HTTP경유의 IPC사용(애드온 타임아웃이 생기는 경우 사용해 보십시오)"
+
+msgctxt "#30140"
+msgid "Import existing library"
+msgstr "라이브러리에서 가져오기"
+
+#. Unused 30141 to 30143
+msgctxt "#30144"
+msgid "Disable WebVTT subtitle support"
+msgstr "WebVTT 자막 지원 안함"
+
+msgctxt "#30145"
+msgid "Recently added"
+msgstr "최신등록콘텐츠"
+
+msgctxt "#30146"
+msgid "Discover the latest content added."
+msgstr "추가된 새로운 컨텐츠를 찾아봅니다."
+
+msgctxt "#30147"
+msgid "Next page »"
+msgstr "다음 »"
+
+msgctxt "#30148"
+msgid "« Previous page"
+msgstr "« 이전"
+
+msgctxt "#30149"
+msgid "Sort results by"
+msgstr "정렬"
+
+msgctxt "#30150"
+msgid "Alphabetical order (A-Z)"
+msgstr "오름차순(ㄱ-Z)"
+
+msgctxt "#30151"
+msgid "Alphabetical order (Z-A)"
+msgstr "내림차순(Z-ㄱ)"
+
+msgctxt "#30152"
+msgid "Suggestions for you"
+msgstr "추천콘텐츠"
+
+msgctxt "#30153"
+msgid "Year released"
+msgstr "출시일순"
+
+msgctxt "#30154"
+msgid "Netflix configuration wizard"
+msgstr "Netflix애드온 설정"
+
+msgctxt "#30155"
+msgid "Do you have a Netflix Premium account?"
+msgstr "Netflix프리미엄계정을 가지고 있나요?"
+
+#. Unused 30156
+msgctxt "#30157"
+msgid "The configuration has been completed"
+msgstr "설정을 완료하였습니다."
+
+msgctxt "#30158"
+msgid "Restore the add-on default configuration"
+msgstr ""
+
+msgctxt "#30159"
+msgid "View ID for main menu"
+msgstr "첫 화면의 뷰아이디"
+
+msgctxt "#30160"
+msgid "View ID for search"
+msgstr "검색의 뷰아이디"
+
+msgctxt "#30161"
+msgid "View ID for exported"
+msgstr "내보낸 것들의 뷰아이디"
+
+msgctxt "#30162"
+msgid "Last used"
+msgstr "마지막으로 사용한 설정"
+
+msgctxt "#30163"
+msgid "Audio description"
+msgstr "음성지원"
+
+msgctxt "#30164"
+msgid "Browse contents with audio description."
+msgstr "음성지원"
+
+msgctxt "#30165"
+msgid "View ID for 'My list'"
+msgstr "'내가 찜한 콘텐츠'의 뷰아이디"
+
+msgctxt "#30166"
+msgid "Main menu items"
+msgstr "첫 화면"
+
+msgctxt "#30167"
+msgid "My list"
+msgstr "내가 찜한 콘텐츠"
+
+msgctxt "#30168"
+msgid "Continue watching"
+msgstr "시청 중인 콘텐츠"
+
+msgctxt "#30169"
+msgid "Top picks"
+msgstr "취향 저격 베스트 콘텐츠"
+
+msgctxt "#30170"
+msgid "New releases"
+msgstr "신규콘텐츠"
+
+msgctxt "#30171"
+msgid "Trending now"
+msgstr "지금 뜨는 콘텐츠"
+
+msgctxt "#30172"
+msgid "Popular on Netflix"
+msgstr "Netflix 인기 콘텐츠"
+
+msgctxt "#30173"
+msgid "Netflix Originals"
+msgstr "Netflix 오리지널"
+
+msgctxt "#30174"
+msgid "TV show genres"
+msgstr "TV 프로그램"
+
+msgctxt "#30175"
+msgid "Movie genres"
+msgstr "영화"
+
+msgctxt "#30176"
+msgid "Enable STRM resume workaround"
+msgstr "보던 곳 부터 보기기능 사용"
+
+msgctxt "#30177"
+msgid "Ask to resume the video"
+msgstr "보던 곳부터 볼 것인지 물어 봅니다."
+
+msgctxt "#30178"
+msgid "Open Up Next add-on settings"
+msgstr "Up Next애드온 설정화면"
+
+msgctxt "#30179"
+msgid "Show trailers and more"
+msgstr "예고편 및 다른 영상"
+
+msgctxt "#30180"
+msgid "There has been a problem with login, it is possible that your account has not been confirmed or reactivated."
+msgstr "로그인에 문제가 있습니다. 계정이 아직 처리 중이거나 활성화 되지 않았을 수 있습니다."
+
+msgctxt "#30181"
+msgid "Always show the subtitles when the preferred audio language is not available"
+msgstr "원하는 음성이 없으면, 항상 자막을 보여줍니다."
+
+msgctxt "#30182"
+msgid "Export NFO files"
+msgstr "NFO파일 내보내기"
+
+msgctxt "#30183"
+msgid "Do you want to export NFO files for the {}?"
+msgstr "{}의 NFO파일을 내보낼까요?"
+
+msgctxt "#30184"
+msgid "NFO Files"
+msgstr "NFO파일"
+
+msgctxt "#30185"
+msgid "Enable NFO files export"
+msgstr "NFO파일을 내보냅니다"
+
+msgctxt "#30186"
+msgid "For Movies"
+msgstr "영화"
+
+msgctxt "#30187"
+msgid "For TV show"
+msgstr "TV프로그램"
+
+msgctxt "#30188"
+msgid "Ask"
+msgstr "물어봄"
+
+msgctxt "#30189"
+msgid "movie"
+msgstr "영화"
+
+msgctxt "#30190"
+msgid "TV show"
+msgstr "TV프로그램"
+
+#. Unused 30191
+msgctxt "#30192"
+msgid "[CR]These files are used by the provider information scrapers to integrate movies and TV shows info, useful with bonus episodes or director's cut"
+msgstr "[CR]영화나 TV프로그램의 정보, 보너스 에피소드 또는 감독판등의 정보를 수집하는 정보제공자가 이 파일을 사용합니다."
+
+msgctxt "#30193"
+msgid "Include tv show NFO details"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Limit video stream resolution to"
+msgstr "해상도 제한"
+
+msgctxt "#30195"
+msgid "Export new episodes"
+msgstr "새로운 에피소드를 내보냅니다."
+
+msgctxt "#30196"
+msgid "Exclude from auto update"
+msgstr "자동 업데이트는 제외"
+
+msgctxt "#30197"
+msgid "Include in auto update"
+msgstr "자동 업데이트 포함"
+
+msgctxt "#30198"
+msgid "Exporting new episodes"
+msgstr "새로운 에피소드를 내보내는 중"
+
+msgctxt "#30199"
+msgid "Shared library (Kodi MySQL server is required)"
+msgstr "공유라이브러리(Kodi MySQL서버가 필요합니다)"
+
+msgctxt "#30200"
+msgid "Use shared library MySQL-database"
+msgstr "MySQL 공유라이브러리 데이타베이스를 사용합니다."
+
+msgctxt "#30201"
+msgid "Username"
+msgstr "사용자이름"
+
+msgctxt "#30202"
+msgid "Connection to the MySQL-database was successful"
+msgstr "MySQL과 접속하였습니다."
+
+msgctxt "#30203"
+msgid "Host IP"
+msgstr "IP"
+
+msgctxt "#30204"
+msgid "Port"
+msgstr "포트"
+
+msgctxt "#30205"
+msgid "Test database connection"
+msgstr "데이타베이스 시험접속"
+
+msgctxt "#30206"
+msgid "ERROR: The MySQL-database is not reachable - the local database will be used"
+msgstr "ERROR: MySQL 데이터베이스와 연결되지 않아, 로컬 데이타베이스를 사용합니다."
+
+msgctxt "#30207"
+msgid "Set this device as main auto-updates manager"
+msgstr "이 장치를 자동 업데이트 매니저로 사용합니다."
+
+msgctxt "#30208"
+msgid "Check if this device is the main auto-update manager"
+msgstr "이 장치가 주 매니저인지 확인합니다."
+
+msgctxt "#30209"
+msgid "This device now handles the auto-updates of the shared library"
+msgstr "이 장치가 공유라이브러리의 자동 업데이트를 지금 합니다."
+
+msgctxt "#30210"
+msgid "This device handles the auto-updates of the shared library"
+msgstr "이 장치가 공유라이브러리의 자동 업데이트를 합니다."
+
+msgctxt "#30211"
+msgid "Another device handles the auto-updates of the shared library"
+msgstr "다른 장치가 공유라이브러리의 자동 업데이트를 합니다."
+
+msgctxt "#30212"
+msgid "There is no device that handles the auto-updates of the shared library"
+msgstr "공유라이브러리를 자동업데이트할 장치가 없습니다."
+
+msgctxt "#30213"
+msgid "InputStream Helper settings..."
+msgstr "InputStream Helper 애드온 설정"
+
+msgctxt "#30214"
+msgid "Force refresh"
+msgstr "강제로 새로 고칩니다"
+
+msgctxt "#30215"
+msgid "Color of the titles included in \"My list\""
+msgstr "찜한 것에 있는 타이틀을 색으로 강조"
+
+msgctxt "#30216"
+msgid "Color of the titles marked as \"Remind me\""
+msgstr ""
+
+#. Unused 30217 to 30218
+msgctxt "#30219"
+msgid "Disable notification for synchronization completed"
+msgstr "동기화완료 알림을 사용하지 않습니다."
+
+msgctxt "#30220"
+msgid "The Kodi library has been updated"
+msgstr "Kodi라이브러리를 새로 고쳤습니다."
+
+msgctxt "#30221"
+msgid "Owner account"
+msgstr "주인장"
+
+msgctxt "#30222"
+msgid "Kid account"
+msgstr "키즈"
+
+#. Unused 30223
+msgctxt "#30224"
+msgid "Auto update mode"
+msgstr "자동으로 고치기"
+
+msgctxt "#30225"
+msgid "Manual"
+msgstr "수동"
+
+msgctxt "#30226"
+msgid "Scheduled"
+msgstr "자동"
+
+msgctxt "#30227"
+msgid "Synchronize Kodi library with 'My list'"
+msgstr "Kodi라이브러리와 내가 찜한 것들을 동기화"
+
+msgctxt "#30228"
+msgid "Set a profile for synchronization"
+msgstr "동기화할 프로파일을 설정합니다."
+
+msgctxt "#30229"
+msgid "When Kodi starts"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Check for updates now"
+msgstr "업데이트를 지금 확인합니다"
+
+msgctxt "#30231"
+msgid "Do you want to check update now?"
+msgstr "업데이트를 확인하시렵니까?"
+
+msgctxt "#30232"
+msgid "Profile maturity rating for {}"
+msgstr "{} 프로파일의 관람등급"
+
+msgctxt "#30233"
+msgid "Only show titles rated [B]{}[/B]."
+msgstr "[B]{}[/B]의 콘텐츠만 보여줍니다."
+
+#. Unused 30234
+msgctxt "#30235"
+msgid "Synchronize the watched status of the videos with Netflix"
+msgstr "시청상태를 Netflix와 동기화합니다."
+
+msgctxt "#30236"
+msgid "Change watched status (locally)"
+msgstr "시청상태를 변경(Kodi에서만)"
+
+msgctxt "#30237"
+msgid "Marked as watched|Marked as unwatched|Restored Netflix watched status"
+msgstr "본것으로|안본것으로|Netflix로부터"
+
+msgctxt "#30238"
+msgid "Up Next notifications (watch next video)"
+msgstr "Up Next알림(다음것 보기)"
+
+msgctxt "#30239"
+msgid "Color of supplemental plot info"
+msgstr "추가정보에 사용할 색"
+
+msgctxt "#30240"
+msgid "The background services cannot be started due to this problem:[CR]{}"
+msgstr "백그라운드 서비스를 시작하지 못한 이유는:[CR]{}"
+
+msgctxt "#30241"
+msgid "Open Connect CDN (the lower index is better)"
+msgstr "Open Connect CDN서버 설정(낮을 수록 좋다)"
+
+msgctxt "#30242"
+msgid "Top 10"
+msgstr "상위10"
+
+msgctxt "#30243"
+msgid "Select first unwatched TV show episode"
+msgstr "보지않은 첫 에피소드를 선택"
+
+#. Unused 30244
+msgctxt "#30245"
+msgid "Deleting files exported to the library"
+msgstr "라이브러리로 내보낸 것들을 삭제 중"
+
+msgctxt "#30246"
+msgid "There are {} titles that cannot be imported.[CR]Do you want to delete these files?"
+msgstr "{}개의 타이틀을 가져올 수 없습니다.[CR]삭제하시렵니까?"
+
+msgctxt "#30247"
+msgid "Results per page (in case of timeout error decrease it)"
+msgstr "한페이지에 보여줄 검색결과(타임아웃이 생기면 줄이시오)"
+
+#. Unused 30248 to 30299
+msgctxt "#30300"
+msgid "Do you want to remove watched status of \"{}\"?"
+msgstr "{}의 시청상태를 지울까요?"
+
+msgctxt "#30301"
+msgid "Include Kodi library (only sending data)"
+msgstr "Kodi라이브러리에 포함시킵니다(보낸 데이터만)"
+
+#. Unused 30302 to 30339
+msgctxt "#30340"
+msgid "Choose the login method[CR](if the login with E-Mail/Password always returns \"incorrect password\", then use Authentication key, instructions in the GitHub ReadMe)"
+msgstr "로그인방법을 고르시지요[CR](E-Mail/암호에서 계속 \"암호가 틀렸다\"고 하면, 인증키를 사용해 보십시오. GitHub의 ReadMe에 설명이 있습니다."
+
+msgctxt "#30341"
+msgid "E-Mail/Password"
+msgstr "E-Mail/암호"
+
+msgctxt "#30342"
+msgid "Authentication key"
+msgstr "인증키"
+
+msgctxt "#30343"
+msgid "The selected file is not compatible or corrupted"
+msgstr "호환성이 없거나 망가진 화일을 골랐습니다."
+
+msgctxt "#30344"
+msgid "The authentication key file is expired"
+msgstr "인증키의 유효기간이 지났습니다."
+
+msgctxt "#30345"
+msgid "Enter PIN"
+msgstr "PIN을 입력하시오"
+
+#. Unused 30346 to 30398
+msgctxt "#30399"
+msgid "Sort history by"
+msgstr "검색기록 정렬"
+
+msgctxt "#30400"
+msgid "Search"
+msgstr "검색"
+
+msgctxt "#30401"
+msgid "Type of search"
+msgstr "검색 방법"
+
+msgctxt "#30402"
+msgid "Search titles, people, genres"
+msgstr "타이틀, 인물, 장르"
+
+msgctxt "#30403"
+msgid "New search..."
+msgstr "새로운 검색"
+
+msgctxt "#30404"
+msgid "Clear search history"
+msgstr "검색 결과 삭제"
+
+msgctxt "#30405"
+msgid "Select the language"
+msgstr "언어"
+
+msgctxt "#30406"
+msgid "Do you want to delete the entire contents?"
+msgstr "모두 다 지울까요?"
+
+msgctxt "#30407"
+msgid "No matches found"
+msgstr "일치하는 것이 없습니다."
+
+#. Unused 30408, 30409
+msgctxt "#30410"
+msgid "By term"
+msgstr "항목"
+
+msgctxt "#30411"
+msgid "By audio language"
+msgstr "음성"
+
+msgctxt "#30412"
+msgid "By subtitles language"
+msgstr "자막"
+
+msgctxt "#30413"
+msgid "By genre/subgenre ID"
+msgstr "장르/서브장르ID"
+
+#. Unused 30414 to 30499
+msgctxt "#30500"
+msgid "Prefer the audio/subtitle language with country code (if available)"
+msgstr "(사용할 수 있으면)국가코드가 있는 음성/자막을 먼저 선택합니다."
+
+msgctxt "#30501"
+msgid "Prefer stereo audio tracks by default"
+msgstr "스테레오 음성을 먼저 선택합니다."
+
+#. Unused 30502 to 30599
+msgctxt "#30600"
+msgid "ESN / Widevine settings"
+msgstr "ESN/Widevine 설정"
+
+msgctxt "#30601"
+msgid "ESN:"
+msgstr "ESN:"
+
+msgctxt "#30602"
+msgid "Change ESN"
+msgstr "ESN변경"
+
+msgctxt "#30603"
+msgid "Save system info"
+msgstr "시스템 정보 저장"
+
+msgctxt "#30604"
+msgid "Widevine - Force security level"
+msgstr "Widebine - 강제보안레벨"
+
+msgctxt "#30605"
+msgid "Force {}"
+msgstr "강제 {}"
+
+msgctxt "#30606"
+msgid "ESN set successfully[CR]Try to play a video"
+msgstr "ESN설정을 바꾸었습니다[CR]영상을 재생해 보십시오"
+
+msgctxt "#30607"
+msgid "This ESN cannot be used[CR]Try change ESN or reset ESN.[CR][CR]Error details:[CR]{}"
+msgstr "사용할 수 없는 ESN입니다[CR]ESN을 바꾸거나 다시 설정하십시오.[CR][CR]자세한 내용은:[CR]{}"
+
+msgctxt "#30608"
+msgid "Wrong ESN format"
+msgstr "ESN형식이 이상합니다."
+
+msgctxt "#30609"
+msgid "Do you want to reset all settings?"
+msgstr "전부 다시 설정할까요?"
+
+msgctxt "#30610"
+msgid "Use system-based encryption for credentials"
+msgstr "시스템에서 제공하는 암호화 사용"
+
+# Help description for setting id 30610
+msgctxt "#30611"
+msgid "[B]If disabled it will cause a security leak[/B]. If your operating system does not support it, you will be prompted to login each time you reboot the device, [B]only[/B] in this case disable it. If you change this setting you will be prompted to login again in the next time you reboot."
+msgstr "[B]이 기능을 끄면, 보안이 약해질 수 있습니다.[/B] OS에서 [B]지원하지 않을 경우에만[/B] 끄고, 재기동할때마다 로그인을 해야합니다. 설정을 바꾸면, 다음번에 재기동할 때 다시 로그인을 해야합니다."
+
+msgctxt "#30612"
+msgid "MSL manifest version"
+msgstr "MSL버전"
+
+#. Unused 30613 to 30619
+msgctxt "#30620"
+msgid "This title will be available from:[CR]{}"
+msgstr "{}[CR]공개"
+
+msgctxt "#30621"
+msgid "Do you want to play the promo trailer?"
+msgstr "예고편을 재생할까요?"
+
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30622"
+msgid "{} Remind me"
+msgstr "알림받기 {}"
+
+#. Unused 30623 to 30699
+msgctxt "#30700"
+msgid "New and popular"
+msgstr "NEW! 요즘 대세 콘텐츠"
+
+msgctxt "#30701"
+msgid "Marks started tv shows as watched"
+msgstr "보기 시작한 TV시리즈를 본 것으로 설정"
+
+#. Description of setting ID #30701
+msgctxt "#30702"
+msgid "Please note that by enabling this setting if filters are enabled in your Skin settings, items marked as watched may not be visible."
+msgstr "이 기능을 사용하면, 스킨설정에 따라 본 것으로 설정한 것들이 나타나지 않을 수도 있습니다."
+
+msgctxt "#30703"
+msgid "Override stream selection type"
+msgstr "스트림설정 방법을 무시"
+
+msgctxt "#30704"
+msgid "Override the Stream selection type setting of the InputStream Adaptive add-on, to set how the audio / video streams quality will be chosen during playback."
+msgstr "InputStream 애드온의 설정을 무시하고, 재생 중에 음성과 화질을 선택할 수 있습니다."
+
+msgctxt "#30705"
+msgid "Adaptive quality"
+msgstr "해상도 자동조정"
+
+msgctxt "#30706"
+msgid "Fixed video quality"
+msgstr "화질고정"
+
+msgctxt "#30707"
+msgid "Ask video quality"
+msgstr "해상도 선택"
+
+msgctxt "#30720"
+msgid "Please note that enabling this setting will force the removal of streams that are not within the set range and this may affect the operation of InputStream Adaptive. If possible try limiting the quality from the InputStream Adaptive settings first."
+msgstr "이 기능을 사용하면 설정 범위 밖의 스트림을 삭제함으로서 InputStream Adaptive의 동작에 영향을 줄 수 있습니다. 가능하면 InputStream Adaptive의 설정에서 화질을 제한하는 것이 좋습니다."
+
+msgctxt "#30721"
+msgid "Size"
+msgstr ""
+
+#. Description of setting ID #30721
+msgctxt "#30722"
+msgid "Minimise the black bars by apply a zoom effect. [ Fixed ] Sets the percentage of screen space that black bars can occupy, will be constant for all videos. [ Relative ] Sets the percentage of black band minimisation, will depend on each video size. [ Reset ] Reset the zoom effect previously applied."
+msgstr ""
+
+#. Unused 30723
+#. Description of setting ID #30723
+msgctxt "#30724"
+msgid "This feature make use of Kodi zoom effect that is permanently stored in the \"View mode\" video setting, if you disable this feature in the future the zoom will be preserved, to reset the zoom change to \"Reset\" setting mode."
+msgstr ""
+
+#. Unused 30725, 30726
+msgctxt "#30727"
+msgid "Enable AV1 codec"
+msgstr ""
+
+msgctxt "#30728"
+msgid "Add Netflix folders to Kodi library sources"
+msgstr ""
+
+msgctxt "#30729"
+msgid "The folders \"Netflix-Movies\" and \"Netflix-Shows\" have been added to Kodi sources, restart Kodi to view them in the Kodi [TV Shows] / [Movies] menus. Then edit the folders to set the appropriate content type and information provider scraper."
+msgstr ""
+
+#. Description of setting ID 30224
+msgctxt "#30730"
+msgid "[Manual] updates must be done manually by using \"Export new episodes\" context menu on each tv show, [Scheduled] you can establish automatic updates at scheduled times, [When Kodi starts] automatic updates start at Kodi start-up and will only be done once a day."
+msgstr ""
+
+#. Description of setting ID 30227
+msgctxt "#30731"
+msgid "Synchronises the library with My list, if my list has been modified externally e.g. mobile app or website, the update will be postponed to the scheduled time."
+msgstr ""
+
+#. Description of setting ID 30185
+msgctxt "#30732"
+msgid "If enabled, adds information to episodes or movies that are useful when Kodi information provider scraper does not provide data. This will also add the duration of the videos."
+msgstr ""
+
+#. Description of setting ID 30193
+msgctxt "#30733"
+msgid "Only enable if \"Local Information\" information provider scraper is used, or if certain titles are not displayed in Kodi library despite having been added."
+msgstr ""
+
+msgctxt "#30734"
+msgid "Support"
+msgstr ""
+
+msgctxt "#30735"
+msgid "About Netflix add-on"
+msgstr ""
+
+msgctxt "#30736"
+msgid "Automatically generates new ESNs (workaround for 540p limit)"
+msgstr ""
+
+msgctxt "#30737"
+msgid "WARNING: Do not use the original device ESN of the official app."
+msgstr ""
+
+msgctxt "#30738"
+msgid "Enable audio offset"
+msgstr ""
+
+msgctxt "#30739"
+msgid "Audio offset"
+msgstr ""
+
+#. Description of setting ID 30739
+msgctxt "#30740"
+msgid "Sets the audio offset by overriding the Kodi setting"
+msgstr ""
+
+msgctxt "#30741"
+msgid "Enable VP9 Profile 2 (10/12 bit color depth)"
+msgstr ""
+
+msgctxt "#30742"
+msgid "Do you want to enable HDR10 support?"
+msgstr ""
+
+msgctxt "#30743"
+msgid "Do you want to enable HDR Dolby Vision support?"
+msgstr ""
+
+#. Description of setting ID 30081
+msgctxt "#30744"
+msgid "The add-on already sets the appropriate HDCP version, but if required you can force the request of video streams for a different HDCP version."
+msgstr ""
+
+msgctxt "#30745"
+msgid "If your device does not support this codec, you may experience black screen, no image or corrupted images. If so disable the codec."
+msgstr ""
+
+msgctxt "#30746"
+msgid "Black bars minimise mode"
+msgstr ""
+
+msgctxt "#30747"
+msgid "Fixed"
+msgstr ""
+
+msgctxt "#30748"
+msgid "Relative"
+msgstr ""
+
+msgctxt "#30749"
+msgid "Reset"
+msgstr ""

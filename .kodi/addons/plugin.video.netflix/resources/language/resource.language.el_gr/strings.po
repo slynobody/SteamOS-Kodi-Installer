@@ -1,0 +1,1256 @@
+# Kodi Media Center language file
+# Addon Name: Netflix
+# Addon id: plugin.video.netflix
+# Addon Provider: libdev, jojo, asciidisco, caphm, castagnait
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.netflix\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.video.netflix\n"
+"POT-Creation-Date: 2017-07-24 16:15+0000\n"
+"PO-Revision-Date: 2020-03-09 20:40+0000\n"
+"Last-Translator: Twilight0 <>\n"
+"Language-Team: Greek (Greece)\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Netflix"
+msgstr "Νέτφλιξ"
+
+msgctxt "Addon Description"
+msgid "Netflix VOD Services Add-on"
+msgstr "Πρόσθετο υπηρεσιών κατά παραγγελία του Νέτφλιξ"
+
+msgctxt "Addon Disclaimer"
+msgid "The use of this add-on may not be legal in your country of residence - please check with your local laws before installing."
+msgstr "Η χρήση αυτού του προσθέτου μπορεί να μην είναι νόμιμη στην χώρα που κατοικείτε - παρακαλώ ελέγξτε τους τοπικούς νόμους πριν την εγκατάσταση."
+
+msgctxt "#30001"
+msgid "Recommendations"
+msgstr "Προτάσεις"
+
+msgctxt "#30002"
+msgid "Enter PIN to watch restricted content"
+msgstr "Εισάγετε το ΠΙΝ για την παρακολούθηση περιορισμένου περιεχομένου"
+
+#. Unused 30003
+msgctxt "#30004"
+msgid "Password"
+msgstr "Κωδικός"
+
+msgctxt "#30005"
+msgid "E-mail"
+msgstr "Ηλ.ταχυδρομείο"
+
+msgctxt "#30006"
+msgid "Enter PIN to access this profile"
+msgstr "Εισάγετε το PIN για να προσπελάσετε αυτό το προφίλ"
+
+msgctxt "#30007"
+msgid "Parental Control PIN (4 digits)"
+msgstr "ΠΙΝ γονικού ελέγχου (4 ψηφία)"
+
+msgctxt "#30008"
+msgid "Login failed"
+msgstr "Αποτυχία εισόδου"
+
+msgctxt "#30009"
+msgid "Please check your e-mail and password"
+msgstr "Παρακαλώ ελέγξτε την διεύθυνση ηλ.ταχυδρομείου και τον κωδικό"
+
+msgctxt "#30010"
+msgid "Lists of all kinds"
+msgstr "Λίστες όλων των ειδών"
+
+#. Unused 30011
+msgctxt "#30012"
+msgid "Profiles options and parental control"
+msgstr "Επιλογές προφίλ και γονικού ελέγχου"
+
+msgctxt "#30013"
+msgid "In the profile list, open the context menu in the chosen profile"
+msgstr "Άνοιγμα εναλλακτικού μενού στο επιλεγμένο προφίλ μέσα στην λίστα τους"
+
+msgctxt "#30014"
+msgid "Account"
+msgstr "Λογαριασμός"
+
+msgctxt "#30015"
+msgid "Other options"
+msgstr "Άλλες επιλογές"
+
+msgctxt "#30016"
+msgid "If you log out, all account data will be deleted, but the exported video files in the Kodi library will be preserved.[CR]Do you want to continue?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+msgctxt "#30018"
+msgid "Export to library"
+msgstr "Εξαγωγή στην βιβλιοθήκη"
+
+msgctxt "#30019"
+msgid "Rate on Netflix"
+msgstr "Βαθμολόγηση στο Νέτφλιξ"
+
+msgctxt "#30020"
+msgid "Remove from 'My list'"
+msgstr "Αφαίρεση από την 'Λίστα μου'"
+
+msgctxt "#30021"
+msgid "Add to 'My list'"
+msgstr "Προσθήκη στην 'Λίστα μου'"
+
+msgctxt "#30022"
+msgid "(between 0 and 10)"
+msgstr "(μεταξύ 0 & 10)"
+
+msgctxt "#30023"
+msgid "Expert"
+msgstr "Ειδικός"
+
+msgctxt "#30024"
+msgid "SSL verification"
+msgstr "Επαλήθευση SSL"
+
+msgctxt "#30025"
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+msgctxt "#30026"
+msgid "Enable custom library folder"
+msgstr "Ενεργοποίηση προσαρμοσμένου φακέλου βιβλιοθήκης"
+
+msgctxt "#30027"
+msgid "Custom library path"
+msgstr "Διαδρομή προσαρμοσμένου φακέλου βιβλιοθήκης"
+
+msgctxt "#30028"
+msgid "Playback error"
+msgstr "Αποτυχία αναπαραγωγής"
+
+#. Unused 30029
+msgctxt "#30030"
+msgid "Remove from library"
+msgstr "Αφαίρεση από την βιβλιοθήκη"
+
+msgctxt "#30031"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "#30032"
+msgid "Codecs"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Enable Dolby Digital Plus codec (Atmos on Premium account)"
+msgstr ""
+
+#. Unused 30034
+msgctxt "#30035"
+msgid "InputStream Adaptive settings..."
+msgstr "Ρυθμίσεις προσθέτου InputStream"
+
+#. Unused 30036
+msgctxt "#30037"
+msgid "Skin viewtypes"
+msgstr "Τύποι εμφάνισης του κελύφους"
+
+msgctxt "#30038"
+msgid "Enable custom viewtypes"
+msgstr "Ενεργοποίηση τροποποιημένων τύπων εμφάνισης κελύφους"
+
+msgctxt "#30039"
+msgid "View ID for folders"
+msgstr "ID εμφάνισης για φακέλους"
+
+msgctxt "#30040"
+msgid "View ID for movies"
+msgstr "ID εμφάνισης για ταινίες"
+
+msgctxt "#30041"
+msgid "View ID for shows"
+msgstr "ID εμφάνισης για σειρές"
+
+msgctxt "#30042"
+msgid "View ID for seasons"
+msgstr "ID εμφάνισης για σεζόν"
+
+msgctxt "#30043"
+msgid "View ID for episodes"
+msgstr "ID εμφάνισης για επεισόδια"
+
+msgctxt "#30044"
+msgid "View ID for profiles"
+msgstr "ID εμφάνισης για προφίλ"
+
+msgctxt "#30045"
+msgid "Thumb rating removed|You rated a thumb down|You rated a thumb up"
+msgstr "Αφαιρέσατε την βαθμολόγηση|Βαθμολογήσατε αρνητικά|Βαθμολογήσατε θετικά"
+
+msgctxt "#30046"
+msgid "There is a problem with InputStream Adaptive add-on or the Widevine library. May be missing or not enabled, the operation will be cancelled."
+msgstr "Υπάρχει πρόβλημα με το πρόσθετο InputStream ή την βιβλιοθήκη Widevine. Μπορεί να λείπει ή να μην είναι ενεργοποιημένα, η διαδικασία θα ακυρωθεί."
+
+msgctxt "#30047"
+msgid "Library update in progress"
+msgstr "Ενημέρωση βιβλιοθήκης σε εξέλιξη"
+
+msgctxt "#30048"
+msgid "Exported"
+msgstr "Εξήχθη"
+
+msgctxt "#30049"
+msgid "Library"
+msgstr "Βιβλιοθήκη"
+
+msgctxt "#30050"
+msgid "Enable Kodi library management"
+msgstr ""
+
+#. Unused 30051
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30052"
+msgid "{} Set for library playback"
+msgstr "{} Εφαρμογή για αναπαραγογή από βιβλιοθήκη"
+
+#. Unused 30053, 30054
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30055"
+msgid "{} Set at start-up"
+msgstr ""
+
+#. Unused 30056
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30057"
+msgid "{} Remember PIN"
+msgstr ""
+
+#. Unused 30058
+msgctxt "#30059"
+msgid "Be careful, you are about to update many titles {}.[CR]This may cause service problems or temporary ban of the account.[CR]Do you want to continue?"
+msgstr "Να είστε προσεκτικοί, πρόκειτε να ενημερώσετε αρκετούς τιτλους {}.[CR]Αυτό μπορεί να προκαλέσει προβλήματα υπηρεσίας ή προσωρινή φραγή του λογαριασμού.[CR]Θέλετε να συνεχίσετε;"
+
+msgctxt "#30060"
+msgid "Enable HEVC codec (4k/HDR/DolbyVision for Android)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Update inside library"
+msgstr "Ενημέρωση εντός της βιβλιοθήκης"
+
+msgctxt "#30062"
+msgid "Parental controls"
+msgstr "Γονικός έλεγχος"
+
+msgctxt "#30063"
+msgid "An update is already in progress"
+msgstr "Μία ενημέρωση βρίσκεται ήδη σε εξέλιξη"
+
+msgctxt "#30064"
+msgid "Perform auto-update"
+msgstr "Εκτέλεση αυτόματης ενημέρωσης"
+
+msgctxt "#30065"
+msgid "Video library update"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Enable debug logging"
+msgstr "Ενεργοποίηση καταγραφής σφαλμάτων"
+
+msgctxt "#30067"
+msgid "daily"
+msgstr "καθημερινά"
+
+msgctxt "#30068"
+msgid "every other day"
+msgstr "κάθε δεύτερη μέρα"
+
+msgctxt "#30069"
+msgid "every 5 days"
+msgstr "κάθε 5 μέρες"
+
+msgctxt "#30070"
+msgid "weekly"
+msgstr "εβδομαδιαίως"
+
+msgctxt "#30071"
+msgid "Time of Day"
+msgstr "Ώρα ημέρας"
+
+msgctxt "#30072"
+msgid "Only start after 5 minutes of idle"
+msgstr "Εκκίνηση μόνο έπειτα από 5 λεπτά αδράνειας"
+
+msgctxt "#30073"
+msgid "Always show codec information during video playback"
+msgstr "Δείξε πάντα τις πληροφορίες αποκωδικοποίησης κατά την διάρκεια αναπαραγωγής"
+
+msgctxt "#30074"
+msgid "View for exported"
+msgstr "Όψη για τα εξαγώμενα"
+
+msgctxt "#30075"
+msgid "Ask to skip intro and recap"
+msgstr "Ερώτηση για την αποφυγή εισαγωγής και σύνοψης"
+
+msgctxt "#30076"
+msgid "Skip intro"
+msgstr "Αποφυγή εισαγωγής"
+
+msgctxt "#30077"
+msgid "Skip recap"
+msgstr "Αποφυγή σύνοψης"
+
+msgctxt "#30078"
+msgid "Playback"
+msgstr "Αναπαραγωγή"
+
+msgctxt "#30079"
+msgid "Skip automatically"
+msgstr "Κάνε την αποφυγή αυτόματα"
+
+msgctxt "#30080"
+msgid "Pause when skipping"
+msgstr "Παύση κατά την αποφυγή"
+
+msgctxt "#30081"
+msgid "Force HDCP version on video streams"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Remember audio / subtitle preferences"
+msgstr "Απομνημόνευση προτιμήσεων για ήχο / υποτίτλους"
+
+msgctxt "#30083"
+msgid "Force the display of forced subtitles only with the audio language set"
+msgstr "Επιβολή απεικόνισης των επιβεβλημένων υποτίτλων μόνο με την καθορισμένη γλώσσα ήχου"
+
+msgctxt "#30084"
+msgid "Cache objects TTL (minutes)"
+msgstr "Αποθήκευσε προσωρινά τα αντικείμενα στο χρόνο-για-ζωντανά (λεπτά)"
+
+msgctxt "#30085"
+msgid "Cache metadata TTL (days)"
+msgstr "Αποθήκευσε προσωρινά το αντικείμενο με τα μεταδεδομένα στο χρόνο-για-ζωντανά (μέρες)"
+
+msgctxt "#30086"
+msgid "Cache objects 'My list' TTL (minutes)"
+msgstr "Αποθήκευσε προσωρινά τα αντικείμενα της 'Λίστας μου' στο χρόνο-για-ζωντανά (λεπτά)"
+
+msgctxt "#30087"
+msgid "Contains {} and more..."
+msgstr "Περιέχει {} και περισσότερα..."
+
+msgctxt "#30088"
+msgid "Browse related content"
+msgstr "Περιήγηση σχετικού περιεχομένου"
+
+msgctxt "#30089"
+msgid "Browse subgenres"
+msgstr "Περιήγηση υποειδών"
+
+msgctxt "#30090"
+msgid "Browse through related video lists and discover more content."
+msgstr "Περιήγηση μέσω σχετικών λιστών βίντεο και ανακαλυψτε περισσότερο περιεχόμενο."
+
+msgctxt "#30091"
+msgid "Browse and manage contents that were exported to the Kodi library."
+msgstr "Περιήγηση και διαχείριση ότι έχει εξαχθεί στην βιβλιοθήκη του Kodi."
+
+msgctxt "#30092"
+msgid "Search for content and easily find what you want to watch."
+msgstr "Αναζήτηση περιεχομένου και εύκολα βρείτε κάτι για να παρακολουθείστε."
+
+msgctxt "#30093"
+msgid "Browse content by genre and easily discover related content."
+msgstr "Περιήγηση περιεχομένου με βάση το είδος και εύκολα ανακαλυψτε σχετικό περιεχόμενο"
+
+msgctxt "#30094"
+msgid "Browse recommendations and pick up on something new you might like."
+msgstr "Περιήγηση προτάσεων και επιλογή κάτι νέου που μπορεί να σας αρέσει."
+
+msgctxt "#30095"
+msgid "All TV shows"
+msgstr "Όλες οι σειρές"
+
+msgctxt "#30096"
+msgid "All Movies"
+msgstr "Όλες οι ταινίες"
+
+msgctxt "#30097"
+msgid "Main Menu"
+msgstr "Κυρίως μενού"
+
+msgctxt "#30098"
+msgid "Enable HDR10"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Enable Dolby Vision"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Results for '{}'"
+msgstr "Αποτελέσματα για '{}'"
+
+msgctxt "#30101"
+msgid "Netflix returned an unknown error."
+msgstr "Το Νέτφλιξ επέστρεψε ένα άγνωστο σφάλμα."
+
+msgctxt "#30102"
+msgid "Netflix returned the following error:"
+msgstr "Το Νέτφλιξ επέστρεψε το ακόλουθο σφάλμα:"
+
+msgctxt "#30103"
+msgid "Error details have been written to the Kodi log file. If the error message does not provide guidance on how to resolve the issue or you continue to receive this error, please report it on GitHub by following the Readme instructions."
+msgstr "Λεπτομέρεις για το σφάλμα έχουν γραφτεί στο αρχείο καταγραφής του Kodi. Εάν το σφάλμα δεν παρέχει οδηγίες για το πως θα προκύψει η επίλυση του η συνεχίζετε να λαμβάνετε αυτο το σφάλμα, παρακαλώ αναφέρετέ το μέσω του Github. Παρακαλώ όπως παρέχετε πλήρες το αρχείο καταγραφής σε επίπεδο αποσφαλμάτωσης στην αναφορά σας (Να ενεργοποιήσετε την Καταγραφή σφαλμάτων στις ρυθμίσεις του Kodi)."
+
+msgctxt "#30104"
+msgid "The add-on encountered the following error:"
+msgstr "Το πρόσθετο αντιμετώπισε το ακόλουθο σφάλμα:"
+
+msgctxt "#30105"
+msgid "Netflix Add-on Error"
+msgstr "Σφάλμα του προσθέτου Νετφλιξ"
+
+msgctxt "#30106"
+msgid "Invalid PIN"
+msgstr "Λανθασμένο ΠΙΝ"
+
+msgctxt "#30107"
+msgid "PIN protection is off."
+msgstr "Η προστασία ΠΙΝ είναι απενεργοποιημένη."
+
+msgctxt "#30108"
+msgid "All content is protected by PIN."
+msgstr "Όλο το περιεχόμενο είναι προστατευμένο από ΠΙΝ."
+
+msgctxt "#30109"
+msgid "Login successful"
+msgstr "Είσοδος επιτυχής"
+
+#. Unused 30110
+msgctxt "#30111"
+msgid "There is no contents"
+msgstr "Δεν υπάρχουν περιεχόμενα"
+
+msgctxt "#30112"
+msgid "You need to be logged in to use Netflix"
+msgstr "Θα πρέπει να είστε συνδεδεμένος προκειμένουν να κάνετε χρηση του Νέτφλιξ"
+
+msgctxt "#30113"
+msgid "Logout successful"
+msgstr "Αποσύνδεση επιτυχής"
+
+#. Unused 30114, 30115
+msgctxt "#30116"
+msgid "Advanced Add-on Configuration"
+msgstr "Ρυθμίσεις του προσθέτου για προχωρημένους"
+
+msgctxt "#30117"
+msgid "Cache"
+msgstr "Προσωρινή μνήμη"
+
+#. Unused 30118, 30119
+msgctxt "#30120"
+msgid "Cannot automatically remove a season from Kodi library, please do it manually"
+msgstr "Αδυναμία αυτόματης αφαίρεσης της σεζόν από την βιβλιοθήκη του Kodi, παρακαλώ κάντε το χειροκίνητα"
+
+msgctxt "#30121"
+msgid "Perform full sync now"
+msgstr "Εκτέλεση πλήρους συγχρονισμού τώρα"
+
+msgctxt "#30122"
+msgid "Sync 'My list' to Kodi library"
+msgstr "Συγχρονισμός της Λίστας μου στην βιβλιοθήκη του Kodi"
+
+msgctxt "#30123"
+msgid "Do you want to continue?[CR]The full synchronization will delete all previously exported titles.[CR]If there are many titles this operation may take some time."
+msgstr "Θέλετε να συνεχίσετε;[CR]Ο πλήρης συγχρονισμός θα διαγραψει όλα τα προηγούμενα εξηγμένους τίτλους.[CR]Εάν υπάρχουν πολλοί τίτλοι αυτή η διεργασία μπορεί να πάρει αρκετό χρόνο."
+
+msgctxt "#30124"
+msgid "Do you want to remove this item from the library?"
+msgstr "Θέλετε να αφαιρέσετε αυτο το αντικείμενο;"
+
+msgctxt "#30125"
+msgid "Delete library contents"
+msgstr "Εκκαθάριση βιβλιοθήκης"
+
+msgctxt "#30126"
+msgid "Do you really want to purge your library?[CR]All exported items will be deleted."
+msgstr "Θέλετε να κάνετε εκκαθάριση της βιβλιοθήκης;[CR]Όλα τα εξηχθημένα αντικείμενα θα διαγραφτούν."
+
+msgctxt "#30127"
+msgid "Awarded rating of {}"
+msgstr "Απονεμήθει βαθμολόγηση για {}"
+
+msgctxt "#30128"
+msgid "Select a profile"
+msgstr "Επιλέξτε ένα προφίλ"
+
+msgctxt "#30129"
+msgid "Enable Up Next integration"
+msgstr "Ενεργοποίηση ενσωμάτωσης επομένου"
+
+msgctxt "#30130"
+msgid "Install Up Next add-on"
+msgstr "Εγκατάσταση του προσθέτου για τα επόμενα"
+
+msgctxt "#30131"
+msgid "Check the logfile for detailed information"
+msgstr "Έλεγχος του αρχείου καταγραφής για λεπτομερείς πληροφορίες"
+
+msgctxt "#30132"
+msgid "Clear in-memory cache"
+msgstr "Εκκαθάριση κρυφής μνήμης"
+
+msgctxt "#30133"
+msgid "Clear in-memory and on-disk cache"
+msgstr "Εκκαθάριση κρυφής μνήμης και προσωρινής μνήμης στον δίσκο"
+
+msgctxt "#30134"
+msgid "Enable execution timing"
+msgstr "Ενεργοποίηση εκτελεστικού χρονισμού"
+
+msgctxt "#30135"
+msgid "Cache cleared"
+msgstr "Προσωρινή μνήμη εκκαθαρίστηκε"
+
+msgctxt "#30136"
+msgid "Waiting for service start-up..."
+msgstr ""
+
+msgctxt "#30137"
+msgid "Enable VP9 codec"
+msgstr ""
+
+msgctxt "#30138"
+msgid "The background services may not yet be available if you just started Kodi/the add-on. In this case, try again in a moment."
+msgstr "Οι υπηρεσίες παρασκηνίου μπορει να μην είναι ακόμη διαθέσιμες την στιγμή που εκκινείται το πρόσθετο στο Kodi. Σε αυτήν την περίπτωση θα πρέπει να ξαναδοκιμάσετε εντός ολίγου."
+
+msgctxt "#30139"
+msgid "Enable IPC over HTTP (use when Addon Signals timeout messages appear)"
+msgstr "Ενεργοποίηση του IPC πάνω απο HTTP (κάνε χρηση όταν εμφανιστούν τα μηνύματα λήξης χρόνου από το Addon Signals)"
+
+msgctxt "#30140"
+msgid "Import existing library"
+msgstr "Εισαγωγή υπάρχουσας βιβλιοθήκης"
+
+#. Unused 30141 to 30143
+msgctxt "#30144"
+msgid "Disable WebVTT subtitle support"
+msgstr "Απενεργοποίηση υποστήριξης υποτίτλων WebVTT"
+
+msgctxt "#30145"
+msgid "Recently added"
+msgstr "Προστέθηκαν πρόσφατα"
+
+msgctxt "#30146"
+msgid "Discover the latest content added."
+msgstr "Ανακαλύψτε περιεχόμενο που προστέθηκε τελευταια."
+
+msgctxt "#30147"
+msgid "Next page »"
+msgstr "Επόμενη σελίδα »"
+
+msgctxt "#30148"
+msgid "« Previous page"
+msgstr "« Προηγούμενη σελίδα"
+
+msgctxt "#30149"
+msgid "Sort results by"
+msgstr "Ταξινόμηση αποτελεσμάτων κατά"
+
+msgctxt "#30150"
+msgid "Alphabetical order (A-Z)"
+msgstr "Αλφαβητική ταξινόμηση (Α-Ω)"
+
+msgctxt "#30151"
+msgid "Alphabetical order (Z-A)"
+msgstr "Αλφαβητική ταξινόμηση (Ω-Α)"
+
+msgctxt "#30152"
+msgid "Suggestions for you"
+msgstr "Προτάσεις για εσάς"
+
+msgctxt "#30153"
+msgid "Year released"
+msgstr "Έτος ανακοίνωσης"
+
+msgctxt "#30154"
+msgid "Netflix configuration wizard"
+msgstr "Μάγος ρύθμισης του Νέτφλιξ"
+
+msgctxt "#30155"
+msgid "Do you have a Netflix Premium account?"
+msgstr "Έχετε πλήρη λογαριασμό του Νέτφλιξ;"
+
+#. Unused 30156
+msgctxt "#30157"
+msgid "The configuration has been completed"
+msgstr "Η ρύθμιση έχει ολοκληρωθεί"
+
+msgctxt "#30158"
+msgid "Restore the add-on default configuration"
+msgstr ""
+
+msgctxt "#30159"
+msgid "View ID for main menu"
+msgstr "ID εμφάνισης για το κυρίως μενού"
+
+msgctxt "#30160"
+msgid "View ID for search"
+msgstr "ID εμφάνισης για αναζήτηση"
+
+msgctxt "#30161"
+msgid "View ID for exported"
+msgstr "ID εμφάνισης για εξαγόμενα"
+
+msgctxt "#30162"
+msgid "Last used"
+msgstr "Τελεταία χρησιμοποιημένο"
+
+msgctxt "#30163"
+msgid "Audio description"
+msgstr "Περιγραφή ήχου"
+
+msgctxt "#30164"
+msgid "Browse contents with audio description."
+msgstr "Περιήγηση περιεχομένων με ηχητική περιγραφή."
+
+msgctxt "#30165"
+msgid "View ID for 'My list'"
+msgstr "ID εμφάνισης για 'Η λίστα μου'"
+
+msgctxt "#30166"
+msgid "Main menu items"
+msgstr "Αντικείμενα κυρίως μενού"
+
+msgctxt "#30167"
+msgid "My list"
+msgstr "Η Λίστα μου"
+
+msgctxt "#30168"
+msgid "Continue watching"
+msgstr "Συνέχιση παρακολούθησης"
+
+msgctxt "#30169"
+msgid "Top picks"
+msgstr "Κορυφαίες επιλογές"
+
+msgctxt "#30170"
+msgid "New releases"
+msgstr "Νέες κυκλοφορίες"
+
+msgctxt "#30171"
+msgid "Trending now"
+msgstr "Τάσεις της στιγμής"
+
+msgctxt "#30172"
+msgid "Popular on Netflix"
+msgstr "Δημοφιλή στο Νέτφλιξ"
+
+msgctxt "#30173"
+msgid "Netflix Originals"
+msgstr "Τα πρωτότυπα του Νέτφλιξ"
+
+msgctxt "#30174"
+msgid "TV show genres"
+msgstr "Είδη τηλεοπτικών σειρών"
+
+msgctxt "#30175"
+msgid "Movie genres"
+msgstr "Είδη ταινιών"
+
+msgctxt "#30176"
+msgid "Enable STRM resume workaround"
+msgstr "Ενεργοποίηση ελιγμού για την συνέχιση"
+
+msgctxt "#30177"
+msgid "Ask to resume the video"
+msgstr "Ερώτηση για την συνέχιση του βίντεο"
+
+msgctxt "#30178"
+msgid "Open Up Next add-on settings"
+msgstr "Άνοιγμα των ρυθμίσεων του προσθέτου για το Επόμενο"
+
+msgctxt "#30179"
+msgid "Show trailers and more"
+msgstr "Δείξε τα τρέιλερ & περισσότερα"
+
+msgctxt "#30180"
+msgid "There has been a problem with login, it is possible that your account has not been confirmed or reactivated."
+msgstr "Υπάρχει πρόβλημα με την είσοδο σας, ενδεχομένως ο λογαριασμός σας να μην έχει (επάν)ενεργοποιηθεί"
+
+msgctxt "#30181"
+msgid "Always show the subtitles when the preferred audio language is not available"
+msgstr "Δείχνε πάντα τους υποτίτλους όταν η επιλεγμένη γλώσσα ήχου δεν είναι διαθέσιμη"
+
+msgctxt "#30182"
+msgid "Export NFO files"
+msgstr "Εξαγωγή των αρχείων NFO"
+
+msgctxt "#30183"
+msgid "Do you want to export NFO files for the {}?"
+msgstr "Θέλετε να εξάγετε σε αρχεία NFO για το {};"
+
+msgctxt "#30184"
+msgid "NFO Files"
+msgstr "Αρχεία NFO"
+
+msgctxt "#30185"
+msgid "Enable NFO files export"
+msgstr "Ενεργοποίηση εξαγωγής σε αρχεία NFO"
+
+msgctxt "#30186"
+msgid "For Movies"
+msgstr "Για ταινίες"
+
+msgctxt "#30187"
+msgid "For TV show"
+msgstr "Για τηλεοπτικές σειρές"
+
+msgctxt "#30188"
+msgid "Ask"
+msgstr "Ερώτηση"
+
+msgctxt "#30189"
+msgid "movie"
+msgstr "ταινία"
+
+msgctxt "#30190"
+msgid "TV show"
+msgstr "Τηλεοπτική σειρά"
+
+#. Unused 30191
+msgctxt "#30192"
+msgid "[CR]These files are used by the provider information scrapers to integrate movies and TV shows info, useful with bonus episodes or director's cut"
+msgstr "[CR]Αυτά τα αρχεία χρησιμοποιούνται από τους φιλτραριστές παρόχων πληροφοριών για την ενσωμάτωση πληροφοριών σε ταινίες και τηλεοπτικές σειρές, χρήσιμο για έξτρα επεισόδια ή τις περικοπές του σκηνοθέτη"
+
+msgctxt "#30193"
+msgid "Include tv show NFO details"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Limit video stream resolution to"
+msgstr "Περιορισμός ανάλυσης ροής βίντεο σε"
+
+msgctxt "#30195"
+msgid "Export new episodes"
+msgstr "Εξαγωγή νέων επεισοδίων"
+
+msgctxt "#30196"
+msgid "Exclude from auto update"
+msgstr "Απέκλεισε από την αυτόματη ενημέρωση"
+
+msgctxt "#30197"
+msgid "Include in auto update"
+msgstr "Συμπεριέλαβε στην αυτόματη ενημέρωση"
+
+msgctxt "#30198"
+msgid "Exporting new episodes"
+msgstr "Εξαγωγή νέων επεισοδίων"
+
+msgctxt "#30199"
+msgid "Shared library (Kodi MySQL server is required)"
+msgstr "Μοιρασμένη βιβλιοθήκη (Απαιτείται ο εξυπηρετητής Kodi MySQL)"
+
+msgctxt "#30200"
+msgid "Use shared library MySQL-database"
+msgstr "Χρησιμοποιήσε την μοιρασμένη βάση δεδομένων βιβλιοθήκης MySQL"
+
+msgctxt "#30201"
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+msgctxt "#30202"
+msgid "Connection to the MySQL-database was successful"
+msgstr "Η σύνδεση στην βάση δεδομένων MySQL ήταν επιτυχής"
+
+msgctxt "#30203"
+msgid "Host IP"
+msgstr "IP φιλοξενητή"
+
+msgctxt "#30204"
+msgid "Port"
+msgstr "Θύρα"
+
+msgctxt "#30205"
+msgid "Test database connection"
+msgstr "Δοκιμή σύνδεσης σε βάση δεδομένων"
+
+msgctxt "#30206"
+msgid "ERROR: The MySQL-database is not reachable - the local database will be used"
+msgstr "ΣΦΑΛΜΑ: Η βάση δεδομένων MySQL δεν είναι προσβάσιμη - θα χρησιμοποιηθεί η τοπική βάση δεδομένων"
+
+msgctxt "#30207"
+msgid "Set this device as main auto-updates manager"
+msgstr "Εφαρμόστε αυτήν την συσκευή ως τον διαχειριστή αυτόματων ενημερώσεων"
+
+msgctxt "#30208"
+msgid "Check if this device is the main auto-update manager"
+msgstr "Ελέγξτε εάν αυτή η συσκευή είναι ο διαχειριστής των αυτόματων ενημερώσεων"
+
+msgctxt "#30209"
+msgid "This device now handles the auto-updates of the shared library"
+msgstr "Αυτή η συσκευή πλέον διαχειρίζεται τις αυτόματες ενημερώσεις της μοιρασμένης-βιβλιοθήκης"
+
+msgctxt "#30210"
+msgid "This device handles the auto-updates of the shared library"
+msgstr "Αυτή η συσκευή διαχειρίζεται τις αυτόματες ενημερώσεις της μοιρασμένης-βιβλιοθήκης"
+
+msgctxt "#30211"
+msgid "Another device handles the auto-updates of the shared library"
+msgstr "Άλλη συσκευή διαχειρίζεται τις αυτόματες ενημερώσεις της μοιρασμένης-βιβλιοθήκης"
+
+msgctxt "#30212"
+msgid "There is no device that handles the auto-updates of the shared library"
+msgstr "Δεν υπάρχει συσκευή που να διαχειρίζεται τις αυτόματες ενημερώσεις της μοιρασμένης-βιβλιοθήκης"
+
+msgctxt "#30213"
+msgid "InputStream Helper settings..."
+msgstr "Ρυθμίσεις βοηθού InputStream"
+
+msgctxt "#30214"
+msgid "Force refresh"
+msgstr "Επιβολή ανανέωσης"
+
+msgctxt "#30215"
+msgid "Color of the titles included in \"My list\""
+msgstr "Επισήμανε τίτλους συμπεριλαμβανομένους στην λίστα μου με ενα χρώμα"
+
+msgctxt "#30216"
+msgid "Color of the titles marked as \"Remind me\""
+msgstr ""
+
+#. Unused 30217 to 30218
+msgctxt "#30219"
+msgid "Disable notification for synchronization completed"
+msgstr "Απενεργοποίηση ειδοποίησης για ολοκλήρωση συγχρονισμού"
+
+msgctxt "#30220"
+msgid "The Kodi library has been updated"
+msgstr "Η βιβλιοθήκη του Kodi έχει ενημερωθεί"
+
+msgctxt "#30221"
+msgid "Owner account"
+msgstr "Λογαριασμός ιδιοκτήτη"
+
+msgctxt "#30222"
+msgid "Kid account"
+msgstr "Λογαριασμός παιδικός"
+
+#. Unused 30223
+msgctxt "#30224"
+msgid "Auto update mode"
+msgstr "Λειτουργία αυτόματης ενημέρωσης"
+
+msgctxt "#30225"
+msgid "Manual"
+msgstr "Χειροκίνητα"
+
+msgctxt "#30226"
+msgid "Scheduled"
+msgstr "Προγραμματισμένα"
+
+msgctxt "#30227"
+msgid "Synchronize Kodi library with 'My list'"
+msgstr "Συγχρονισμός της βιβλιοθήκης του Kodi με την Λίστα μου"
+
+msgctxt "#30228"
+msgid "Set a profile for synchronization"
+msgstr "Εφαρμογή προφίλ για συγχρονισμό"
+
+msgctxt "#30229"
+msgid "When Kodi starts"
+msgstr ""
+
+msgctxt "#30230"
+msgid "Check for updates now"
+msgstr "Ελέγξε για ενημερώσεις τώρα"
+
+msgctxt "#30231"
+msgid "Do you want to check update now?"
+msgstr "Θέλετε να ελέγξετε τώρα για ενημερώσεις;"
+
+msgctxt "#30232"
+msgid "Profile maturity rating for {}"
+msgstr "Προφίλ βαθμολόγησης ωριμότητας για το {}"
+
+msgctxt "#30233"
+msgid "Only show titles rated [B]{}[/B]."
+msgstr "Δείξε μόνο τίτλους βαθμολογημένοι [B]{}[/B]."
+
+#. Unused 30234
+msgctxt "#30235"
+msgid "Synchronize the watched status of the videos with Netflix"
+msgstr "Συγχρονισμός της κατάστασης προβολής των βίντεο με το Νέτφλιξ"
+
+msgctxt "#30236"
+msgid "Change watched status (locally)"
+msgstr "Αλλαγή κατάστασης προβολής (τοπικά)"
+
+msgctxt "#30237"
+msgid "Marked as watched|Marked as unwatched|Restored Netflix watched status"
+msgstr "Σημείωση ως προβληθέν|Σημείωση ως μη προβληθέν|Ανάκτηση κατάστασης προβληθέντων απο Νέτφλιξ"
+
+msgctxt "#30238"
+msgid "Up Next notifications (watch next video)"
+msgstr "Ειδοποιήσεις επομένου (δείτε το επόμενο βίντεο)"
+
+msgctxt "#30239"
+msgid "Color of supplemental plot info"
+msgstr "Χρωματισμός συμπληρωματικών πληροφοριών πλάνου"
+
+msgctxt "#30240"
+msgid "The background services cannot be started due to this problem:[CR]{}"
+msgstr "Οι υπηρεσίες παρασκηνίου δεν μπορούν να εκτελεστούν λόγω αυτού του προβήματος:[CR]{}"
+
+msgctxt "#30241"
+msgid "Open Connect CDN (the lower index is better)"
+msgstr "Άνοιγμα του CDN Connect (ο χαμηλότερος δείκτης είναι καλύτερος)"
+
+msgctxt "#30242"
+msgid "Top 10"
+msgstr "Κορυφαία 10"
+
+msgctxt "#30243"
+msgid "Select first unwatched TV show episode"
+msgstr "Επιλογή του πρώτου μη-παρακολουθημένου επεισοδίου σειράς"
+
+#. Unused 30244
+msgctxt "#30245"
+msgid "Deleting files exported to the library"
+msgstr "Διαγραφή αρχείων εξηγμένων στην βιβλιοθήκη"
+
+msgctxt "#30246"
+msgid "There are {} titles that cannot be imported.[CR]Do you want to delete these files?"
+msgstr "Υπάρχουν {} τίτλοι με αδυναμία εισαγωγής.[CR]Θέλετε να διαγράψετε τα αρχεία τους;"
+
+msgctxt "#30247"
+msgid "Results per page (in case of timeout error decrease it)"
+msgstr "Αποτελέσματα ανά σελίδα (σε περίπτωση σφάλματος από λήξη χρόνου μειώστε τα)"
+
+#. Unused 30248 to 30299
+msgctxt "#30300"
+msgid "Do you want to remove watched status of \"{}\"?"
+msgstr "Θέλετε να αφαιρέσετε την κατάσταση παρακολούθησης για το \"{}\";"
+
+msgctxt "#30301"
+msgid "Include Kodi library (only sending data)"
+msgstr "Συμπεριέλαβε στην βιβλιοθήκη του Kodi (μόνο αποστολή δεδομένων)"
+
+#. Unused 30302 to 30339
+msgctxt "#30340"
+msgid "Choose the login method[CR](if the login with E-Mail/Password always returns \"incorrect password\", then use Authentication key, instructions in the GitHub ReadMe)"
+msgstr "Επιλέξτε την μέθοδο εισόδου[CR](εάν η είσοδος με E-mail/Κωδικό επιστρέφει πάντα \"λανθασμένος κωδικός\", πάντα να χρησιμοποιείτε το Κλειδί ταυτοποίησης, οδηγίες στο GitHub Readme)"
+
+msgctxt "#30341"
+msgid "E-Mail/Password"
+msgstr "E-mail/Κωδικός"
+
+msgctxt "#30342"
+msgid "Authentication key"
+msgstr "Κλειδί ταυτοποίησης"
+
+msgctxt "#30343"
+msgid "The selected file is not compatible or corrupted"
+msgstr "Το επιλεγμένο αρχείο δεν είναι συμβατό ή έχει καταστραφεί"
+
+msgctxt "#30344"
+msgid "The authentication key file is expired"
+msgstr "Το αρχείο κλειδιού ταυτοποίησης έχει λήξει"
+
+msgctxt "#30345"
+msgid "Enter PIN"
+msgstr "Εισαγωγή PIN"
+
+#. Unused 30346 to 30398
+msgctxt "#30399"
+msgid "Sort history by"
+msgstr "Ταξινόμιση ιστορικού από"
+
+msgctxt "#30400"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgctxt "#30401"
+msgid "Type of search"
+msgstr "Τύπος αναζήτησης"
+
+msgctxt "#30402"
+msgid "Search titles, people, genres"
+msgstr "Αναζήτηση τίτλων, ανθρώπων, ειδών"
+
+msgctxt "#30403"
+msgid "New search..."
+msgstr "Νέα αναζήτηση..."
+
+msgctxt "#30404"
+msgid "Clear search history"
+msgstr "Καθαρισμός ιστορικού αναζήτησης"
+
+msgctxt "#30405"
+msgid "Select the language"
+msgstr "Επιλογή της γλώσσας"
+
+msgctxt "#30406"
+msgid "Do you want to delete the entire contents?"
+msgstr "Θέλετε να διαγράψετε όλα τα περιεχόμενα;"
+
+msgctxt "#30407"
+msgid "No matches found"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+#. Unused 30408, 30409
+msgctxt "#30410"
+msgid "By term"
+msgstr "Μέσω όρου"
+
+msgctxt "#30411"
+msgid "By audio language"
+msgstr "Μέσω γλώσσας ήχου"
+
+msgctxt "#30412"
+msgid "By subtitles language"
+msgstr "Μέσω γλώσσας υποτίτλων"
+
+msgctxt "#30413"
+msgid "By genre/subgenre ID"
+msgstr "Μέσω είδους/ID υπόειδους"
+
+#. Unused 30414 to 30499
+msgctxt "#30500"
+msgid "Prefer the audio/subtitle language with country code (if available)"
+msgstr "Προτίμηση της γλώσσας ήχων/υποτίτλων με κωδικό χώρας (εάν είναι διαθέσιμοι)"
+
+msgctxt "#30501"
+msgid "Prefer stereo audio tracks by default"
+msgstr "Προτίμηση των στέρεο ηχητικών κλιπ εξ'ορισμού"
+
+#. Unused 30502 to 30599
+msgctxt "#30600"
+msgid "ESN / Widevine settings"
+msgstr "ESN / Ρυθμίσεις Widevine"
+
+msgctxt "#30601"
+msgid "ESN:"
+msgstr "ESN:"
+
+msgctxt "#30602"
+msgid "Change ESN"
+msgstr "Αλλαγή ESN"
+
+msgctxt "#30603"
+msgid "Save system info"
+msgstr "Αποθήκευση πληροφοριών συστήματος"
+
+msgctxt "#30604"
+msgid "Widevine - Force security level"
+msgstr "Widevine - Επιβολή επιπέδου ασφάλειας"
+
+msgctxt "#30605"
+msgid "Force {}"
+msgstr "Επιβολή {}"
+
+msgctxt "#30606"
+msgid "ESN set successfully[CR]Try to play a video"
+msgstr "Το ESN ετέθει επιτυχώς[CR]Δοκιμάστε να αναπαράξετε ένα βίντεο"
+
+msgctxt "#30607"
+msgid "This ESN cannot be used[CR]Try change ESN or reset ESN.[CR][CR]Error details:[CR]{}"
+msgstr "Το παρόν ESN δεν μπορεί να χρησιμοποιηθεί[CR]Δοκιμάστε αλλαγή του ESN ή επαναφορά του.[CR][CR]Λεπτομέρειες σφάλματος:[CR]{}"
+
+msgctxt "#30608"
+msgid "Wrong ESN format"
+msgstr "Λανθασμένη μορφή ESN"
+
+msgctxt "#30609"
+msgid "Do you want to reset all settings?"
+msgstr "Θέλετε να επαναφέρετε όλες τις ρυθμίσεις;"
+
+msgctxt "#30610"
+msgid "Use system-based encryption for credentials"
+msgstr "Χρησιμοποιήστε κρυπτογράφηση βάσει συστήματος για τα διαπιστευτήρια"
+
+# Help description for setting id 30610
+msgctxt "#30611"
+msgid "[B]If disabled it will cause a security leak[/B]. If your operating system does not support it, you will be prompted to login each time you reboot the device, [B]only[/B] in this case disable it. If you change this setting you will be prompted to login again in the next time you reboot."
+msgstr "[B]Εάν απενεργοποιηθεί, θα προκαλέσει διαρροή ασφαλείας[/B]. Εάν το λειτουργικό σας σύστημα δεν το υποστηρίζει, θα σας ζητείται να συνδέεστε κάθε φορά που κάνετε επανεκκίνηση της συσκευής, [B]μόνο[/B] σε αυτήν την περίπτωση απενεργοποιήστε την. Εάν αλλάξετε αυτήν τη ρύθμιση, θα σας ζητηθεί να συνδεθείτε ξανά την επόμενη φορά που θα κάνετε επανεκκίνηση."
+
+msgctxt "#30612"
+msgid "MSL manifest version"
+msgstr "Έκδοση MSL δήλωσης"
+
+#. Unused 30613 to 30619
+msgctxt "#30620"
+msgid "This title will be available from:[CR]{}"
+msgstr "Αυτός ο τίτλος θα είναι διαθέσιμος από:[CR]{}"
+
+msgctxt "#30621"
+msgid "Do you want to play the promo trailer?"
+msgstr "Θέλετε να αναπράγετε το promo trailer;"
+
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30622"
+msgid "{} Remind me"
+msgstr "{} Θύμισε μου"
+
+#. Unused 30623 to 30699
+msgctxt "#30700"
+msgid "New and popular"
+msgstr "Νέα και δημοφιλή"
+
+msgctxt "#30701"
+msgid "Marks started tv shows as watched"
+msgstr "Επισημαίνει τηλεοπτικές εκπομπές που έχετε ξεκινήσει ως ήδη παρακολουθούμενες"
+
+#. Description of setting ID #30701
+msgctxt "#30702"
+msgid "Please note that by enabling this setting if filters are enabled in your Skin settings, items marked as watched may not be visible."
+msgstr ""
+
+msgctxt "#30703"
+msgid "Override stream selection type"
+msgstr "Παράκαμψη τύπου επιλογής ροής"
+
+msgctxt "#30704"
+msgid "Override the Stream selection type setting of the InputStream Adaptive add-on, to set how the audio / video streams quality will be chosen during playback."
+msgstr "Αντικαταστήστε τη ρύθμιση τύπου επιλογής ροής του πρόσθετου InputStream Adaptive, για να ορίσετε πώς θα επιλέγεται η ποιότητα των ροών ήχου/βίντεο κατά την αναπαραγωγή."
+
+msgctxt "#30705"
+msgid "Adaptive quality"
+msgstr "Προσαρμόσιμη ποιότητα"
+
+msgctxt "#30706"
+msgid "Fixed video quality"
+msgstr "Διορθώθηκε η ποιότητα βίντεο"
+
+msgctxt "#30707"
+msgid "Ask video quality"
+msgstr "Ρωτήστε την ποιότητα βίντεο"
+
+msgctxt "#30720"
+msgid "Please note that enabling this setting will force the removal of streams that are not within the set range and this may affect the operation of InputStream Adaptive. If possible try limiting the quality from the InputStream Adaptive settings first."
+msgstr "Λάβετε υπόψη ότι η ενεργοποίηση αυτής της ρύθμισης θα αναγκάσει την αφαίρεση των ροών που δεν βρίσκονται εντός του καθορισμένου εύρους και αυτό μπορεί να επηρεάσει τη λειτουργία του InputStream Adaptive. Εάν είναι δυνατόν, δοκιμάστε πρώτα να περιορίσετε την ποιότητα από τις ρυθμίσεις InputStream Adaptive."
+
+msgctxt "#30721"
+msgid "Size"
+msgstr ""
+
+#. Description of setting ID #30721
+msgctxt "#30722"
+msgid "Minimise the black bars by apply a zoom effect. [ Fixed ] Sets the percentage of screen space that black bars can occupy, will be constant for all videos. [ Relative ] Sets the percentage of black band minimisation, will depend on each video size. [ Reset ] Reset the zoom effect previously applied."
+msgstr ""
+
+#. Unused 30723
+#. Description of setting ID #30723
+msgctxt "#30724"
+msgid "This feature make use of Kodi zoom effect that is permanently stored in the \"View mode\" video setting, if you disable this feature in the future the zoom will be preserved, to reset the zoom change to \"Reset\" setting mode."
+msgstr ""
+
+#. Unused 30725, 30726
+msgctxt "#30727"
+msgid "Enable AV1 codec"
+msgstr ""
+
+msgctxt "#30728"
+msgid "Add Netflix folders to Kodi library sources"
+msgstr ""
+
+msgctxt "#30729"
+msgid "The folders \"Netflix-Movies\" and \"Netflix-Shows\" have been added to Kodi sources, restart Kodi to view them in the Kodi [TV Shows] / [Movies] menus. Then edit the folders to set the appropriate content type and information provider scraper."
+msgstr ""
+
+#. Description of setting ID 30224
+msgctxt "#30730"
+msgid "[Manual] updates must be done manually by using \"Export new episodes\" context menu on each tv show, [Scheduled] you can establish automatic updates at scheduled times, [When Kodi starts] automatic updates start at Kodi start-up and will only be done once a day."
+msgstr ""
+
+#. Description of setting ID 30227
+msgctxt "#30731"
+msgid "Synchronises the library with My list, if my list has been modified externally e.g. mobile app or website, the update will be postponed to the scheduled time."
+msgstr ""
+
+#. Description of setting ID 30185
+msgctxt "#30732"
+msgid "If enabled, adds information to episodes or movies that are useful when Kodi information provider scraper does not provide data. This will also add the duration of the videos."
+msgstr ""
+
+#. Description of setting ID 30193
+msgctxt "#30733"
+msgid "Only enable if \"Local Information\" information provider scraper is used, or if certain titles are not displayed in Kodi library despite having been added."
+msgstr ""
+
+msgctxt "#30734"
+msgid "Support"
+msgstr ""
+
+msgctxt "#30735"
+msgid "About Netflix add-on"
+msgstr ""
+
+msgctxt "#30736"
+msgid "Automatically generates new ESNs (workaround for 540p limit)"
+msgstr ""
+
+msgctxt "#30737"
+msgid "WARNING: Do not use the original device ESN of the official app."
+msgstr ""
+
+msgctxt "#30738"
+msgid "Enable audio offset"
+msgstr ""
+
+msgctxt "#30739"
+msgid "Audio offset"
+msgstr ""
+
+#. Description of setting ID 30739
+msgctxt "#30740"
+msgid "Sets the audio offset by overriding the Kodi setting"
+msgstr ""
+
+msgctxt "#30741"
+msgid "Enable VP9 Profile 2 (10/12 bit color depth)"
+msgstr ""
+
+msgctxt "#30742"
+msgid "Do you want to enable HDR10 support?"
+msgstr ""
+
+msgctxt "#30743"
+msgid "Do you want to enable HDR Dolby Vision support?"
+msgstr ""
+
+#. Description of setting ID 30081
+msgctxt "#30744"
+msgid "The add-on already sets the appropriate HDCP version, but if required you can force the request of video streams for a different HDCP version."
+msgstr ""
+
+msgctxt "#30745"
+msgid "If your device does not support this codec, you may experience black screen, no image or corrupted images. If so disable the codec."
+msgstr ""
+
+msgctxt "#30746"
+msgid "Black bars minimise mode"
+msgstr ""
+
+msgctxt "#30747"
+msgid "Fixed"
+msgstr ""
+
+msgctxt "#30748"
+msgid "Relative"
+msgstr ""
+
+msgctxt "#30749"
+msgid "Reset"
+msgstr ""

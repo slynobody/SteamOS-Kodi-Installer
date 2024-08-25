@@ -1,0 +1,4 @@
+1.0.1
+- added "client country" header generator
+- infoTags addapted for Kodi ver >=20 
+- remove "Play trailer" item from context menu

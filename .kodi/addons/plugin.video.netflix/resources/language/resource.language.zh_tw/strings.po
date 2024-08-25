@@ -1,0 +1,1256 @@
+# Kodi Media Center language file
+# Addon Name: Netflix
+# Addon id: plugin.video.netflix
+# Addon Provider: libdev, jojo, asciidisco, caphm, castagnait
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.netflix\n"
+"Report-Msgid-Bugs-To: https://github.com/CastagnaIT/plugin.video.netflix\n"
+"POT-Creation-Date: 2017-07-24 16:15+0000\n"
+"PO-Revision-Date: 2023-12-17 02:00+0800\n"
+"Last-Translator: JuenTingShie <>\n"
+"Language-Team: Taiwanese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Netflix"
+msgstr "Netflix"
+
+msgctxt "Addon Description"
+msgid "Netflix VOD Services Add-on"
+msgstr "Netflix VOD服務套件"
+
+msgctxt "Addon Disclaimer"
+msgid "The use of this add-on may not be legal in your country of residence - please check with your local laws before installing."
+msgstr "在您居住的國家使用此套件可能並不合法 - 請在安裝前與您當地的法律核對。"
+
+msgctxt "#30001"
+msgid "Recommendations"
+msgstr "推薦"
+
+msgctxt "#30002"
+msgid "Enter PIN to watch restricted content"
+msgstr "輸入PIN碼來觀看受限內容"
+
+#. Unused 30003
+msgctxt "#30004"
+msgid "Password"
+msgstr "密碼"
+
+msgctxt "#30005"
+msgid "E-mail"
+msgstr "電子信箱"
+
+msgctxt "#30006"
+msgid "Enter PIN to access this profile"
+msgstr "輸入PIN碼即可檢視此設定檔"
+
+msgctxt "#30007"
+msgid "Parental Control PIN (4 digits)"
+msgstr "家長控制PIN碼（4位數字）"
+
+msgctxt "#30008"
+msgid "Login failed"
+msgstr "登入失敗"
+
+msgctxt "#30009"
+msgid "Please check your e-mail and password"
+msgstr "請檢查您的電子信箱和密碼"
+
+msgctxt "#30010"
+msgid "Lists of all kinds"
+msgstr "所有種類的清單"
+
+#. Unused 30011
+msgctxt "#30012"
+msgid "Profiles options and parental control"
+msgstr "設定檔選項與家長控制"
+
+msgctxt "#30013"
+msgid "In the profile list, open the context menu in the chosen profile"
+msgstr "在設定清單中，打開所選設定檔中的選單"
+
+msgctxt "#30014"
+msgid "Account"
+msgstr "帳戶"
+
+msgctxt "#30015"
+msgid "Other options"
+msgstr "其他選項"
+
+msgctxt "#30016"
+msgid "If you log out, all account data will be deleted, but the exported video files in the Kodi library will be preserved.[CR]Do you want to continue?"
+msgstr "如果你登出，所有帳號資訊將會被刪除，但已經匯出至Kodi資料庫的影片檔案將會保留下來。[CR]你確定要繼續嗎?"
+
+msgctxt "#30017"
+msgid "Logout"
+msgstr "登出"
+
+msgctxt "#30018"
+msgid "Export to library"
+msgstr "匯出到資料庫"
+
+msgctxt "#30019"
+msgid "Rate on Netflix"
+msgstr "在Netflix上評分"
+
+msgctxt "#30020"
+msgid "Remove from 'My list'"
+msgstr "從'我的清單'中刪除"
+
+msgctxt "#30021"
+msgid "Add to 'My list'"
+msgstr "新增到'我的清單'"
+
+msgctxt "#30022"
+msgid "(between 0 and 10)"
+msgstr "（介於0和10之間）"
+
+msgctxt "#30023"
+msgid "Expert"
+msgstr "專家"
+
+msgctxt "#30024"
+msgid "SSL verification"
+msgstr "SSL驗證"
+
+msgctxt "#30025"
+msgid "Library"
+msgstr "資料庫"
+
+msgctxt "#30026"
+msgid "Enable custom library folder"
+msgstr "啟用自訂資料庫資料夾"
+
+msgctxt "#30027"
+msgid "Custom library path"
+msgstr "自訂資料庫路徑"
+
+msgctxt "#30028"
+msgid "Playback error"
+msgstr "播放錯誤"
+
+#. Unused 30029
+msgctxt "#30030"
+msgid "Remove from library"
+msgstr "從資料庫中刪除"
+
+msgctxt "#30031"
+msgid "General"
+msgstr "一般"
+
+msgctxt "#30032"
+msgid "Codecs"
+msgstr "編碼"
+
+msgctxt "#30033"
+msgid "Enable Dolby Digital Plus codec (Atmos on Premium account)"
+msgstr "啟動Dolby Digital Plus編碼(Premium帳號的環景音效)"
+
+#. Unused 30034
+msgctxt "#30035"
+msgid "InputStream Adaptive settings..."
+msgstr "InputStream Adaptive設定..."
+
+#. Unused 30036
+msgctxt "#30037"
+msgid "Skin viewtypes"
+msgstr "主題視圖樣式"
+
+msgctxt "#30038"
+msgid "Enable custom viewtypes"
+msgstr "啟用自訂視圖樣式"
+
+msgctxt "#30039"
+msgid "View ID for folders"
+msgstr "查看目錄ID"
+
+msgctxt "#30040"
+msgid "View ID for movies"
+msgstr "查看電影ID"
+
+msgctxt "#30041"
+msgid "View ID for shows"
+msgstr "查看節目ID"
+
+msgctxt "#30042"
+msgid "View ID for seasons"
+msgstr "查看季ID"
+
+msgctxt "#30043"
+msgid "View ID for episodes"
+msgstr "查看影集ID"
+
+msgctxt "#30044"
+msgid "View ID for profiles"
+msgstr "查看設定檔ID"
+
+msgctxt "#30045"
+msgid "Thumb rating removed|You rated a thumb down|You rated a thumb up"
+msgstr "移除評分|我不喜歡|我喜歡"
+
+msgctxt "#30046"
+msgid "There is a problem with InputStream Adaptive add-on or the Widevine library. May be missing or not enabled, the operation will be cancelled."
+msgstr "InputStream Adaptive套件程式或Widevine資料庫出現問題。可能遺失或未啟用，操作將被取消。"
+
+msgctxt "#30047"
+msgid "Library update in progress"
+msgstr "正在更新資料庫"
+
+msgctxt "#30048"
+msgid "Exported"
+msgstr "已匯出"
+
+msgctxt "#30049"
+msgid "Library"
+msgstr "資料庫"
+
+msgctxt "#30050"
+msgid "Enable Kodi library management"
+msgstr "啟用Kodi資料庫管理"
+
+#. Unused 30051
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30052"
+msgid "{} Set for library playback"
+msgstr "{} 設為資料庫播放設置"
+
+#. Unused 30053, 30054
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30055"
+msgid "{} Set at start-up"
+msgstr "{} 設為自動啟用"
+
+#. Unused 30056
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30057"
+msgid "{} Remember PIN"
+msgstr "{} 記住PIN碼"
+
+#. Unused 30058
+msgctxt "#30059"
+msgid "Be careful, you are about to update many titles {}.[CR]This may cause service problems or temporary ban of the account.[CR]Do you want to continue?"
+msgstr "注意，您將更新許多標題{}。[CR]這可能會導致服務問題或帳戶暫時封禁。[CR]您想繼續嗎？"
+
+msgctxt "#30060"
+msgid "Enable HEVC codec (4k/HDR/DolbyVision for Android)"
+msgstr "啟動HEVC編碼(適用於Android的4k/HDR/DolbyVision)"
+
+msgctxt "#30061"
+msgid "Update inside library"
+msgstr "在資料庫中更新"
+
+msgctxt "#30062"
+msgid "Parental controls"
+msgstr "家長控制"
+
+msgctxt "#30063"
+msgid "An update is already in progress"
+msgstr "更新已經在進行中"
+
+msgctxt "#30064"
+msgid "Perform auto-update"
+msgstr "執行自動更新"
+
+msgctxt "#30065"
+msgid "Video library update"
+msgstr "影片資料庫更新"
+
+msgctxt "#30066"
+msgid "Enable debug logging"
+msgstr "啟用偵錯紀錄"
+
+msgctxt "#30067"
+msgid "daily"
+msgstr "每天"
+
+msgctxt "#30068"
+msgid "every other day"
+msgstr "每隔一天"
+
+msgctxt "#30069"
+msgid "every 5 days"
+msgstr "每隔五天"
+
+msgctxt "#30070"
+msgid "weekly"
+msgstr "每週"
+
+msgctxt "#30071"
+msgid "Time of Day"
+msgstr "指定時間"
+
+msgctxt "#30072"
+msgid "Only start after 5 minutes of idle"
+msgstr "僅在閒置5分鐘後啟動"
+
+msgctxt "#30073"
+msgid "Always show codec information during video playback"
+msgstr "在影片播放期間一律顯示編碼資訊"
+
+msgctxt "#30074"
+msgid "View for exported"
+msgstr "查看匯出"
+
+msgctxt "#30075"
+msgid "Ask to skip intro and recap"
+msgstr "詢問跳過片頭和前情回顧"
+
+msgctxt "#30076"
+msgid "Skip intro"
+msgstr "跳過片頭"
+
+msgctxt "#30077"
+msgid "Skip recap"
+msgstr "跳過前情回顧"
+
+msgctxt "#30078"
+msgid "Playback"
+msgstr "播放"
+
+msgctxt "#30079"
+msgid "Skip automatically"
+msgstr "自動跳過"
+
+msgctxt "#30080"
+msgid "Pause when skipping"
+msgstr "跳過時暫停"
+
+msgctxt "#30081"
+msgid "Force HDCP version on video streams"
+msgstr "強制使用HDCP版本在影片串流"
+
+msgctxt "#30082"
+msgid "Remember audio / subtitle preferences"
+msgstr "記憶音訊/字幕選項"
+
+msgctxt "#30083"
+msgid "Force the display of forced subtitles only with the audio language set"
+msgstr "僅在設置音訊語言後強制顯示字幕"
+
+msgctxt "#30084"
+msgid "Cache objects TTL (minutes)"
+msgstr "暫存對象TTL（分鐘）"
+
+msgctxt "#30085"
+msgid "Cache metadata TTL (days)"
+msgstr "暫存元資料TTL（天）"
+
+msgctxt "#30086"
+msgid "Cache objects 'My list' TTL (minutes)"
+msgstr "暫存對象“我的清單” TTL（分鐘）"
+
+msgctxt "#30087"
+msgid "Contains {} and more..."
+msgstr "包含{}以及更多..."
+
+msgctxt "#30088"
+msgid "Browse related content"
+msgstr "瀏覽相關內容"
+
+msgctxt "#30089"
+msgid "Browse subgenres"
+msgstr "瀏覽子類別"
+
+msgctxt "#30090"
+msgid "Browse through related video lists and discover more content."
+msgstr "瀏覽相關的影片清單並探索更多內容。"
+
+msgctxt "#30091"
+msgid "Browse and manage contents that were exported to the Kodi library."
+msgstr "瀏覽和管理已匯出到Kodi資料庫的內容。"
+
+msgctxt "#30092"
+msgid "Search for content and easily find what you want to watch."
+msgstr "搜尋內容並輕鬆找到想要觀看的內容。"
+
+msgctxt "#30093"
+msgid "Browse content by genre and easily discover related content."
+msgstr "按類型瀏覽內容並輕鬆探索相關內容。"
+
+msgctxt "#30094"
+msgid "Browse recommendations and pick up on something new you might like."
+msgstr "瀏覽推薦並挑選您可能喜歡的新內容。"
+
+msgctxt "#30095"
+msgid "All TV shows"
+msgstr "所有電視節目"
+
+msgctxt "#30096"
+msgid "All Movies"
+msgstr "所有電影"
+
+msgctxt "#30097"
+msgid "Main Menu"
+msgstr "主選單"
+
+msgctxt "#30098"
+msgid "Enable HDR10"
+msgstr "啟用HDR10"
+
+msgctxt "#30099"
+msgid "Enable Dolby Vision"
+msgstr "啟用Dolby Vision"
+
+msgctxt "#30100"
+msgid "Results for '{}'"
+msgstr "“{}”的結果"
+
+msgctxt "#30101"
+msgid "Netflix returned an unknown error."
+msgstr "Netflix返回了未知錯誤。"
+
+msgctxt "#30102"
+msgid "Netflix returned the following error:"
+msgstr "Netflix返回了如下錯誤："
+
+msgctxt "#30103"
+msgid "Error details have been written to the Kodi log file. If the error message does not provide guidance on how to resolve the issue or you continue to receive this error, please report it on GitHub by following the Readme instructions."
+msgstr "錯誤詳細資訊已寫入Kodi日誌檔。如果錯誤消息未提供如何解決問題的指導，或者您繼續收到此錯誤，請按照讀我檔案說明在GitHub上進行回報。"
+
+msgctxt "#30104"
+msgid "The add-on encountered the following error:"
+msgstr "套件程式遇到以下錯誤："
+
+msgctxt "#30105"
+msgid "Netflix Add-on Error"
+msgstr "Netflix套件程式錯誤"
+
+msgctxt "#30106"
+msgid "Invalid PIN"
+msgstr "PIN碼無效"
+
+msgctxt "#30107"
+msgid "PIN protection is off."
+msgstr "PIN碼保護已關閉"
+
+msgctxt "#30108"
+msgid "All content is protected by PIN."
+msgstr "所有內容均受PIN碼保護"
+
+msgctxt "#30109"
+msgid "Login successful"
+msgstr "登入成功"
+
+#. Unused 30110
+msgctxt "#30111"
+msgid "There is no contents"
+msgstr "沒有內容"
+
+msgctxt "#30112"
+msgid "You need to be logged in to use Netflix"
+msgstr "您必須先登入才能使用Netflix"
+
+msgctxt "#30113"
+msgid "Logout successful"
+msgstr "登出成功"
+
+#. Unused 30114, 30115
+msgctxt "#30116"
+msgid "Advanced Add-on Configuration"
+msgstr "高級套件程式設定"
+
+msgctxt "#30117"
+msgid "Cache"
+msgstr "暫存"
+
+#. Unused 30118, 30119
+msgctxt "#30120"
+msgid "Cannot automatically remove a season from Kodi library, please do it manually"
+msgstr "無法自動從Kodi資料庫中刪除季，請手動執行"
+
+msgctxt "#30121"
+msgid "Perform full sync now"
+msgstr "立即執行完全同步"
+
+msgctxt "#30122"
+msgid "Sync 'My list' to Kodi library"
+msgstr "將我的清單同步到Kodi資料庫"
+
+msgctxt "#30123"
+msgid "Do you want to continue?[CR]The full synchronization will delete all previously exported titles.[CR]If there are many titles this operation may take some time."
+msgstr "您想繼續嗎？[CR]完全同步將刪除所有以前匯出的標題。[CR]如果有很多標題，這個操作可能需要一些時間。"
+
+msgctxt "#30124"
+msgid "Do you want to remove this item from the library?"
+msgstr "您要從資料庫中刪除該項目嗎？"
+
+msgctxt "#30125"
+msgid "Delete library contents"
+msgstr "刪除資料庫內容"
+
+msgctxt "#30126"
+msgid "Do you really want to purge your library?[CR]All exported items will be deleted."
+msgstr "您是否真的要清除資料庫？[CR]所有匯出的項目將被刪除"
+
+msgctxt "#30127"
+msgid "Awarded rating of {}"
+msgstr "{}獲得的評分"
+
+msgctxt "#30128"
+msgid "Select a profile"
+msgstr "選擇個人資料"
+
+msgctxt "#30129"
+msgid "Enable Up Next integration"
+msgstr "啟用Up Next集成"
+
+msgctxt "#30130"
+msgid "Install Up Next add-on"
+msgstr "安裝Up Next套件程式"
+
+msgctxt "#30131"
+msgid "Check the logfile for detailed information"
+msgstr "檢查日誌檔以獲取詳細資訊"
+
+msgctxt "#30132"
+msgid "Clear in-memory cache"
+msgstr "清除記憶體暫存"
+
+msgctxt "#30133"
+msgid "Clear in-memory and on-disk cache"
+msgstr "清除記憶體和硬碟暫存"
+
+msgctxt "#30134"
+msgid "Enable execution timing"
+msgstr "啟用執行時間"
+
+msgctxt "#30135"
+msgid "Cache cleared"
+msgstr "暫存已清除"
+
+msgctxt "#30136"
+msgid "Waiting for service start-up..."
+msgstr "等待服務啟動..."
+
+msgctxt "#30137"
+msgid "Enable VP9 codec"
+msgstr "啟用VP9編碼"
+
+msgctxt "#30138"
+msgid "The background services may not yet be available if you just started Kodi/the add-on. In this case, try again in a moment."
+msgstr "如果您剛啟動Kodi/套件程式，則可能無法使用背景服務。在這種情況下，請稍後重試。"
+
+msgctxt "#30139"
+msgid "Enable IPC over HTTP (use when Addon Signals timeout messages appear)"
+msgstr "啟用基於HTTP的IPC（在Addon Signals超時資訊顯示時使用）"
+
+msgctxt "#30140"
+msgid "Import existing library"
+msgstr "匯入現有的資料庫"
+
+#. Unused 30141 to 30143
+msgctxt "#30144"
+msgid "Disable WebVTT subtitle support"
+msgstr "停用WebVTT字幕支援"
+
+msgctxt "#30145"
+msgid "Recently added"
+msgstr "最近新增"
+
+msgctxt "#30146"
+msgid "Discover the latest content added."
+msgstr "探索最新新增的內容。"
+
+msgctxt "#30147"
+msgid "Next page »"
+msgstr "下一頁»"
+
+msgctxt "#30148"
+msgid "« Previous page"
+msgstr "«上一頁"
+
+msgctxt "#30149"
+msgid "Sort results by"
+msgstr "結果排序依據"
+
+msgctxt "#30150"
+msgid "Alphabetical order (A-Z)"
+msgstr "字母順序（A-Z）"
+
+msgctxt "#30151"
+msgid "Alphabetical order (Z-A)"
+msgstr "字母順序（Z-A）"
+
+msgctxt "#30152"
+msgid "Suggestions for you"
+msgstr "推薦給您"
+
+msgctxt "#30153"
+msgid "Year released"
+msgstr "發佈年份"
+
+msgctxt "#30154"
+msgid "Netflix configuration wizard"
+msgstr "Netflix設定引導"
+
+msgctxt "#30155"
+msgid "Do you have a Netflix Premium account?"
+msgstr "您有Netflix高級方案帳戶嗎？"
+
+#. Unused 30156
+msgctxt "#30157"
+msgid "The configuration has been completed"
+msgstr "設定已完成"
+
+msgctxt "#30158"
+msgid "Restore the add-on default configuration"
+msgstr "還原擴充元件預設設定"
+
+msgctxt "#30159"
+msgid "View ID for main menu"
+msgstr "查看主目錄ID"
+
+msgctxt "#30160"
+msgid "View ID for search"
+msgstr "查看搜尋ID"
+
+msgctxt "#30161"
+msgid "View ID for exported"
+msgstr "查看匯出ID"
+
+msgctxt "#30162"
+msgid "Last used"
+msgstr "最後使用"
+
+msgctxt "#30163"
+msgid "Audio description"
+msgstr "音訊描述"
+
+msgctxt "#30164"
+msgid "Browse contents with audio description."
+msgstr "瀏覽帶有音訊描述的內容。"
+
+msgctxt "#30165"
+msgid "View ID for 'My list'"
+msgstr "查看'我的清單'ID"
+
+msgctxt "#30166"
+msgid "Main menu items"
+msgstr "主功能表項目"
+
+msgctxt "#30167"
+msgid "My list"
+msgstr "我的清單"
+
+msgctxt "#30168"
+msgid "Continue watching"
+msgstr "繼續觀看"
+
+msgctxt "#30169"
+msgid "Top picks"
+msgstr "熱門推薦"
+
+msgctxt "#30170"
+msgid "New releases"
+msgstr "最新發佈"
+
+msgctxt "#30171"
+msgid "Trending now"
+msgstr "目前流行"
+
+msgctxt "#30172"
+msgid "Popular on Netflix"
+msgstr "在Netflix上受歡迎"
+
+msgctxt "#30173"
+msgid "Netflix Originals"
+msgstr "Netflix 原創作品"
+
+msgctxt "#30174"
+msgid "TV show genres"
+msgstr "電視節目類型"
+
+msgctxt "#30175"
+msgid "Movie genres"
+msgstr "電影類型"
+
+msgctxt "#30176"
+msgid "Enable STRM resume workaround"
+msgstr "啟用STRM繼續播放"
+
+msgctxt "#30177"
+msgid "Ask to resume the video"
+msgstr "播放時詢問"
+
+msgctxt "#30178"
+msgid "Open Up Next add-on settings"
+msgstr "打開Up Next套件程式設置"
+
+msgctxt "#30179"
+msgid "Show trailers and more"
+msgstr "顯示預告片及更多內容"
+
+msgctxt "#30180"
+msgid "There has been a problem with login, it is possible that your account has not been confirmed or reactivated."
+msgstr "登入出現問題，可能是您的帳戶沒有被確認或重新啟動。"
+
+msgctxt "#30181"
+msgid "Always show the subtitles when the preferred audio language is not available"
+msgstr "當首選的音訊語言不可用時，總是顯示字幕"
+
+msgctxt "#30182"
+msgid "Export NFO files"
+msgstr "匯出NFO文件"
+
+msgctxt "#30183"
+msgid "Do you want to export NFO files for the {}?"
+msgstr "您是否要為{}匯出NFO檔？"
+
+msgctxt "#30184"
+msgid "NFO Files"
+msgstr "NFO文件"
+
+msgctxt "#30185"
+msgid "Enable NFO files export"
+msgstr "啟用NFO文件匯出"
+
+msgctxt "#30186"
+msgid "For Movies"
+msgstr "應用於電影"
+
+msgctxt "#30187"
+msgid "For TV show"
+msgstr "應用於電視節目"
+
+msgctxt "#30188"
+msgid "Ask"
+msgstr "詢問"
+
+msgctxt "#30189"
+msgid "movie"
+msgstr "電影"
+
+msgctxt "#30190"
+msgid "TV show"
+msgstr "電視節目"
+
+#. Unused 30191
+msgctxt "#30192"
+msgid "[CR]These files are used by the provider information scrapers to integrate movies and TV shows info, useful with bonus episodes or director's cut"
+msgstr "[CR]這些檔由提供商資訊收集器用來集成電影和電視節目資訊，可用於額外章節或導演剪輯。"
+
+msgctxt "#30193"
+msgid "Include tv show NFO details"
+msgstr "包含電視節目NFO詳細資訊"
+
+msgctxt "#30194"
+msgid "Limit video stream resolution to"
+msgstr "將影片串流解析度限制為"
+
+msgctxt "#30195"
+msgid "Export new episodes"
+msgstr "匯出新影集"
+
+msgctxt "#30196"
+msgid "Exclude from auto update"
+msgstr "從自動更新中排除"
+
+msgctxt "#30197"
+msgid "Include in auto update"
+msgstr "包含在自動更新中"
+
+msgctxt "#30198"
+msgid "Exporting new episodes"
+msgstr "匯出新影集"
+
+msgctxt "#30199"
+msgid "Shared library (Kodi MySQL server is required)"
+msgstr "共用資料庫（需要Kodi MySQL伺服器）"
+
+msgctxt "#30200"
+msgid "Use shared library MySQL-database"
+msgstr "使用MySQL共用資料庫"
+
+msgctxt "#30201"
+msgid "Username"
+msgstr "使用者名稱"
+
+msgctxt "#30202"
+msgid "Connection to the MySQL-database was successful"
+msgstr "到MySQL資料庫的連接成功"
+
+msgctxt "#30203"
+msgid "Host IP"
+msgstr "主機IP"
+
+msgctxt "#30204"
+msgid "Port"
+msgstr "埠"
+
+msgctxt "#30205"
+msgid "Test database connection"
+msgstr "測試資料庫連接"
+
+msgctxt "#30206"
+msgid "ERROR: The MySQL-database is not reachable - the local database will be used"
+msgstr "錯誤：無法訪問MySQL資料庫 - 將使用本地資料庫"
+
+msgctxt "#30207"
+msgid "Set this device as main auto-updates manager"
+msgstr "將此設備設置為主要的自動更新管理器"
+
+msgctxt "#30208"
+msgid "Check if this device is the main auto-update manager"
+msgstr "檢查此設備是否是主要的自動更新管理器"
+
+msgctxt "#30209"
+msgid "This device now handles the auto-updates of the shared library"
+msgstr "此設備現在可以處理共用資料庫的自動更新"
+
+msgctxt "#30210"
+msgid "This device handles the auto-updates of the shared library"
+msgstr "此設備處理共用資料庫的自動更新"
+
+msgctxt "#30211"
+msgid "Another device handles the auto-updates of the shared library"
+msgstr "另一台設備處理共用資料庫的自動更新"
+
+msgctxt "#30212"
+msgid "There is no device that handles the auto-updates of the shared library"
+msgstr "沒有設備可以處理共用資料庫的自動更新"
+
+msgctxt "#30213"
+msgid "InputStream Helper settings..."
+msgstr "InputStream Helper設置..."
+
+msgctxt "#30214"
+msgid "Force refresh"
+msgstr "強制更新"
+
+msgctxt "#30215"
+msgid "Color of the titles included in \"My list\""
+msgstr "存在於\"我的清單\"中的標題顏色"
+
+msgctxt "#30216"
+msgid "Color of the titles marked as \"Remind me\""
+msgstr "標記為\"提醒我\"的標題顏色"
+
+#. Unused 30217 to 30218
+msgctxt "#30219"
+msgid "Disable notification for synchronization completed"
+msgstr "停用同步完成通知"
+
+msgctxt "#30220"
+msgid "The Kodi library has been updated"
+msgstr "Kodi資料庫已更新"
+
+msgctxt "#30221"
+msgid "Owner account"
+msgstr "擁有者帳戶"
+
+msgctxt "#30222"
+msgid "Kid account"
+msgstr "兒童帳戶"
+
+#. Unused 30223
+msgctxt "#30224"
+msgid "Auto update mode"
+msgstr "自動更新模式"
+
+msgctxt "#30225"
+msgid "Manual"
+msgstr "手動"
+
+msgctxt "#30226"
+msgid "Scheduled"
+msgstr "計畫"
+
+msgctxt "#30227"
+msgid "Synchronize Kodi library with 'My list'"
+msgstr "將Kodi資料庫與我的清單同步"
+
+msgctxt "#30228"
+msgid "Set a profile for synchronization"
+msgstr "為同步設置一個設定檔"
+
+msgctxt "#30229"
+msgid "When Kodi starts"
+msgstr "當Kodi啟動"
+
+msgctxt "#30230"
+msgid "Check for updates now"
+msgstr "立即檢查更新"
+
+msgctxt "#30231"
+msgid "Do you want to check update now?"
+msgstr "您要立即檢查更新嗎？"
+
+msgctxt "#30232"
+msgid "Profile maturity rating for {}"
+msgstr "{}的個人資料年齡分級"
+
+msgctxt "#30233"
+msgid "Only show titles rated [B]{}[/B]."
+msgstr "僅顯示評分為[B]{}[/B]的標題。"
+
+#. Unused 30234
+msgctxt "#30235"
+msgid "Synchronize the watched status of the videos with Netflix"
+msgstr "將影片的觀看狀態與Netflix同步"
+
+msgctxt "#30236"
+msgid "Change watched status (locally)"
+msgstr "更改監視狀態（本地）"
+
+msgctxt "#30237"
+msgid "Marked as watched|Marked as unwatched|Restored Netflix watched status"
+msgstr "標記為已觀看|標記為未觀看|已恢復Netflix觀看狀態"
+
+msgctxt "#30238"
+msgid "Up Next notifications (watch next video)"
+msgstr "Up Next通知（觀看下一個影片）"
+
+msgctxt "#30239"
+msgid "Color of supplemental plot info"
+msgstr "補充資訊文字顏色"
+
+msgctxt "#30240"
+msgid "The background services cannot be started due to this problem:[CR]{}"
+msgstr "由於以下問題而無法啟動背景服務:[CR]{}"
+
+msgctxt "#30241"
+msgid "Open Connect CDN (the lower index is better)"
+msgstr "Open Connect CDN（索引越低越好）"
+
+msgctxt "#30242"
+msgid "Top 10"
+msgstr "十大排行"
+
+msgctxt "#30243"
+msgid "Select first unwatched TV show episode"
+msgstr "選擇第一個未觀看的電視節目影集"
+
+#. Unused 30244
+msgctxt "#30245"
+msgid "Deleting files exported to the library"
+msgstr "刪除匯出到資料庫的內容"
+
+msgctxt "#30246"
+msgid "There are {} titles that cannot be imported.[CR]Do you want to delete these files?"
+msgstr "有{}標題無法導入，[CR]您是否要刪除這些內容？"
+
+msgctxt "#30247"
+msgid "Results per page (in case of timeout error decrease it)"
+msgstr "每頁結果（請盡量請減少以避免逾時錯誤）"
+
+#. Unused 30248 to 30299
+msgctxt "#30300"
+msgid "Do you want to remove watched status of \"{}\"?"
+msgstr "您是否要刪除已監視的\"{}\"狀態？"
+
+msgctxt "#30301"
+msgid "Include Kodi library (only sending data)"
+msgstr "包括Kodi資料庫（僅發送資料）"
+
+#. Unused 30302 to 30339
+msgctxt "#30340"
+msgid "Choose the login method[CR](if the login with E-Mail/Password always returns \"incorrect password\", then use Authentication key, instructions in the GitHub ReadMe)"
+msgstr "選擇登入方式[CR]（如果使用電子郵件/密碼登入總是返回“不正確的密碼”，請使用Authentication key登入，查看GitHub讀我檔案中的說明）"
+
+msgctxt "#30341"
+msgid "E-Mail/Password"
+msgstr "電子信箱/密碼"
+
+msgctxt "#30342"
+msgid "Authentication key"
+msgstr "Authentication key"
+
+msgctxt "#30343"
+msgid "The selected file is not compatible or corrupted"
+msgstr "所選文件不相容或已損壞"
+
+msgctxt "#30344"
+msgid "The authentication key file is expired"
+msgstr "Authentication key已過期"
+
+msgctxt "#30345"
+msgid "Enter PIN"
+msgstr "輸入PIN碼"
+
+#. Unused 30346 to 30398
+msgctxt "#30399"
+msgid "Sort history by"
+msgstr "歷史記錄排序依據"
+
+msgctxt "#30400"
+msgid "Search"
+msgstr "搜尋"
+
+msgctxt "#30401"
+msgid "Type of search"
+msgstr "搜尋類型"
+
+msgctxt "#30402"
+msgid "Search titles, people, genres"
+msgstr "搜尋標題，人物，類型"
+
+msgctxt "#30403"
+msgid "New search..."
+msgstr "新搜尋..."
+
+msgctxt "#30404"
+msgid "Clear search history"
+msgstr "清除搜尋記錄"
+
+msgctxt "#30405"
+msgid "Select the language"
+msgstr "選擇語言"
+
+msgctxt "#30406"
+msgid "Do you want to delete the entire contents?"
+msgstr "您要刪除全部內容嗎？"
+
+msgctxt "#30407"
+msgid "No matches found"
+msgstr "未找到匹配項目"
+
+#. Unused 30408, 30409
+msgctxt "#30410"
+msgid "By term"
+msgstr "按關鍵字"
+
+msgctxt "#30411"
+msgid "By audio language"
+msgstr "按音訊語言"
+
+msgctxt "#30412"
+msgid "By subtitles language"
+msgstr "按字幕語言"
+
+msgctxt "#30413"
+msgid "By genre/subgenre ID"
+msgstr "按類型/子類型ID"
+
+#. Unused 30414 to 30499
+msgctxt "#30500"
+msgid "Prefer the audio/subtitle language with country code (if available)"
+msgstr "根據地區代碼首選音訊/字幕語言（如果可用）"
+
+msgctxt "#30501"
+msgid "Prefer stereo audio tracks by default"
+msgstr "預設選擇立體聲音軌"
+
+#. Unused 30502 to 30599
+msgctxt "#30600"
+msgid "ESN / Widevine settings"
+msgstr "ESN / Widevine 設定"
+
+msgctxt "#30601"
+msgid "ESN:"
+msgstr "ESN:"
+
+msgctxt "#30602"
+msgid "Change ESN"
+msgstr "更換ESN"
+
+msgctxt "#30603"
+msgid "Save system info"
+msgstr "儲存系統資訊"
+
+msgctxt "#30604"
+msgid "Widevine - Force security level"
+msgstr "Widevine - 強制安全層級"
+
+msgctxt "#30605"
+msgid "Force {}"
+msgstr "強制 {}"
+
+msgctxt "#30606"
+msgid "ESN set successfully[CR]Try to play a video"
+msgstr "ESN設定成功[CR]嘗試播放影片"
+
+msgctxt "#30607"
+msgid "This ESN cannot be used[CR]Try change ESN or reset ESN.[CR][CR]Error details:[CR]{}"
+msgstr "此ESN不能使用[CR]嘗試更換ESN或重設ESN[CR][CR]詳細錯誤:[CR]{}"
+
+msgctxt "#30608"
+msgid "Wrong ESN format"
+msgstr "ESN格式錯誤"
+
+msgctxt "#30609"
+msgid "Do you want to reset all settings?"
+msgstr "您想要重設所有設定嗎？"
+
+msgctxt "#30610"
+msgid "Use system-based encryption for credentials"
+msgstr "將基於系統的加密方式使用於證書"
+
+# Help description for setting id 30610
+msgctxt "#30611"
+msgid "[B]If disabled it will cause a security leak[/B]. If your operating system does not support it, you will be prompted to login each time you reboot the device, [B]only[/B] in this case disable it. If you change this setting you will be prompted to login again in the next time you reboot."
+msgstr "[B]如果取消此設定將會導致安全性危險。[/B]如果你的作業系統不支援此功能，在每一次重新開機後，都會被要求重新登入。[B]只有[/B]在這種情形下才取消此設定。修改此設定會在下一次重新開機後被要求重新登入。"
+
+msgctxt "#30612"
+msgid "MSL manifest version"
+msgstr "MSL manifest 版本"
+
+#. Unused 30613 to 30619
+msgctxt "#30620"
+msgid "This title will be available from:[CR]{}"
+msgstr "此標題在以下可以找到:[CR]{}"
+
+msgctxt "#30621"
+msgid "Do you want to play the promo trailer?"
+msgstr "您想要撥放推薦預告片嗎?"
+
+#. The {} will be replaced with the graphic circle to mark when the functionality is active
+msgctxt "#30622"
+msgid "{} Remind me"
+msgstr "{} 提醒我"
+
+#. Unused 30623 to 30699
+msgctxt "#30700"
+msgid "New and popular"
+msgstr "最新與熱門"
+
+msgctxt "#30701"
+msgid "Marks started tv shows as watched"
+msgstr "將已經開始的節目標記為已觀看"
+
+#. Description of setting ID #30701
+msgctxt "#30702"
+msgid "Please note that by enabling this setting if filters are enabled in your Skin settings, items marked as watched may not be visible."
+msgstr "請注意，若在外觀設定中有開啟過濾，開啟此設定可能會使被標記為已觀看的項目不可見。"
+
+msgctxt "#30703"
+msgid "Override stream selection type"
+msgstr "覆寫串流選擇類型"
+
+msgctxt "#30704"
+msgid "Override the Stream selection type setting of the InputStream Adaptive add-on, to set how the audio / video streams quality will be chosen during playback."
+msgstr "覆寫 InputStream Adaptive 插件的串流選擇類型，以設定如何選擇播放中的 音訊/影像 串流品質。"
+
+msgctxt "#30705"
+msgid "Adaptive quality"
+msgstr "自適應品質"
+
+msgctxt "#30706"
+msgid "Fixed video quality"
+msgstr "固定影像品質"
+
+msgctxt "#30707"
+msgid "Ask video quality"
+msgstr "詢問影像品質"
+
+msgctxt "#30720"
+msgid "Please note that enabling this setting will force the removal of streams that are not within the set range and this may affect the operation of InputStream Adaptive. If possible try limiting the quality from the InputStream Adaptive settings first."
+msgstr "請注意，啟用此設定將強制刪除不在設定範圍內的串流，這可能會影響 InputStream Adaptive 的運作。如果可以的話，請先嘗試從 InputStream Adaptive 設定中限制品質。"
+
+msgctxt "#30721"
+msgid "Size"
+msgstr "尺寸"
+
+#. Description of setting ID #30721
+msgctxt "#30722"
+msgid "Minimise the black bars by apply a zoom effect. [ Fixed ] Sets the percentage of screen space that black bars can occupy, will be constant for all videos. [ Relative ] Sets the percentage of black band minimisation, will depend on each video size. [ Reset ] Reset the zoom effect previously applied."
+msgstr "透過應用縮放效果最小化黑色邊。[ 固定 ]設置黑色邊可以佔據的螢幕空間百分比，對於所有影片都是固定的。 [ 相對 ] 設置黑色邊最小化的百分比，將取決於每個影片大小。 [ Reset ] 重置之前應用的縮放效果。"
+
+#. Unused 30723
+#. Description of setting ID #30723
+msgctxt "#30724"
+msgid "This feature make use of Kodi zoom effect that is permanently stored in the \"View mode\" video setting, if you disable this feature in the future the zoom will be preserved, to reset the zoom change to \"Reset\" setting mode."
+msgstr "此功能利用永久儲存在\"查看模式\"影片設定中的 Kodi 縮放效果，如果您將來禁用此功能，縮放將被保留，將縮放更改重置為\"重置\"設置模式."
+
+#. Unused 30725, 30726
+msgctxt "#30727"
+msgid "Enable AV1 codec"
+msgstr "啟用AV1編碼"
+
+msgctxt "#30728"
+msgid "Add Netflix folders to Kodi library sources"
+msgstr "將Netflix資料夾新增至Kodi資料庫來源"
+
+msgctxt "#30729"
+msgid "The folders \"Netflix-Movies\" and \"Netflix-Shows\" have been added to Kodi sources, restart Kodi to view them in the Kodi [TV Shows] / [Movies] menus. Then edit the folders to set the appropriate content type and information provider scraper."
+msgstr "\"Netflix-電影\" 與 \"Netflix-節目\" 資料夾已經加入至Kodi來源，重新啟動Kodi並於 [電視劇] / [電影] 選單中檢視。然後為資料夾設定合適的內容類型以及資訊提供者抓取器。"
+
+#. Description of setting ID 30224
+msgctxt "#30730"
+msgid "[Manual] updates must be done manually by using \"Export new episodes\" context menu on each tv show, [Scheduled] you can establish automatic updates at scheduled times, [When Kodi starts] automatic updates start at Kodi start-up and will only be done once a day."
+msgstr "[手動] 更新必須透過手動對於每一個電視劇使用 \"匯出新影集\" 內容選單，[排程] 你可以設定自動在排定的時間更新，[當Kodi啟動時] 在Kodi啟動時自動更新一天僅會執行一次。"
+
+#. Description of setting ID 30227
+msgctxt "#30731"
+msgid "Synchronises the library with My list, if my list has been modified externally e.g. mobile app or website, the update will be postponed to the scheduled time."
+msgstr "與我的清單同步，如果我的清單被外部修改過，例如手機應用程式或是網站，更新將會延後至下一個排定時間。"
+
+#. Description of setting ID 30185
+msgctxt "#30732"
+msgid "If enabled, adds information to episodes or movies that are useful when Kodi information provider scraper does not provide data. This will also add the duration of the videos."
+msgstr "如果啟用，將會在Kodi資訊提供者抓取器沒有提供資訊時把資訊新增至影集或電影。此選項也會一併新增影片時長。"
+
+#. Description of setting ID 30193
+msgctxt "#30733"
+msgid "Only enable if \"Local Information\" information provider scraper is used, or if certain titles are not displayed in Kodi library despite having been added."
+msgstr "只有在使用 \"本地資料\" 資訊提供者抓取器時啟用，或是某些標題儘管已經被加入於Kodi資料庫卻沒有顯示。"
+
+msgctxt "#30734"
+msgid "Support"
+msgstr "支援"
+
+msgctxt "#30735"
+msgid "About Netflix add-on"
+msgstr "關於 Netflix套件"
+
+msgctxt "#30736"
+msgid "Automatically generates new ESNs (workaround for 540p limit)"
+msgstr "自動產生新的 ESN(被限制於540p的解決方法)"
+
+msgctxt "#30737"
+msgid "WARNING: Do not use the original device ESN of the official app."
+msgstr "警告: 請勿使用官方程式原始裝置的ESN"
+
+msgctxt "#30738"
+msgid "Enable audio offset"
+msgstr "啟用聲音偏移"
+
+msgctxt "#30739"
+msgid "Audio offset"
+msgstr "聲音偏移"
+
+#. Description of setting ID 30739
+msgctxt "#30740"
+msgid "Sets the audio offset by overriding the Kodi setting"
+msgstr "使用聲音偏移覆蓋Kodi設定"
+
+msgctxt "#30741"
+msgid "Enable VP9 Profile 2 (10/12 bit color depth)"
+msgstr "啟用VP9設定檔2(10/12 bit色深)"
+
+msgctxt "#30742"
+msgid "Do you want to enable HDR10 support?"
+msgstr "是否要啟用HDR10支援?"
+
+msgctxt "#30743"
+msgid "Do you want to enable HDR Dolby Vision support?"
+msgstr "是否要啟用HDR Dolby Vision支援?"
+
+#. Description of setting ID 30081
+msgctxt "#30744"
+msgid "The add-on already sets the appropriate HDCP version, but if required you can force the request of video streams for a different HDCP version."
+msgstr "此插件已經設置了適當的HDCP版本，但如果需要，您可以強制請求不同HDCP版本的影片串流。"
+
+msgctxt "#30745"
+msgid "If your device does not support this codec, you may experience black screen, no image or corrupted images. If so disable the codec."
+msgstr "如果您的設備不支持此編解碼器，您可能會遇到黑屏、無圖像或圖像損壞的情況。如果遇到此情形，請禁用編解碼器。"
+
+msgctxt "#30746"
+msgid "Black bars minimise mode"
+msgstr "黑色邊最小化模式"
+
+msgctxt "#30747"
+msgid "Fixed"
+msgstr "已修復"
+
+msgctxt "#30748"
+msgid "Relative"
+msgstr "相對的"
+
+msgctxt "#30749"
+msgid "Reset"
+msgstr "重設"
