@@ -1,7 +1,9 @@
-# SteamOS Kodi Installer (preconfigured)
+# SteamOS* Kodi Installer (preconfigured)
 
 <img src="/kodi.png"/>
 
+>
+>
 > git clone https://github.com/slynobody/SteamOS-Kodi-Installer
 > 
 > cd SteamOS-Kodi-Installer
@@ -10,7 +12,7 @@
 >
 > ./install.sh
 
-# Turn your steamdeck to a media-center (relatively privacy-friendly) - a button in game-mode away!
+# Turn your steamdeck* to a media-center (relatively privacy-friendly) - a button-press away in game-mode!
 
  Streaming, Music, Movies, Pictures, Radio, TV – central, one place.
 
@@ -21,6 +23,8 @@
  customize: everywhere you are – just click right, set current content as 'favorite' -- and find it again in 'favorites'.
 
  extend : choose between hundreds of other preinstalled addons & install them easily.
+
+*<sub>the .kodi-dir from this repo can be used in any other linux-distro.</sub>
 
 # FAQ
 ## how do i use netflix?
