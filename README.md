@@ -27,6 +27,9 @@
 *<sub>the .kodi-dir from this repo can be used in any other linux-distro.</sub>
 
 # FAQ
+## how do i get resolutions beyond the usual 720p?
+in gamemode go to properties and set another resolution there.
+
 ## how do i use netflix?
 to get secure access to 1080p-streaming you need to login once through a browser to get a credential-file as well as a code. use 'netflix.sh' for this.
 
