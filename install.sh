@@ -4,8 +4,8 @@ sudo steamos-readonly disable
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman-key --populate holo
-yes '' | sudo pacman -S  gstreamer-vaapi gst-plugin-pipewire gst-plugins-bad-libs gst-plugins-good gst-plugins-ugly python-websocket-client kodi  kodi-addon-inputstream-adaptive kodi-addon-inputstream-rtmp kodi-addon-peripheral-joystick kodi-addon-visualization-shadertoy kodi-addon-screensaver-pingpong
-steamos-add-to-steam /usr/local/bin/kodi
+sudo pacman -S  gstreamer-vaapi gst-plugin-pipewire gst-plugins-bad-libs gst-plugins-good gst-plugins-ugly python-websocket-client kodi  kodi-addon-inputstream-adaptive kodi-addon-inputstream-rtmp kodi-addon-peripheral-joystick kodi-addon-visualization-shadertoy kodi-addon-screensaver-pingpong --overwrite '*'
+steamos-add-to-steam /usr/bin/kodi
 cp -R ./.kodi /home/deck
 sudo steamos-readonly enable
 echo "-----------------------------------------------------------------------------------------------------------------------"
