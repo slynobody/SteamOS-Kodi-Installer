@@ -12,7 +12,7 @@
 >
 > ./install.sh
 
-# Turn your steamdeck* to a media-center - a button-press away in game-mode!
+# Turn your steamdeck* to a media-center - a button-press away (game-mode)!
 
  Streaming, Music, Movies, Pictures, Radio, TV – central, one place. (relatively privacy-friendly, also see #) 
 
