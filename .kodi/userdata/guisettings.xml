@@ -181,33 +181,36 @@
     <setting id="accessibility.audiovisual" default="true">false</setting>
     <setting id="accessibility.audiohearing" default="true">false</setting>
     <setting id="accessibility.subhearing" default="true">false</setting>
-    <setting id="subtitles.align" default="true">2</setting>
-    <setting id="subtitles.fontname" default="true">DEFAULT</setting>
-    <setting id="subtitles.fontsize" default="true">42</setting>
-    <setting id="subtitles.style" default="true">0</setting>
-    <setting id="subtitles.colorpick" default="true">FFFFFFFF</setting>
-    <setting id="subtitles.opacity" default="true">100</setting>
-    <setting id="subtitles.bordersize" default="true">25</setting>
+    <setting id="accessibility.subhearing" default="true">false</setting>
+    <setting id="subtitles.align">1</setting>
+    <setting id="subtitles.fontname">Quicksand</setting>
+    <setting id="subtitles.fontsize">34</setting>
+    <setting id="subtitles.style">1</setting>
+    <setting id="subtitles.colorpick">FFF5F5F5</setting>
+    <setting id="subtitles.opacity">80</setting>
+    <setting id="subtitles.bordersize">20</setting>
     <setting id="subtitles.bordercolorpick" default="true">FF000000</setting>
-    <setting id="subtitles.blur" default="true">0</setting>
-    <setting id="subtitles.backgroundtype" default="true">0</setting>
+    <setting id="subtitles.blur">40</setting>
+    <setting id="subtitles.backgroundtype">1</setting>
     <setting id="subtitles.bgcolorpick" default="true">FF000000</setting>
     <setting id="subtitles.bgopacity" default="true">80</setting>
     <setting id="subtitles.shadowcolor" default="true">FF000000</setting>
-    <setting id="subtitles.shadowopacity" default="true">100</setting>
-    <setting id="subtitles.shadowsize" default="true">15</setting>
+    <setting id="subtitles.shadowopacity">15</setting>
+    <setting id="subtitles.shadowsize">8</setting>
     <setting id="subtitles.marginvertical" default="true">4.95</setting>
-    <setting id="subtitles.overridefonts" default="true">false</setting>
+    <setting id="subtitles.overridefonts">true</setting>
     <setting id="subtitles.overridestyles" default="true">0</setting>
     <setting id="subtitles.stereoscopicdepth" default="true">0</setting>
     <setting id="subtitles.charset" default="true">DEFAULT</setting>
-    <setting id="subtitles.parsecaptions" default="true">false</setting>
+    <setting id="subtitles.parsecaptions">true</setting>
     <setting id="subtitles.captionsalign" default="true">0</setting>
-    <setting id="subtitles.languages" default="true">English</setting>
+    <setting id="subtitles.languages">English,German</setting>
     <setting id="subtitles.storagemode" default="true">0</setting>
     <setting id="subtitles.custompath" default="true" />
     <setting id="subtitles.pauseonsearch" default="true">true</setting>
-    <setting id="subtitles.downloadfirst" default="true">false</setting>
+    <setting id="subtitles.downloadfirst">true</setting>
+    <setting id="subtitles.tv" default="true" />
+    <setting id="subtitles.movie" default="true" />
     <setting id="subtitles.tv" default="true" />
     <setting id="subtitles.movie" default="true" />
     <setting id="pvrmanager.syncchannelgroups" default="true">true</setting>
