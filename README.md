@@ -14,7 +14,7 @@
 
 # Turn your steamdeck* to a media-center - a button-press away (game-mode)!
 
- Streaming, Music, Movies, Pictures, Radio, TV – central, one place. (relatively privacy-friendly, also see #) 
+ Streaming, Music, Movies, Pictures, Radio, TV – central, one place. (relatively privacy-friendly, <a href="https://github.com/slynobody/SteamOS-Privacy">also see)</a>
 
  **preconfigured: 200+ streaming-services (mostly 1080p+)** -- incl. paid like netflix, disney+, amazon, crunchyroll, mubi, youtube, spotify, twitch, imdb & others + arthouse providers & nearly every   free public broadcasting tv & radio-stations.
 
