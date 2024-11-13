@@ -1,4 +1,4 @@
-# SteamOS* Kodi Installer (preconfigured)
+# SteamOS* Mediacenter ('kodi', preconfigured for streaming)
 
 <img src="/kodi.png"/>
 
