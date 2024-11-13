@@ -1,3 +1,4 @@
+import os
 import sys
 import json
 import time
@@ -9,7 +10,7 @@ from slyguy import settings, _
 from slyguy.constants import *
 from slyguy.router import add_url_args
 from slyguy.smart_urls import get_dns_rewrites
-from slyguy.util import fix_url, set_kodi_string, hash_6, get_url_headers, get_headers_from_url
+from slyguy.util import fix_url, set_kodi_string, hash_6, get_url_headers, get_headers_from_url, get_addon
 from slyguy.session import Session
 from slyguy.dialog import * #backwards compatb
 
@@ -344,12 +345,10 @@ class Item(object):
             if 'original_language' in self.proxy_data:
                 li.setProperty('{}.original_audio_language'.format(self.inputstream.addon_id), self.proxy_data['original_language'])
 
-            if KODI_VERSION > 19:
-                li.setProperty('{}.chooser_resolution_max'.format(self.inputstream.addon_id), '4K')
-                li.setProperty('{}.chooser_resolution_secure_max'.format(self.inputstream.addon_id), '4K')
-                if self.inputstream.manifest_type == 'hls' and KODI_VERSION > 20:
-                    # dash sets its own delay in proxy
-                    li.setProperty('inputstream.adaptive.live_delay', '24')
+            if KODI_VERSION >= 21:
+                # Kodi 21 IA removed the buffer settings
+                # 24s live delay gives us similiar buffer as <21
+                li.setProperty('{}.live_delay'.format(self.inputstream.addon_id), '24')
 
             if self.inputstream.license_key:
                 license_url = self.inputstream.license_key
@@ -402,9 +401,13 @@ class Item(object):
         if self.path and playing:
             self.path = redirect_url(fix_url(self.path))
             final_path = get_url(self.path)
-            if is_http(final_path):
+
+            parse = urlparse(final_path.lower())
+            if parse.scheme == 'plugin':
+                get_addon(parse.netloc, required=True)
+
+            elif is_http(final_path):
                 if not mimetype:
-                    parse = urlparse(self.path.lower())
                     if parse.path.endswith('.m3u') or parse.path.endswith('.m3u8'):
                         mimetype = 'application/vnd.apple.mpegurl'
                     elif parse.path.endswith('.mpd'):

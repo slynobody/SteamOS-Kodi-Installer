@@ -61,7 +61,6 @@ MERGE_SETTING_FILE   = '.iptv_merge'
 
 #### ROUTING ####
 ROUTE_TAG              = '_'
-ROUTE_RESET            = '_reset'
 ROUTE_SETTINGS         = '_settings'
 ROUTE_IA_SETTINGS      = '_ia_settings'
 ROUTE_SETUP_MERGE      = '_setup_merge'
@@ -133,9 +132,6 @@ BOOKMARK_FILE = os.path.join(ADDON_PROFILE, 'bookmarks.json')
 #### PROXY #####
 REMOVE_IN_HEADERS = ['upgrade', 'host', 'accept-encoding']
 REMOVE_OUT_HEADERS = ['date', 'server', 'transfer-encoding', 'keep-alive', 'connection']
-
-DEFAULT_PORT = 52103
-HOST = '127.0.0.1'
 ERROR_URL = 'error.m3u8'
 STOP_URL = 'stop.m3u8'
 EMPTY_TS = 'empty.ts' if KODI_VERSION < 19 else ''

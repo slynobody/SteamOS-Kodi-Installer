@@ -10,7 +10,6 @@ from xml.dom.minidom import parseString
 from functools import cmp_to_key
 
 import arrow
-from requests import ConnectionError
 from six.moves.BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from six.moves.socketserver import ThreadingMixIn
 from six.moves.urllib.parse import urlparse, urljoin, unquote_plus, parse_qsl
@@ -19,7 +18,7 @@ from pycaption import detect_format, WebVTTWriter
 
 from slyguy import gui, settings, log, _
 from slyguy.constants import *
-from slyguy.util import check_port, remove_file, get_kodi_string, set_kodi_string, fix_url, run_plugin, lang_allowed, fix_language, pthms_to_seconds
+from slyguy.util import check_port, remove_file, get_kodi_string, set_kodi_string, fix_url, run_plugin, lang_allowed, fix_language
 from slyguy.exceptions import Exit
 from slyguy.session import RawSession
 from slyguy.router import add_url_args
@@ -41,8 +40,8 @@ CODECS = [
     ['av0?1', 'AV1'],
     ['hdr', HDR],
     ['dvh', DOLBY_VISION],
-    ['vp0?9\.0?2', 'VP9 HDR'],
-    ['av0?1.*09\.16\.09\.0', 'AV1 HDR'],
+    [r'vp0?9\.0?2', 'VP9 HDR'],
+    [r'av0?1.*09\.16\.09\.0', 'AV1 HDR'],
 ]
 CODECS = [[re.compile(x[0], re.IGNORECASE), x[1]] for x in CODECS]
 
@@ -171,18 +170,19 @@ class RequestHandler(BaseHTTPRequestHandler):
         else:
             session_type = DEFAULT_SESSION_NAME
             self._session = PROXY_GLOBAL['sessions'].get(session_type) or {}
-            try:
-                proxy_data = json.loads(get_kodi_string('_slyguy_proxy_data'))
-                set_kodi_string('_slyguy_proxy_data', '')
 
-                if self._session.get('session_id') != proxy_data['session_id']:
+            proxy_data = get_kodi_string('_slyguy_proxy_data')
+            if proxy_data:
+                set_kodi_string('_slyguy_proxy_data', '')
+                proxy_data = json.loads(proxy_data)
+
+                if self._session.get('session_id', 0) != proxy_data.get('session_id', 1):
                     self._session = {}
 
                 if not self._session:
                     log.debug('Session created from proxy data')
                     self._session.update(proxy_data)
-            except:
-                pass
+
         PROXY_GLOBAL['sessions'][session_type] = self._session
 
         # must remove content-length header as the length can change once we read it / resend it
@@ -453,15 +453,15 @@ class RequestHandler(BaseHTTPRequestHandler):
                         except:
                             continue
 
-            log.debug('CHOOSE QUALITY')
+            start = time.time()
             index = gui.select(_.SELECT_QUALITY, labels, preselect=default, autoclose=5000)
             if index < 0:
                 self._session['selected_quality'] = QUALITY_EXIT
                 raise Exit('Cancelled quality select')
-            log.debug('CHOOSE QUALITY DONE')
+            self._session['selected_quality_time'] = time.time() - start
+            log.debug('Selected quality "{}": {}s'.format(labels[index], self._session['selected_quality_time']))
 
             quality = values[index]
-
             if current:
                PROXY_GLOBAL['last_qualities'].remove(current)
 
@@ -483,6 +483,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             return None
 
     def _parse_dash(self, response):
+        start = time.time()
         data = response.stream.content.decode('utf8')
         response.stream.content = b''
 
@@ -518,28 +519,11 @@ class RequestHandler(BaseHTTPRequestHandler):
 
         mpd = root.getElementsByTagName("MPD")[0]
         mpd_attribs = list(mpd.attributes.keys())
-
-        if mpd.getAttribute('type') == 'dynamic':
-            if KODI_VERSION > 20:
-                ## Below seems to cause buffering at chapter change (https://github.com/matthuisman/slyguy.addons/issues/836)
-                # set maximum 4s update period
-                # existing = pthms_to_seconds(mpd.getAttribute('minimumUpdatePeriod')) or 4
-                # mpd.setAttribute('minimumUpdatePeriod', "PT{}S".format(min(existing, 4)))
-
-                # set minimum 24s live delay
-                min_delay = 24
-                existing = pthms_to_seconds(mpd.getAttribute('suggestedPresentationDelay')) or 0
-                if existing < min_delay:
-                    value = 'PT{}S'.format(min_delay)
-                    log.debug('Dash Fix: Setting suggestedPresentationDelay to "{}"'.format(value))
-                    mpd.setAttribute('suggestedPresentationDelay', value)
-
-            # ## Fix mpd overalseconds bug issue: https://github.com/xbmc/inputstream.adaptive/issues/731 / https://github.com/xbmc/inputstream.adaptive/pull/881
-            if KODI_VERSION < 21 and 'timeShiftBufferDepth' not in mpd_attribs and 'mediaPresentationDuration' not in mpd_attribs:
-                buffer_seconds = (arrow.now() - arrow.get(mpd.getAttribute('availabilityStartTime'))).total_seconds()
-                mpd.setAttribute('mediaPresentationDuration', 'PT{}S'.format(buffer_seconds))
-                log.debug('Dash Fix: {}S mediaPresentationDuration added'.format(buffer_seconds))
-
+        # ## Fix mpd overalseconds bug issue: https://github.com/xbmc/inputstream.adaptive/issues/731 / https://github.com/xbmc/inputstream.adaptive/pull/881
+        if KODI_VERSION < 21 and mpd.getAttribute('type') == 'dynamic' and 'timeShiftBufferDepth' not in mpd_attribs and 'mediaPresentationDuration' not in mpd_attribs:
+            buffer_seconds = (arrow.now() - arrow.get(mpd.getAttribute('availabilityStartTime'))).total_seconds()
+            mpd.setAttribute('mediaPresentationDuration', 'PT{}S'.format(buffer_seconds))
+            log.debug('Dash Fix: {}S mediaPresentationDuration added'.format(buffer_seconds))
 
         ## SORT ADAPTION SETS BY BITRATE ##
         video_sets = []
@@ -917,10 +901,8 @@ class RequestHandler(BaseHTTPRequestHandler):
             base_url_parents.append(elem.parentNode)
         ################
 
-        if KODI_VERSION < 21:
-            # wipe out manifest so not passed again
-            # Kodi 21 and up need to set mpd attribs again
-            self._session['manifest'] = None
+        # wipe out manifest so not passed again
+        self._session['manifest'] = None
 
         ## Convert Location
         for elem in root.getElementsByTagName('Location'):
@@ -976,7 +958,8 @@ class RequestHandler(BaseHTTPRequestHandler):
             process_attrib('media')
 
             ## Remove presentationTimeOffset PR: https://github.com/xbmc/inputstream.adaptive/pull/564/
-            if 'presentationTimeOffset' in e.attributes.keys():
+            # Removing below in Kodi 21 breaks some live streams
+            if KODI_VERSION < 21 and 'presentationTimeOffset' in e.attributes.keys():
                 e.removeAttribute('presentationTimeOffset')
                 log.debug('Dash Fix: presentationTimeOffset removed')
         ###############
@@ -986,6 +969,8 @@ class RequestHandler(BaseHTTPRequestHandler):
             if not adap_set.getElementsByTagName('Representation'):
                 adap_set.parentNode.removeChild(adap_set)
         #################
+
+        log.debug("Parse Dash: {}s".format(time.time() - start - self._session.get('selected_quality_time', 0)))
 
         if ADDON_DEV:
             mpd = root.toprettyxml(encoding='utf-8')
@@ -1272,12 +1257,13 @@ class RequestHandler(BaseHTTPRequestHandler):
         return '\n'.join(new_lines)
 
     def _parse_m3u8(self, response):
+        start = time.time()
         m3u8 = response.stream.content.decode('utf8')
         response.stream.content = b''
 
         is_master = False
         if '#EXTM3U' not in m3u8:
-            raise Exception('Invalid m3u8')
+            raise Exception('Invalid m3u8: {}'.format(m3u8))
 
         if '#EXT-X-STREAM-INF' in m3u8:
             is_master = True
@@ -1310,13 +1296,17 @@ class RequestHandler(BaseHTTPRequestHandler):
         m3u8 = re.sub(r'(https?)://', r'{}\1://'.format(self.proxy_path), m3u8, flags=re.I)
 
         m3u8 = m3u8.encode('utf8')
+        response.stream.content = m3u8
+
+        if is_master:
+            log.debug("Parse M3U8 Master: {}s".format(time.time() - start - self._session.get('selected_quality_time', 0)))
+        else:
+            log.debug("Parse M3U8 Sub: {}s".format(time.time() - start))
 
         if ADDON_DEV:
             m3u8 = b"\n".join([ll.rstrip() for ll in m3u8.splitlines() if ll.strip()])
             with open(xbmc.translatePath('special://temp/'+file_name+'-out.m3u8'), 'wb') as f:
                 f.write(m3u8)
-
-        response.stream.content = m3u8
 
     def _proxy_request(self, method, url):
         self._session['redirecting'] = False
@@ -1332,18 +1322,17 @@ class RequestHandler(BaseHTTPRequestHandler):
                 response.status_code = 200
                 with open(real_path, 'rb') as f:
                     response.stream.content = f.read()
-
-                if not ADDON_DEV:
-                    remove_file(real_path)
             else:
-                response.status_code = 500
-                response.stream.content = "File not found: {}".format(real_path).encode('utf-8')
+                raise Exception("File not found: {}".format(real_path))
 
             return response
 
         if self._post_data and ADDON_DEV:
             with open(xbmc.translatePath('special://temp/request.data'), 'wb') as f:
                 f.write(self._post_data)
+
+        ## Fix any double // in url
+        url = fix_url(url)
 
         if not self._session.get('session'):
             self._session['session'] = RawSession(
@@ -1360,26 +1349,16 @@ class RequestHandler(BaseHTTPRequestHandler):
             self._session['session'].headers.clear()
             #self._session['session'].cookies.clear() #lets handle cookies in session
 
-        ## Fix any double // in url
-        url = fix_url(url)
+        log.debug('REQUEST OUT: {} ({})'.format(url, method.upper()))
+        start = time.time()
+        try:
+            response = self._session['session'].request(method=method, url=url, headers=self._headers, data=self._post_data, allow_redirects=False, stream=True)
+        except Exception as e:
+            log.exception(e)
+            raise
 
-        retries = 3
-        # some reason we get connection errors every so often when using a session. something to do with the socket
-        for i in range(retries):
-            log.debug('REQUEST OUT: {} ({})'.format(url, method.upper()))
-            try:
-                response = self._session['session'].request(method=method, url=url, headers=self._headers, data=self._post_data, allow_redirects=False, stream=True)
-            except ConnectionError as e:
-                if 'Connection aborted' not in str(e) or i == retries-1:
-                    log.exception(e)
-                    raise
-            except Exception as e:
-                log.exception(e)
-                raise
-            else:
-                log.debug('RESPONSE IN: {} ({})'.format(url, response.status_code))
-                break
-
+        log.debug('REQUEST TIME: {}'.format(time.time() - start))
+        log.debug('RESPONSE IN: {} ({})'.format(url, response.status_code))
         response.stream = ResponseStream(response)
 
         headers = {}
@@ -1399,7 +1378,7 @@ class RequestHandler(BaseHTTPRequestHandler):
 
         if 'set-cookie' in response.headers:
             log.debug('set-cookie: {}'.format(response.headers['set-cookie']))
-            ## we handle cookies in the requests session
+            ## we handle cookies in the cookiejar
             response.headers.pop('set-cookie')
 
         if response.ok and not self._session['redirecting']:
@@ -1436,7 +1415,13 @@ class RequestHandler(BaseHTTPRequestHandler):
 
     def do_HEAD(self):
         url = self._get_url('HEAD')
-        response = self._proxy_request('HEAD', url)
+        if url in (STOP_URL, ERROR_URL):
+            response = Response()
+            response.stream = ResponseStream(response)
+            response.headers = {}
+            response.status_code = 200
+        else:
+            response = self._proxy_request('HEAD', url)
         self._output_response(response)
 
     def do_POST(self):
@@ -1523,6 +1508,7 @@ class ResponseStream(object):
 
                 yield chunk
 
+
 def save_session():
     # persist session across service restarts
     session = PROXY_GLOBAL['sessions'].get(DEFAULT_SESSION_NAME)
@@ -1536,8 +1522,10 @@ def save_session():
     set_kodi_string('_slyguy_proxy_data', json.dumps(session))
     log.debug('Session saved')
 
+
 class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
     daemon_threads = True
+
 
 class Proxy(object):
     started = False
@@ -1546,24 +1534,19 @@ class Proxy(object):
         if self.started:
             return
 
-        target_port = settings.getInt('_proxy_port') or DEFAULT_PORT
-        port = check_port(target_port)
-        if not port:
-            port = check_port()
-            if not port:
-                log.error('Unable to find port to start proxy! Some addon features will not work')
-                return
+        port = settings.PROXY_PORT.value
+        if not check_port(port):
+            settings.set('_proxy_path', '')
+            log.error('Unable to start proxy on port {}. Some addon features will not work. You can change port under slyguy advanced settings.'.format(port))
+            return
 
-            log.warning('Port {} not available. Switched to port {}'.format(target_port, port))
-            settings.setInt('_proxy_port', port)
-
-        self._server = ThreadedHTTPServer((HOST, port), RequestHandler)
+        self._server = ThreadedHTTPServer(('0.0.0.0', port), RequestHandler)
         self._server.allow_reuse_address = True
         self._httpd_thread = threading.Thread(target=self._server.serve_forever)
         self._httpd_thread.start()
         self.started = True
 
-        proxy_path = 'http://{}:{}/'.format(HOST, port)
+        proxy_path = 'http://{}:{}/'.format('127.0.0.1', port)
         settings.set('_proxy_path', proxy_path)
         log.info("Proxy Started: {}".format(proxy_path))
 

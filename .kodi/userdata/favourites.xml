@@ -1,18 +1,19 @@
 <favourites>
-    <favourite name="Crunchyroll" thumb="/home/deck/.kodi/addons/plugin.video.crunchyroll/icon.png">RunAddon(&quot;plugin.video.crunchyroll&quot;)</favourite>
-    <favourite name="Netflix" thumb="https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/plugin.video.netflix/resources/media/icon.png">RunAddon(&quot;plugin.video.netflix&quot;)</favourite>
-    <favourite name="Disney+" thumb="https://slyguy.uk/.repo/repository.slyguy/slyguy.disney.plus/icon.png">RunAddon(&quot;slyguy.disney.plus&quot;)</favourite>
-    <favourite name="Amazon VOD" thumb="https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/plugin.video.amazon-test/icon.png">RunAddon(&quot;plugin.video.amazon-test&quot;)</favourite>
-    <favourite name="YouTube" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.youtube/resources/media/icon.png">RunAddon(&quot;plugin.video.youtube&quot;)</favourite>
-    <favourite name="Twitch" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.twitch/resources/media/icon.png">RunAddon(&quot;plugin.video.twitch&quot;)</favourite>
-    <favourite name="Spotify" thumb="/home/deck/.kodi/addons/plugin.audio.spotify/resources/icon.png">RunAddon(&quot;plugin.audio.spotify&quot;)</favourite>
-    <favourite name="MUBI" thumb="/home/deck/Pictures/mubi.jpeg">RunAddon(&quot;plugin.video.mubi&quot;)</favourite>
-    <favourite name="Filmfriend.de" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.filmfriend/resources/icon.png">RunAddon(&quot;plugin.video.filmfriend&quot;)</favourite>
-    <favourite name="Filmarkivet" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.filmarkivet/resources/icon.png">RunAddon(&quot;plugin.video.filmarkivet&quot;)</favourite>
-    <favourite name="IMDb Trailers" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.imdb.trailers/icon.png">RunAddon(&quot;plugin.video.imdb.trailers&quot;)</favourite>
-    <favourite name="Nasa" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.nasa/icon.png">RunAddon(&quot;plugin.video.nasa&quot;)</favourite>
-    <favourite name="Arte Concert" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.audio.arteconcert/resources/icon.png">RunAddon(&quot;plugin.audio.arteconcert&quot;)</favourite>
-    <favourite name="SoundCloud" thumb="/home/deck/.kodi/addons/plugin.audio.soundcloud/resources/icon.png">RunAddon(&quot;plugin.audio.soundcloud&quot;)</favourite>
-    <favourite name="Video add-ons" thumb="DefaultAddonVideo.png">ActivateWindow(10040,&quot;addons://all/xbmc.addon.video&quot;,return)</favourite>
-    <favourite name="Music add-ons" thumb="DefaultAddonMusic.png">ActivateWindow(10040,&quot;addons://all/xbmc.addon.audio&quot;,return)</favourite>
+    <favourite name="Crunchyroll" thumb="/home/deck/.kodi/addons/plugin.video.crunchyroll/icon.png">RunAddon("plugin.video.crunchyroll")</favourite>
+    <favourite name="Netflix" thumb="https://github.com/CastagnaIT/repository.castagnait/raw/kodi/kodi19/plugin.video.netflix/resources/media/icon.png">RunAddon("plugin.video.netflix")</favourite>
+    <favourite name="Disney+" thumb="https://slyguy.uk/.repo/repository.slyguy/slyguy.disney.plus/icon.png">RunAddon("slyguy.disney.plus")</favourite>
+    <favourite name="Amazon VOD" thumb="https://raw.githubusercontent.com/Sandmann79/xbmc/master/packages-py3/plugin.video.amazon-test/icon.png">RunAddon("plugin.video.amazon-test")</favourite>
+    <favourite name="YouTube" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.youtube/resources/media/icon.png">RunAddon("plugin.video.youtube")</favourite>
+    <favourite name="Twitch" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.twitch/resources/media/icon.png">RunAddon("plugin.video.twitch")</favourite>
+    <favourite name="Spotify" thumb="/home/deck/.kodi/addons/plugin.audio.spotify/resources/icon.png">RunAddon("plugin.audio.spotify")</favourite>
+    <favourite name="MUBI" thumb="/home/deck/Pictures/mubi.jpeg">RunAddon("plugin.video.mubi")</favourite>
+    <favourite name="Filmfriend.de" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.filmfriend/resources/icon.png">RunAddon("plugin.video.filmfriend")</favourite>
+    <favourite name="Filmarkivet" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.filmarkivet/resources/icon.png">RunAddon("plugin.video.filmarkivet")</favourite>
+    <favourite name="IMDb Trailers" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.imdb.trailers/icon.png">RunAddon("plugin.video.imdb.trailers")</favourite>
+    <favourite name="Nasa" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.video.nasa/icon.png">RunAddon("plugin.video.nasa")</favourite>
+    <favourite name="Arte Concert" thumb="http://mirrors.kodi.tv/addons/nexus/plugin.audio.arteconcert/resources/icon.png">RunAddon("plugin.audio.arteconcert")</favourite>
+    <favourite name="SoundCloud" thumb="/home/deck/.kodi/addons/plugin.audio.soundcloud/resources/icon.png">RunAddon("plugin.audio.soundcloud")</favourite>
+    <favourite name="Video add-ons" thumb="DefaultAddonVideo.png">ActivateWindow(10040,"addons://all/xbmc.addon.video",return)</favourite>
+    <favourite name="Music add-ons" thumb="DefaultAddonMusic.png">ActivateWindow(10040,"addons://all/xbmc.addon.audio",return)</favourite>
+    <favourite name="Youtube" thumb="https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/plugin.video.invidious/resources/media/icon.png">RunAddon("plugin.video.invidious")</favourite>
 </favourites>

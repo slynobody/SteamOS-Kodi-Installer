@@ -81,7 +81,7 @@ class BaseLanguage(object):
     IA_ERROR_INSTALLING         = 32016
     USE_CACHE                   = 32017
     INPUTSTREAM_SETTINGS        = 32018
-    CLEAR_DATA                  = 32019
+    RESET_ADDON                 = 32019
     PLUGIN_ERROR                = 32020
     IA_WV_INSTALL_OK            = 32022
     LOGIN                       = 32024
@@ -111,7 +111,9 @@ class BaseLanguage(object):
     NO_ERROR_MSG                = 32052
     MULTI_BASEURL_WARNING       = 32053
     QUALITY_CUSTOM              = 32054
-    QUALITY_ASK = ASK = PLAY_FROM_ASK = 32055
+    QUALITY_ASK                 = 32055
+    ASK                         = 32055
+    PLAY_FROM_ASK               = 32055
     QUALITY_PARSE_ERROR         = 32056
     QUALITY_BAD_M3U8            = 32057
     WV_INSTALLED                = 32058
@@ -307,6 +309,7 @@ class BaseLanguage(object):
     MERGE_NOT_SUPPORTED         = 32220
     TRAILER_CONTEXT_MENU        = 32221
     NOT_SET                     = 32222
+    PROXY_PORT                  = 32223
 
     def __init__(self):
         self._addon_map = {}    

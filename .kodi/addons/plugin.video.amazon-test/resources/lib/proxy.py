@@ -8,6 +8,7 @@ from __future__ import unicode_literals
 from contextlib import contextmanager
 from kodi_six.utils import py2_decode
 from resources.lib.logging import Log
+from .configs import getConfig
 
 try:
     from BaseHTTPServer import BaseHTTPRequestHandler  # Python2 HTTP Server
@@ -249,9 +250,11 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
 
         # Grab the subtitle urls, merge them in a single list, append the locale codes to let Kodi figure
         # out which URL has which language, then sort them neatly in a human digestible order.
+        chosen_langs = getConfig('sub_langs', 'all').split(',')
         content = json.loads(content)
         content['subtitles'] = []
         newsubs = []
+        chosen_found = 0
 
         # Count the number of duplicates with the same ISO 639-1 codes
         langCount = {'forcedNarratives': {}, 'subtitleUrls': {}}
@@ -260,8 +263,12 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
                 for i in range(0, len(content[sub_type])):
                     lang = self.split_lang(content[sub_type][i]['languageCode'])
                     if lang not in langCount[sub_type]:
+                        if lang in chosen_langs:
+                            chosen_found += 1
                         langCount[sub_type][lang] = 0
                     langCount[sub_type][lang] += 1
+        if chosen_found == 0:
+            chosen_langs = 'all'
 
         # Merge the different subtitles lists in a single one, and append a spurious name file
         # to let Kodi figure out the locale, while at the same time enabling subtitles to be
@@ -270,20 +277,22 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
             if sub_type in content:
                 for i in range(0, len(content[sub_type])):
                     fn = self._AdjustLocale(content[sub_type][i]['languageCode'], langCount[sub_type][self.split_lang(content[sub_type][i]['languageCode'])])
-                    variants = '{}{}'.format(
-                        '-[CC]' if 'sdh' == content[sub_type][i]['type'] else '',
-                        '.Forced' if 'forcedNarratives' == sub_type else ''
-                    )
-                    # Proxify the URLs, with a make believe Kodi-friendly file name
-                    escapedurl = quote_plus(content[sub_type][i]['url'])
-                    content[sub_type][i]['url'] = 'http://127.0.0.1:{}/subtitles/{}/{}{}.srt'.format(
-                        self.server.port,
-                        escapedurl,
-                        fn,
-                        variants
-                    )
-                    cl = py2_decode(convertLanguage(self.split_lang(fn), ENGLISH_NAME))
-                    newsubs.append((content[sub_type][i], cl, fn, variants, escapedurl))
+                    ic = self.split_lang(fn)
+                    if ic in chosen_langs or chosen_langs == 'all':
+                        variants = '{}{}'.format(
+                            '-[CC]' if 'sdh' == content[sub_type][i]['type'] else '',
+                            '.Forced' if 'forcedNarratives' == sub_type else ''
+                        )
+                        # Proxify the URLs, with a make believe Kodi-friendly file name
+                        escapedurl = quote_plus(content[sub_type][i]['url'])
+                        content[sub_type][i]['url'] = 'http://127.0.0.1:{}/subtitles/{}/{}{}.srt'.format(
+                            self.server.port,
+                            escapedurl,
+                            fn,
+                            variants
+                        )
+                        cl = py2_decode(convertLanguage(ic, ENGLISH_NAME))
+                        newsubs.append((content[sub_type][i], cl, fn, variants, escapedurl))
                 del content[sub_type]  # Reduce the data transfer by removing the lists we merged
 
         # Create the new merged subtitles list, and append time stretched variants.
@@ -294,7 +303,6 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
 
     def _AlterMPD(self, endpoint, headers, data):
         """ MPD alteration for better language parsing """
-
         try:
             from urllib.parse import urlparse
         except ImportError:
@@ -316,16 +324,14 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
         status_code, headers, r = self._ForwardRequest('get', endpoint, headers, data, True)
 
         with self._PrepareChunkedResponse(status_code, headers) as gzstream:
+            Log('[PS] Loading MPD and rebasing as {}'.format(baseurl), Log.DEBUG)
             if r.encoding is None:
                 r.encoding = 'utf-8'
-            buffer = ''
+            buffer = r.content.decode(r.encoding)
             bPeriod = False
-            Log('[PS] Loading MPD and rebasing as {}'.format(baseurl), Log.DEBUG)
-            for chunk in r.iter_content(chunk_size=1048576, decode_unicode=True):
-                buffer += py2_decode(chunk)
-
-                # Flush everything up to audio AdaptationSets as fast as possible
-                pos = re.search(r'(<AdaptationSet[^>]*contentType="video"[^>]*>.*?</AdaptationSet>\s*)' if bPeriod else r'(<Period[^>]*>\s*)', buffer, flags=re.DOTALL)
+            pos = True
+            while pos is not None:
+                pos = re.search(r'(<AdaptationSet[^>]*contentType="video"[^>]*>.*?</AdaptationSet>)' if bPeriod else r'(<Period[^>]*>)', buffer, flags=re.DOTALL)
                 if pos:
                     if 0 < pos.start(1):
                         self._SendChunk(gzstream, buffer[0:pos.start(1)])
@@ -338,6 +344,8 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
 
             # Count the number of duplicates with the same ISO 639-1 codes
             Log('[PS] Parsing languages', Log.DEBUG)
+            chosen_langs = getConfig('audio_langs', 'all').split(',')
+            chosen_found = 0
             languages = []
             langCount = {}
             for lang in re.findall(r'<AdaptationSet[^>]*audioTrackId="([^"]+)"[^>]*>', buffer):
@@ -346,8 +354,12 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
             for lang in languages:
                 lang = self.split_lang(lang)
                 if lang not in langCount:
+                    if lang in chosen_langs:
+                        chosen_found += 1
                     langCount[lang] = 0
                 langCount[lang] += 1
+            if chosen_found == 0:
+                chosen_langs = 'all'
 
             # Send corrected AdaptationSets, one at a time through chunked transfer
             Log('[PS] Altering <AdaptationSet>s', Log.DEBUG)
@@ -358,38 +370,43 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
                 # Log('[PS] AdaptationSet position: ([{}:{}], [{}:{}])'.format(pos.start(1), pos.end(1), pos.start(2), pos.end(2)))
                 setTag = buffer[pos.start(1):pos.end(1)]
                 setData = buffer[pos.start(2):pos.end(2)]
-                trackId = re.search(r'\s+audioTrackId="([^_]+)_(dialog|descriptive)', setTag)
+                trackId = re.search(r'\s+audioTrackId="([^_]+)_([a-zA-Z0-9]+)', setTag)
                 if trackId is not None:
                     trackId = trackId.groups()
                     lang = re.search(r'\s+lang="([^"]+)"', setTag).group(1)
-                    imp = ' impaired="true"' if 'descriptive' == trackId[1] else ''
-                    newLocale = self._AdjustLocale(trackId[0], langCount[self.split_lang(trackId[0])])
-                    setTag = setTag.replace('lang="{}"'.format(lang), 'lang="{}"{}'.format(newLocale, imp))
-                    repres = re.findall(r'<Representation[^>]*>.*?</Representation>', setData, flags=re.DOTALL)
-                    if len(repres):
-                        best_found = [0, '', False]
-                        found_atmos = False
-                        while 0 < len(repres):
-                            track = repres.pop(0)
-                            atmos = re.search(r'<SupplementalProperty[^>]*value="JOC"[^>]*>', track) is not None
-                            bitrate = int(re.search(r'\s+bandwidth="([^"]+)"', track).group(1))
-                            if atmos and not found_atmos:
-                                found_atmos = True
-                                best_found[0] = 0
-                            if bitrate > best_found[0]:
-                                if atmos or (not atmos and not found_atmos) or self.server._s.enable_atmos is False:
-                                    best_found = [bitrate, track, atmos]
-                            setData = setData.replace(track, '' if 0 < len(repres) else best_found[1])
-                        setTag = re.sub(r' (min|max)Bandwidth="[^"]+"', '', setTag)
-                        atmos_apx = ' (Atmos)' if best_found[2] and self.server._s._g.KodiVersion < 21 else ''
-                        if self.server._s._g.KodiVersion > 18:
-                            setTag = '{} name="{} kbps{}">'.format(setTag[:-1], int(best_found[0] / 1000), atmos_apx)
-                        else:
-                            setTag = re.sub(r'( lang="[^"]+)"', r'\1 {} [{} kbps]{}"'.format('' if '-' in newLocale else '-', int(best_found[0] / 1000), atmos_apx), setTag)
+                    if lang in chosen_langs or chosen_langs == 'all':
+                        imp = ' impaired="true"' if 'descriptive' == trackId[1] else ''
+                        newLocale = self._AdjustLocale(trackId[0], langCount[self.split_lang(trackId[0])])
+                        setTag = setTag.replace('lang="{}"'.format(lang), 'lang="{}"{}'.format(newLocale, imp))
+                        repres = re.findall(r'<Representation[^>]*>.*?</Representation>', setData, flags=re.DOTALL)
+                        if len(repres):
+                            best_found = [0, '', False]
+                            found_atmos = False
+                            while 0 < len(repres):
+                                track = repres.pop(0)
+                                atmos = re.search(r'<SupplementalProperty[^>]*value="JOC"[^>]*>', track) is not None
+                                bitrate = int(re.search(r'\s+bandwidth="([^"]+)"', track).group(1))
+                                if atmos and not found_atmos:
+                                    found_atmos = True
+                                    best_found[0] = 0
+                                if bitrate > best_found[0]:
+                                    if atmos or (not atmos and not found_atmos) or self.server._s.enable_atmos is False:
+                                        best_found = [bitrate, track, atmos]
+                                setData = setData.replace(track, '' if 0 < len(repres) else best_found[1])
+                            setTag = re.sub(r' (min|max)Bandwidth="[^"]+"', '', setTag)
+                            apx = ''
+                            if best_found[2] and self.server._s._g.KodiVersion < 21:
+                                apx = ' (Atmos)'
+                            elif 'boosted' in trackId[1]:
+                                apx = ' (Dialog Boost: {})'.format(trackId[1].replace('boosteddialog', '').capitalize())
+                            if self.server._s._g.KodiVersion > 18:
+                                setTag = '{} name="{} kbps{}">'.format(setTag[:-1], int(best_found[0] / 1000), apx)
+                            else:
+                                setTag = re.sub(r'( lang="[^"]+)"', r'\1 {} [{} kbps]{}"'.format('' if '-' in newLocale else '-', int(best_found[0] / 1000), apx), setTag)
 
-                Log('[PS] ' + setTag, Log.DEBUG)
-                self._SendChunk(gzstream, setTag)
-                self._SendChunk(gzstream, _rebase(setData))
+                        Log('[PS] ' + setTag, Log.DEBUG)
+                        self._SendChunk(gzstream, setTag)
+                        self._SendChunk(gzstream, _rebase(setData))
                 buffer = buffer[pos.end(2):]
 
             # Send the rest and signal EOT

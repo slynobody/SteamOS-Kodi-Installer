@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.yt-dlp"
+       name="yt-dlp"
+       version="2024.10.22-1"
+       provider-name="yt-dlp contributors">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.1" />
+    </requires>
+
+    <extension point="xbmc.python.module" library="lib" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">A youtube-dl fork with additional features and patches</summary>
+        <description lang="en_GB">yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project</description>
+        <license>Unlicense</license>
+        <platform>all</platform>
+        <source>https://github.com/yt-dlp/yt-dlp</source>
+    </extension>
+
+</addon>

@@ -1,34 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.invidious"
-  name="Invidious"
-  version="0.2.8+nexus.0"
-  provider-name="petterreinholdtsen">
+       name="Invidious"
+       version="3.2.6"
+       provider-name="lekma">
+
     <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.requests" version="2.22.0"/>
-        <import addon="script.module.inputstreamhelper" version="0.5.2"/>
-        <import addon="script.module.infotagger" version="0.0.5" />
+        <import addon="xbmc.python" version="3.0.1" />
+        <import addon="xbmc.addon" version="20.2.0" />
+        <import addon="script.module.nuttig" version="1.2.5" />
+        <import addon="script.module.iapc" version="2.2.5" />
+        <import addon="script.module.requests" version="2.31.0" />
+        <import addon="script.module.inputstreamhelper" version="0.7.0" />
+        <import addon="service.yt-dlp" version="1.2.5" optional="true" />
+        <import addon="plugin.video.youtube" version="7.0.9.2" optional="true" />
+        <import addon="service.sponsorblock" version="1.2.5" optional="true" />
     </requires>
 
-    <extension point="xbmc.python.pluginsource" library="resources/lib/invidious_addon.py">
+    <extension point="xbmc.python.pluginsource" library="lib/plugin.py">
         <provides>video</provides>
     </extension>
 
-    <extension point="xbmc.python.module" library="resources/lib/"/>
+    <extension point="xbmc.service" library="lib/service.py" />
+
+    <extension point="xbmc.python.script" library="lib/scripts.py" />
+
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Invidious client</summary>
-        <description lang="en_GB">A privacy-friendly way of watching YouTube content. Uses the great Invidious web service's API to do the heavy lifting.</description>
-        <disclaimer lang="en_GB">This plugin is not endorsed by Google</disclaimer>
-        <summary lang="nb">Invidious-klient</summary>
-        <description lang="nb">En personvernvennlig måte å se YouTube-innhold på. Bruker den flotte Invidious-netttjenestens API for å gjøre det tunge arbeidet.</description>
-        <disclaimer lang="nb">Denne plugin-modulen er ikke godkjent av Google.</disclaimer>
-        <language>en nb</language>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">Invidious addon</summary>
+        <description lang="en_GB">Invidious addon</description>
+        <license>GPL-3.0-only</license>
         <platform>all</platform>
-        <license>MIT</license>
-        <source>https://github.com/petterreinholdtsen/kodi-invidious-plugin</source>
+        <source>https://github.com/lekma/plugin.video.invidious</source>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.png</fanart>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
         </assets>
     </extension>
+
 </addon>

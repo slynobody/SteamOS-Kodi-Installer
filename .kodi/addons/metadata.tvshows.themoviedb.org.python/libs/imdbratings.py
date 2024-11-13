@@ -45,8 +45,9 @@ def get_details(imdb_id):
 def _get_ratinginfo(imdb_id):
     # type: (Text) -> Tuple[Text, Text]
     """get the IMDB ratings details"""
+    source_settings = settings.getSourceSettings()
     response = api_utils.load_info(IMDB_RATINGS_URL.format(
-        imdb_id), default='', resp_type='text', verboselog=settings.VERBOSELOG)
+        imdb_id), default='', resp_type='text', verboselog=source_settings["VERBOSELOG"])
     return _parse_imdb_result(response)
 
 

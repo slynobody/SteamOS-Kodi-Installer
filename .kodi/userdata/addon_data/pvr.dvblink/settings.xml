@@ -1,0 +1,18 @@
+<settings version="2">
+    <setting id="host" default="true">127.0.0.1</setting>
+    <setting id="port" default="true">9270</setting>
+    <setting id="username" default="true" />
+    <setting id="password" default="true" />
+    <setting id="timeshift" default="true">false</setting>
+    <setting id="enable_transcoding" default="true">false</setting>
+    <setting id="bitrate" default="true">512</setting>
+    <setting id="audiotrack" default="true">eng</setting>
+    <setting id="height" default="true">0</setting>
+    <setting id="width" default="true">0</setting>
+    <setting id="showinfomsg" default="true">false</setting>
+    <setting id="add_rec_episode_info" default="true">true</setting>
+    <setting id="group_recordings_by_series" default="true">true</setting>
+    <setting id="no_group_for_single_record" default="true">false</setting>
+    <setting id="default_update_interval" default="true">4</setting>
+    <setting id="default_record_show_type" default="true">1</setting>
+</settings>

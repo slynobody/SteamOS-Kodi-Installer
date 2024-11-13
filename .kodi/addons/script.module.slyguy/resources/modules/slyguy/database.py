@@ -24,23 +24,24 @@ class HashField(peewee.TextField):
 
 
 class PickleField(peewee.BlobField):
+    def db_value(self, value):
+        pickled = cPickle.dumps(value)
+        return self._constructor(pickled)
+
     def python_value(self, value):
+        # value can be None when doing joins
         if value is not None:
             if isinstance(value, peewee.buffer_type):
                 value = bytes(value)
             return cPickle.loads(value)
 
-    def db_value(self, value):
-        if value is not None:
-            pickled = cPickle.dumps(value)
-            return self._constructor(pickled)
 
 class JSONField(peewee.TextField):
     def db_value(self, value):
-        if value is not None:
-            return json.dumps(value, ensure_ascii=False)
+        return json.dumps(value, ensure_ascii=False)
 
     def python_value(self, value):
+        # value can be None when doing joins
         if value is not None:
             return json.loads(value)
 
@@ -152,7 +153,6 @@ class Database(peewee.SqliteDatabase):
         for table in self._tables:
             table._meta.database = self
         signals.add(signals.ON_EXIT, lambda db=self: close(db))
-        signals.add(signals.AFTER_RESET, lambda db=self: delete(db))
         super(Database, self).__init__(database, *args, **kwargs)
 
     def register_function(self, fn, name=None, num_params=-1):
@@ -173,9 +173,6 @@ class Database(peewee.SqliteDatabase):
             return
 
         log.debug("Connecting to db: {}".format(self.database))
-        if os.path.exists(self.database):
-            return super(Database, self).connect(*args, **kwargs)
-
         makedirs(os.path.dirname(self.database))
         timeout = time.time() + 5
         result = False
@@ -196,6 +193,8 @@ class Database(peewee.SqliteDatabase):
         return result
 
 
-def init(tables=None, db_path=DB_PATH):
+def init(tables=None, db_path=DB_PATH, delete_on_reset=True):
     db = DBS[db_path] = Database(db_path, pragmas=DB_PRAGMAS, timeout=10, autoconnect=True, tables=tables)
+    if delete_on_reset:
+        signals.add(signals.AFTER_RESET, lambda db=db: delete(db))
     return db

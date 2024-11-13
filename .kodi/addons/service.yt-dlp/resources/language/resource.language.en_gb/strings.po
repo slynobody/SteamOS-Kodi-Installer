@@ -1,0 +1,97 @@
+# Addon Name: yt-dlp service
+# Addon id: service.yt-dlp
+msgid ""
+msgstr ""
+"Project-Id-Version: service.yt-dlp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#30000"
+msgid "yt-dlp service"
+msgstr ""
+
+
+msgctxt "#31000"
+msgid "Subtitles"
+msgstr ""
+
+msgctxt "#31100"
+msgid "Include automatic captions"
+msgstr ""
+
+msgctxt "#31101"
+msgid "This puts a strain on the machine running the service"
+msgstr ""
+
+
+msgctxt "#32000"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#32100"
+msgid "Limit framerate"
+msgstr ""
+
+msgctxt "#32101"
+msgid "No limit"
+msgstr ""
+
+msgctxt "#32102"
+msgid "30 fps"
+msgstr ""
+
+
+msgctxt "#32200"
+msgid "Framerate hinting"
+msgstr ""
+
+msgctxt "#32201"
+msgid "Integer"
+msgstr ""
+
+msgctxt "#32202"
+msgid "Fractional"
+msgstr ""
+
+msgctxt "#32203"
+msgid "None"
+msgstr ""
+
+
+msgctxt "#33000"
+msgid "Codecs"
+msgstr ""
+
+msgctxt "#33100"
+msgid "Exclude codecs"
+msgstr ""
+
+msgctxt "#33101"
+msgid "H264"
+msgstr ""
+
+msgctxt "#33102"
+msgid "AAC"
+msgstr ""
+
+msgctxt "#33103"
+msgid "VP9"
+msgstr ""
+
+msgctxt "#33104"
+msgid "Opus"
+msgstr ""
+
+msgctxt "#33105"
+msgid "AV1"
+msgstr ""
+
+
+# Notifications, dialogs
+
+msgctxt "#90004"
+msgid "To use this feature you must install and enable the following addon:\n\n'{}'"
+msgstr ""
