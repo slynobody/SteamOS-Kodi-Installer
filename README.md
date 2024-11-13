@@ -4,7 +4,7 @@
 
 >
 >
-> git clone https://github.com/slynobody/SteamOS-Kodi-Installer
+> git clone https://github.com/slynobody/SteamOS-Mediacenter
 > 
 > cd SteamOS-Kodi-Installer
 >
