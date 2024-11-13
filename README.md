@@ -6,7 +6,7 @@
 >
 > git clone https://github.com/slynobody/SteamOS-Mediacenter
 > 
-> cd SteamOS-Kodi-Installer
+> cd SteamOS-Mediacenter
 >
 >  chmod +x *.sh
 >
@@ -27,7 +27,12 @@
 *<sub>the .kodi-dir from this repo can be used in any other linux-distro.</sub>
 
 # FAQ
-## how do i get resolutions beyond the usual 720p?
+## it does not work
+> cd SteamOS-Mediacenter
+> 
+> chown -R $USER:$USER .kodi
+
+## how do i get resolutions beyond 720p?
 in gamemode go to properties and set another resolution there.
 
 ## how do i use netflix?
