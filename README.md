@@ -42,6 +42,9 @@ to get secure access to 1080p-streaming you need to login once through a browser
 >
 > ./netflix.sh
 
+# why is 7.1-audio preconfigured?
+just use https://github.com/slynobody/SteamOS-surround and you will hear.
+
 background: https://github.com/CastagnaIT/plugin.video.netflix/wiki/Login-with-Authentication-key
 
 ## how do i remove this?
