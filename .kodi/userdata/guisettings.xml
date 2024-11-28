@@ -399,6 +399,7 @@
     <setting id="system.playlistspath">special://profile/playlists/</setting>
     <setting id="general.addonforeignfilter" default="true">false</setting>
     <setting id="general.addonbrokenfilter" default="true">true</setting>
+    <resolutions />
     <viewstates>
         <games>
             <viewmode>720896</viewmode>
@@ -511,7 +512,6 @@
         </eventlog>
         <systemtotaluptime>67</systemtotaluptime>
     </general>
-    <resolutions />
     <defaultvideosettings>
         <interlacemethod>1</interlacemethod>
         <scalingmethod>1</scalingmethod>

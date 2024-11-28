@@ -348,7 +348,7 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
             chosen_found = 0
             languages = []
             langCount = {}
-            for lang in re.findall(r'<AdaptationSet[^>]*audioTrackId="([^"]+)"[^>]*>', buffer):
+            for lang in re.findall(r'<AdaptationSet[^>]*(?:audioTrackId|lang)="([^"]+)"[^>]*>', buffer):
                 if lang not in languages:
                     languages.append(lang)
             for lang in languages:
@@ -370,10 +370,12 @@ class ProxyHTTPD(BaseHTTPRequestHandler):
                 # Log('[PS] AdaptationSet position: ([{}:{}], [{}:{}])'.format(pos.start(1), pos.end(1), pos.start(2), pos.end(2)))
                 setTag = buffer[pos.start(1):pos.end(1)]
                 setData = buffer[pos.start(2):pos.end(2)]
+                lang = re.search(r'\s+lang="([^"]+)"', setTag)
                 trackId = re.search(r'\s+audioTrackId="([^_]+)_([a-zA-Z0-9]+)', setTag)
+                trackId = trackId.groups() if trackId is not None else None
+                lang = lang.group(1) if lang is not None else None
+                trackId = [lang, ''] if trackId is None and lang is not None else trackId
                 if trackId is not None:
-                    trackId = trackId.groups()
-                    lang = re.search(r'\s+lang="([^"]+)"', setTag).group(1)
                     if lang in chosen_langs or chosen_langs == 'all':
                         imp = ' impaired="true"' if 'descriptive' == trackId[1] else ''
                         newLocale = self._AdjustLocale(trackId[0], langCount[self.split_lang(trackId[0])])

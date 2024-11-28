@@ -1,0 +1,638 @@
+﻿2024-11-27 19:47:36.619 T:6663     info <general>: -----------------------------------------------------------------------
+2024-11-27 19:47:36.619 T:6663     info <general>: Starting Kodi (21.1 (21.1.0) Git:20240908-nogitfound). Platform: Linux x86 64-bit
+2024-11-27 19:47:36.619 T:6663     info <general>: Using Release Kodi x64
+2024-11-27 19:47:36.619 T:6663     info <general>: Kodi compiled 2024-09-08 by GCC 14.2.1 for Linux x86 64-bit version 6.10.0 (395776)
+2024-11-27 19:47:36.619 T:6663     info <general>: Running on SteamOS 3.7, kernel: Linux x86 64-bit version 6.8.12-valve7-1-neptune-68-g8c3c3d4f5307
+2024-11-27 19:47:36.619 T:6663     info <general>: FFmpeg version/source: 6.0.1-Kodi
+2024-11-27 19:47:36.619 T:6663     info <general>: Host CPU: AMD Custom APU 0405, 8 cores available
+2024-11-27 19:47:36.619 T:6663     info <general>: special://xbmc/ is mapped to: /usr/share/kodi
+2024-11-27 19:47:36.619 T:6663     info <general>: special://xbmcbin/ is mapped to: /usr/lib/kodi
+2024-11-27 19:47:36.619 T:6663     info <general>: special://xbmcbinaddons/ is mapped to: /usr/lib/kodi/addons
+2024-11-27 19:47:36.619 T:6663     info <general>: special://masterprofile/ is mapped to: /home/deck/.kodi/userdata
+2024-11-27 19:47:36.619 T:6663     info <general>: special://envhome/ is mapped to: /home/deck
+2024-11-27 19:47:36.619 T:6663     info <general>: special://home/ is mapped to: /home/deck/.kodi
+2024-11-27 19:47:36.619 T:6663     info <general>: special://temp/ is mapped to: /home/deck/.kodi/temp
+2024-11-27 19:47:36.619 T:6663     info <general>: special://logpath/ is mapped to: /home/deck/.kodi/temp
+2024-11-27 19:47:36.619 T:6663     info <general>: Webserver extra whitelist paths: 
+2024-11-27 19:47:36.619 T:6663     info <general>: The executable running is: /usr/lib/kodi/kodi.bin
+2024-11-27 19:47:36.619 T:6663     info <general>: Local hostname: steamdeck
+2024-11-27 19:47:36.619 T:6663     info <general>: Log File is located: /home/deck/.kodi/temp/kodi.log
+2024-11-27 19:47:36.619 T:6663     info <general>: -----------------------------------------------------------------------
+2024-11-27 19:47:36.619 T:6663     info <general>: loading settings
+2024-11-27 19:47:36.620 T:6663     info <general>: special://profile/ is mapped to: special://masterprofile/
+2024-11-27 19:47:36.630 T:6663     info <general>: No settings file to load (special://xbmc/system/advancedsettings.xml)
+2024-11-27 19:47:36.630 T:6663     info <general>: No settings file to load (special://masterprofile/advancedsettings.xml)
+2024-11-27 19:47:36.630 T:6663     info <general>: Default Video Player: VideoPlayer
+2024-11-27 19:47:36.630 T:6663     info <general>: Default Audio Player: paplayer
+2024-11-27 19:47:36.630 T:6663     info <general>: Disabled debug logging due to GUI setting. Level 0.
+2024-11-27 19:47:36.630 T:6663     info <general>: Log level changed to "info"
+2024-11-27 19:47:36.630 T:6663     info <general>: CMediaSourceSettings: loading media sources from special://masterprofile/sources.xml
+2024-11-27 19:47:36.631 T:6663     info <general>: New Cache GUI Settings (replacement of cache in advancedsettings.xml) are:
+                                                     Buffer Mode: 4
+                                                     Memory Size: 20 MB
+                                                     Read Factor: 4.00 x 
+                                                     Chunk Size : 131072 bytes
+2024-11-27 19:47:36.631 T:6663     info <general>: creating subdirectories
+2024-11-27 19:47:36.631 T:6663     info <general>: userdata folder: special://masterprofile/
+2024-11-27 19:47:36.631 T:6663     info <general>: recording folder: 
+2024-11-27 19:47:36.631 T:6663     info <general>: screenshots folder: 
+2024-11-27 19:47:36.633 T:6663     info <general>: Running database version Addons33
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: audioencoder.kodi.builtin.aac v1.0.2 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: audioencoder.kodi.builtin.wma v1.0.2 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: game.controller.default v1.0.42 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: game.controller.keyboard v1.1.43 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: game.controller.mouse v1.0.26 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: game.controller.snes v1.0.40 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: inputstream.adaptive v21.5.5 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: inputstream.rtmp v21.1.0 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.audioengine v1.1.1 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.filesystem v1.1.8 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.general v1.0.5 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.gui v5.15.0 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.main v2.0.2 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.network v1.0.4 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.global.tools v1.0.4 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.audiodecoder v4.0.0 installed
+2024-11-27 19:47:36.672 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.audioencoder v3.0.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.game v3.0.2 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.imagedecoder v3.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.inputstream v3.3.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.peripheral v3.0.2 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.pvr v8.3.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.screensaver v2.2.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.vfs v3.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.videocodec v2.1.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.binary.instance.visualization v4.0.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: kodi.resource v1.0.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.album.universal v3.1.9 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.artists.universal v4.3.11 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.common.allmusic.com v3.2.2 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.common.fanart.tv v3.6.4 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.common.musicbrainz.org v2.2.4 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.common.theaudiodb.com v2.0.3 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.generic.albums v1.0.18 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.generic.artists v1.0.18 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.local v1.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.themoviedb.org.python v3.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: metadata.tvshows.themoviedb.org.python v1.7.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: peripheral.joystick v20.1.18 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.audio.arteconcert v2.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.audio.deutschlandfunk v2.0.8 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.audio.soundcloud v4.0.2 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.audio.spotify v1.3.10 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.amazon-test v1.1.3+matrix.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.crunchyroll v3.3.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.filmarkivet v3.3.0+matrix.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.filmfriend v1.0.0 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.imdb.trailers v2.1.19+matrix.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.invidious v3.2.6 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.mubi v1.0.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.mytube v3.2.5 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.nasa v3.0.3+matrix.1 installed
+2024-11-27 19:47:36.673 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.netflix v1.23.3+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.twitch v3.0.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.weltspiegel v1.0.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: plugin.video.youtube v7.0.9.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.castagnait v2.0.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.kodinerds v7.0.1.7 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.lekma v4.0.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.mtr81 v1.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.sandmann79.plugins v1.0.4 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.slyguy v0.0.9 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: repository.xbmc.org v3.4.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: resource.images.weathericons.default v1.1.9 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: resource.language.en_gb v2.0.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: resource.uisounds.kodi v1.0.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: screensaver.pingpong v20.2.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: screensaver.xbmc.builtin.black v1.0.34 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: screensaver.xbmc.builtin.dim v1.0.66 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.addon.signals v0.0.6+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.amazoncaptcha v0.5.11+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.beautifulsoup4 v4.12.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.certifi v2023.5.7 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.chardet v5.1.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.feedparser v6.0.11 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.iapc v2.3.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.idna v3.4.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.inputstreamhelper v0.7.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.kodi-six v0.1.3.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.libarte v2.0.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.libmediathek4 v1.0.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.mechanicalsoup v1.0.0+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.myconnpy v8.0.33 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.nuttig v1.3.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.pil v5.1.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.pyautogui v0.9.51+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.pycryptodome v3.4.3 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.python.twitch v3.0.2 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.pyxbmct v1.3.2+matrix.1 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.requests v2.31.0 installed
+2024-11-27 19:47:36.674 T:6663     info <general>: CAddonMgr::FindAddons: script.module.requests-cache v0.5.2+matrix.2 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.sgmllib3k v1.0.0+matrix.2 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.six v1.16.0+matrix.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.slyguy v0.85.41 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.soupsieve v2.4.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.urllib3 v2.1.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.xbmcswift2 v19.0.7 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.xmltodict v0.12.0+matrix.2 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: script.module.yt-dlp v2024.10.22-1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: service.manifests.mpd v1.3.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: service.upnext v1.1.9+matrix.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: service.xbmc.versioncheck v0.5.30+matrix.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: service.yt-dlp v1.3.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: skin.estuary v4.0.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: slyguy.dependencies v0.0.22 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: slyguy.disney.plus v0.17.4 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: visualization.shadertoy v20.3.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: webinterface.default v21.x-1.0.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.addon v21.1.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.core v0.1.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.gui v5.17.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.json v13.5.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.metadata v2.1.0 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.python v3.0.1 installed
+2024-11-27 19:47:36.675 T:6663     info <general>: CAddonMgr::FindAddons: xbmc.webinterface v1.0.0 installed
+2024-11-27 19:47:36.677 T:6663     info <general>: Selected Logind/UPower as PowerSyscall
+2024-11-27 19:47:36.734 T:6663    error <general>: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “OnLowBattery”
+2024-11-27 19:47:36.735 T:6663     info <general>: Selected UPower as PowerSyscall
+2024-11-27 19:47:36.735 T:6663    error <general>: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanSuspend”
+2024-11-27 19:47:36.735 T:6663    error <general>: DBus error: org.freedesktop.DBus.Error.InvalidArgs - No such property “CanHibernate”
+2024-11-27 19:47:36.743 T:6663     info <general>: CKeyboardLayoutManager: loading keyboard layouts from special://xbmc/system/keyboardlayouts...
+2024-11-27 19:47:36.762 T:6663  warning <general>: CXRandR::Query - output eDP has no current mode, assuming disconnected
+2024-11-27 19:47:36.762 T:6663     info <general>: Available videomodes (xrandr):
+2024-11-27 19:47:36.762 T:6663     info <general>: Output 'DisplayPort-1' has 14 modes
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x5b Name:1920x1080 Refresh:60.000000 Width:1920 Height:1080
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 0.998955
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x5c Name:1680x1050 Refresh:59.883251 Width:1680 Height:1050
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.109950
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x5d Name:1280x1024 Refresh:60.019741 Width:1280 Height:1024
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.420736
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x5e Name:1440x900 Refresh:59.901459 Width:1440 Height:900
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.109950
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x5f Name:1280x800 Refresh:59.909550 Width:1280 Height:800
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.109950
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x60 Name:1152x864 Refresh:75.000000 Width:1152 Height:864
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x61 Name:1280x720 Refresh:60.000000 Width:1280 Height:720
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 0.998955
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x62 Name:1024x768 Refresh:70.069359 Width:1024 Height:768
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x63 Name:1024x768 Refresh:60.003841 Width:1024 Height:768
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x64 Name:800x600 Refresh:60.316540 Width:800 Height:600
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x65 Name:800x600 Refresh:56.250000 Width:800 Height:600
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x66 Name:640x480 Refresh:66.666672 Width:640 Height:480
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x67 Name:640x480 Refresh:59.940479 Width:640 Height:480
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 1.331940
+2024-11-27 19:47:36.762 T:6663     info <general>: ID:0x68 Name:720x400 Refresh:70.081657 Width:720 Height:400
+2024-11-27 19:47:36.762 T:6663     info <general>: Pixel Ratio: 0.986622
+2024-11-27 19:47:36.762 T:6663     info <general>: CApplication::CreateGUI - using the x11 windowing system
+2024-11-27 19:47:36.762 T:6663     info <general>: Checking resolution 16
+2024-11-27 19:47:36.785 T:6663     info <general>: RetroPlayer[RENDER]: Registering renderer factory for OpenGL
+2024-11-27 19:47:36.891 T:6663     info <general>: Using visual 0x21
+2024-11-27 19:47:37.039 T:6663     info <general>: VAAPI::Close - closing decoder context
+2024-11-27 19:47:37.044 T:6663     info <general>: CRenderSystemGL::InitRenderSystem - Version: 4.6 (Core Profile) Mesa 24.0.5 (git-6c30d44613), Major: 4, Minor: 6
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_VENDOR = AMD
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_RENDERER = AMD Custom GPU 0405 (radeonsi, vangogh, LLVM 18.1.8, DRM 3.57, 6.8.12-valve7-1-neptune-68-g8c3c3d4f5307)
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_VERSION = 4.6 (Core Profile) Mesa 24.0.5 (git-6c30d44613)
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_SHADING_LANGUAGE_VERSION = 4.60
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_GPU_MEMORY_INFO_TOTAL_AVAILABLE_MEMORY_NVX = 9371648
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_GPU_MEMORY_INFO_DEDICATED_VIDMEM_NVX = 1048576
+2024-11-27 19:47:37.044 T:6663     info <general>: GL_EXTENSIONS = GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_vdpau_interop GL_OES_EGL_image GL_S3_s3tc 
+2024-11-27 19:47:37.074 T:6663     info <general>: GL: Maximum texture width: 16384
+2024-11-27 19:47:37.145 T:6663     info <general>: GL: Enabling VSYNC
+2024-11-27 19:47:37.166 T:6663     info <general>: load keymapping
+2024-11-27 19:47:37.167 T:6663     info <general>: Loading special://xbmc/system/keymaps/appcommand.xml
+2024-11-27 19:47:37.167 T:6663     info <general>: Loading special://xbmc/system/keymaps/customcontroller.AppleRemote.xml
+2024-11-27 19:47:37.167 T:6663     info <general>: Loading special://xbmc/system/keymaps/customcontroller.Harmony.xml
+2024-11-27 19:47:37.168 T:6663     info <general>: Loading special://xbmc/system/keymaps/customcontroller.SiriRemote.xml
+2024-11-27 19:47:37.168 T:6663     info <general>: Loading special://xbmc/system/keymaps/gamepad.xml
+2024-11-27 19:47:37.168 T:6663     info <general>: Loading special://xbmc/system/keymaps/joystick.xml
+2024-11-27 19:47:37.169 T:6663     info <general>: Loading special://xbmc/system/keymaps/keyboard.xml
+2024-11-27 19:47:37.170 T:6663     info <general>: Loading special://xbmc/system/keymaps/mouse.xml
+2024-11-27 19:47:37.170 T:6663     info <general>: Loading special://xbmc/system/keymaps/remote.xml
+2024-11-27 19:47:37.171 T:6663     info <general>: Loading special://xbmc/system/keymaps/touchscreen.xml
+2024-11-27 19:47:37.172 T:6663     info <general>: GUI format 1920x1080, Display DisplayPort-1: 1920x1080 @ 60.00Hz
+2024-11-27 19:47:37.173 T:6742     info <general>: Found 1 Lists of Devices
+2024-11-27 19:47:37.173 T:6742     info <general>: Enumerated PIPEWIRE devices:
+2024-11-27 19:47:37.173 T:6742     info <general>:     Device 1
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceName      : Default
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayName     : Default
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayNameExtra: Default Output Device (PIPEWIRE)
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_channels        : FL, FR
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_dataFormats     : AE_FMT_RAW,AE_FMT_U8,AE_FMT_S16NE,AE_FMT_S24NE4,AE_FMT_S32NE,AE_FMT_S24NE3,AE_FMT_FLOAT
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_streamTypes     : No passthrough capabilities
+2024-11-27 19:47:37.173 T:6742     info <general>:     Device 2
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceName      : effect_input.virtual-surround-7.1
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayName     : Virtual Surround Sink
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayNameExtra: Virtual Surround Sink (PIPEWIRE)
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_channels        : FL, FR, FC, LFE, SL, SR, BL, BR
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_dataFormats     : AE_FMT_RAW,AE_FMT_U8,AE_FMT_S16NE,AE_FMT_S24NE4,AE_FMT_S32NE,AE_FMT_S24NE3,AE_FMT_FLOAT
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_streamTypes     : No passthrough capabilities
+2024-11-27 19:47:37.173 T:6742     info <general>:     Device 3
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceName      : alsa_loopback_device.alsa_output.pci-0000_04_00.5-platform-acp5x_mach.0.HiFi__Speaker__sink
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayName     : ACP/ACP3X/ACP6x Audio Coprocessor Speaker
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayNameExtra: ACP/ACP3X/ACP6x Audio Coprocessor Speaker (PIPEWIRE)
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_channels        : FL, FR
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_dataFormats     : AE_FMT_RAW,AE_FMT_U8,AE_FMT_S16NE,AE_FMT_S24NE4,AE_FMT_S32NE,AE_FMT_S24NE3,AE_FMT_FLOAT
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_streamTypes     : No passthrough capabilities
+2024-11-27 19:47:37.173 T:6742     info <general>:     Device 4
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceName      : alsa_loopback_device.alsa_output.pci-0000_04_00.5-platform-acp5x_mach.0.HiFi__Headphones__sink
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayName     : ACP/ACP3X/ACP6x Audio Coprocessor Headphones
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_displayNameExtra: ACP/ACP3X/ACP6x Audio Coprocessor Headphones (PIPEWIRE)
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_deviceType      : AE_DEVTYPE_PCM
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_channels        : FL, FR
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_sampleRates     : 5512,8000,11025,16000,22050,32000,44100,48000,64000,88200,96000,176400,192000,384000
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_dataFormats     : AE_FMT_RAW,AE_FMT_U8,AE_FMT_S16NE,AE_FMT_S24NE4,AE_FMT_S32NE,AE_FMT_S24NE3,AE_FMT_FLOAT
+2024-11-27 19:47:37.173 T:6742     info <general>:         m_streamTypes     : No passthrough capabilities
+2024-11-27 19:47:37.173 T:6742  warning <general>: ValidateOutputDevices: audio output device setting has been updated from 'PULSE:Default' to 'PIPEWIRE:Default|Default Output Device (PIPEWIRE)'
+2024-11-27 19:47:37.173 T:6743     info <general>: CActiveAESink::OpenSink - initialize sink
+2024-11-27 19:47:37.175 T:6663     info <general>: CLangInfo: loading resource.language.en_gb language information...
+2024-11-27 19:47:37.177 T:6663     info <general>: global locale set to en_US.UTF-8
+2024-11-27 19:47:37.177 T:6663     info <general>: CLangInfo: loading resource.language.en_gb language strings...
+2024-11-27 19:47:37.194 T:6744     info <general>: Running database version Addons33
+2024-11-27 19:47:37.194 T:6744     info <general>: Running database version ViewModes6
+2024-11-27 19:47:37.195 T:6744     info <general>: Running database version Textures13
+2024-11-27 19:47:37.196 T:6744     info <general>: Running database version MyMusic83
+2024-11-27 19:47:37.197 T:6744     info <general>: Running database version MyVideos131
+2024-11-27 19:47:37.198 T:6744     info <general>: Running database version TV46
+2024-11-27 19:47:37.198 T:6744     info <general>: Running database version Epg16
+2024-11-27 19:47:37.223 T:6663     info <general>: Unloaded skin
+2024-11-27 19:47:37.224 T:6663     info <general>:   load skin from: /usr/share/kodi/addons/skin.estuary/ (version: 4.0.0)
+2024-11-27 19:47:37.224 T:6663     info <general>:   load fonts for skin...
+2024-11-27 19:47:37.224 T:6663     info <general>: Loading colors from /usr/share/kodi/addons/skin.estuary/colors/concrete.xml
+2024-11-27 19:47:37.224 T:6663     info <general>: Loading skin includes from /usr/share/kodi/addons/skin.estuary/xml/Includes.xml
+2024-11-27 19:47:37.250 T:6663     info <general>: LoadFontsFromFile: Loading <fontset> with name 'Default' from '/usr/share/kodi/addons/skin.estuary/xml/Font.xml'
+2024-11-27 19:47:37.256 T:6663     info <general>: LoadTimers: Trying to load skin timers from /usr/share/kodi/addons/skin.estuary/xml/Timers.xml
+2024-11-27 19:47:37.256 T:6663     info <general>:   load new skin...
+2024-11-27 19:47:37.256 T:6663     info <general>: Loading custom window XMLs from skin path /usr/share/kodi/addons/skin.estuary/xml
+2024-11-27 19:47:37.260 T:6663     info <general>:   initialize new skin...
+2024-11-27 19:47:37.260 T:6663     info <general>: Loading skin file: Custom_1109_TopBarOverlay.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.265 T:6663     info <general>: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.266 T:6663     info <general>: Loading skin file: DialogNotification.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.266 T:6663     info <general>: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.273 T:6663     info <general>: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.274 T:6663     info <general>: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.274 T:6663     info <general>: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.275 T:6663     info <general>: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+2024-11-27 19:47:37.275 T:6663     info <general>: Loading resource://resource.uisounds.kodi/sounds.xml
+2024-11-27 19:47:37.288 T:6663     info <general>:   skin loaded...
+2024-11-27 19:47:37.288 T:6663     info <general>: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+2024-11-27 19:47:37.288 T:6663     info <general>: Loading skin file: MyFavourites.xml, load type: KEEP_IN_MEMORY
+2024-11-27 19:47:37.319 T:6663  warning <general>: JSONRPC: Could not parse type "Setting.Details.SettingList"
+2024-11-27 19:47:37.319 T:6663     info <general>: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+2024-11-27 19:47:37.319 T:6663     info <general>: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+2024-11-27 19:47:37.327 T:6663     info <general>: JSONRPC v13.5.0: Successfully initialized
+2024-11-27 19:47:37.327 T:6663     info <general>: [Media Detection] starting service for optical media detection
+2024-11-27 19:47:37.331 T:6663     info <general>: AddOnLog: peripheral.joystick: Enabling joystick interface "linux"
+2024-11-27 19:47:37.332 T:6663     info <general>: Register - new keyboard device registered on application->keyboard: Keyboard (0000:0000)
+2024-11-27 19:47:37.332 T:6663     info <general>: Register - new mouse device registered on application->mouse: Mouse (0000:0000)
+2024-11-27 19:47:37.332 T:6749     info <general>: AddOnLog: peripheral.joystick: Initialized joystick 0: "Microsoft X-Box 360 pad 0", axes: 8, hats: 0, buttons: 11
+2024-11-27 19:47:37.332 T:6749     info <general>: Loading controller layout: /usr/share/kodi/addons/game.controller.default/resources/layout.xml
+2024-11-27 19:47:37.332 T:6663     info <general>: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+2024-11-27 19:47:37.332 T:6749    error <general>: PERIPHERAL - GetAppearance() - addon 'Joystick Support' returned an error: not implemented
+2024-11-27 19:47:37.332 T:6663     info <general>: Loaded playercorefactory configuration
+2024-11-27 19:47:37.333 T:6663     info <general>: Loading player core factory settings from special://profile/playercorefactory.xml.
+2024-11-27 19:47:37.333 T:6663     info <general>: Loaded playercorefactory configuration
+2024-11-27 19:47:37.333 T:6663     info <general>: removing tempfiles
+2024-11-27 19:47:37.337 T:6749     info <general>: Loading controller layout: /usr/share/kodi/addons/game.controller.mouse/resources/layout.xml
+2024-11-27 19:47:37.339 T:6663     info <general>: initialize done
+2024-11-27 19:47:37.340 T:6663     info <general>: Running the application...
+2024-11-27 19:47:37.340 T:6663     info <general>: Loading skin file: DialogConfirm.xml, load type: KEEP_IN_MEMORY
+2024-11-27 19:47:37.343 T:6766     info <general>: ES: Starting UDP Event server on port 9777
+2024-11-27 19:47:37.343 T:6766     info <general>: UDP: Listening on port 9777 (ipv6 : false)
+2024-11-27 19:47:37.344 T:6663     info <general>: JSONRPC Server: Successfully initialized
+2024-11-27 19:47:37.346 T:6663     info <general>: CWSDiscoveryListenerUDP::Start - Started
+2024-11-27 19:47:37.388 T:6749    error <general>: PERIPHERAL - GetAppearance() - addon 'Joystick Support' returned an error: not implemented
+2024-11-27 19:47:37.399 T:6749     info <general>: Skipped 1 duplicate messages..
+2024-11-27 19:47:37.399 T:6749     info <general>: Register - new joystick device registered on addon->peripheral.joystick/0: Microsoft X-Box 360 pad 0
+2024-11-27 19:47:37.415 T:6770    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/9/98479525.jpg
+2024-11-27 19:47:37.415 T:6771    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/0/0b9f8b7c.jpg
+2024-11-27 19:47:37.416 T:6773    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/5/550cceea.jpg
+2024-11-27 19:47:37.619 T:6693     info <general>: Loading special://xbmc/system/Lircmap.xml
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'mceusb'
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'XboxDVDDongle'
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'Microsoft_Xbox'
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'PinnacleSysPCTVRemote'
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'anysee'
+2024-11-27 19:47:37.619 T:6693     info <general>: * Adding remote mapping for device 'iMON-PAD'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'Antec_Veris_RM200'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'MCE_via_iMON'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'TwinHanRemote'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'linux-input-layer'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Linking remote mapping for 'linux-input-layer' to 'cx23885_remote'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'mediacenter'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'devinput'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'devinput-32'
+2024-11-27 19:47:37.620 T:6693     info <general>: * Adding remote mapping for device 'devinput-64'
+2024-11-27 19:47:37.790 T:6744    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/c/c0309d6a.png
+2024-11-27 19:47:37.790 T:6770    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/f/f976fcc7.png
+2024-11-27 19:47:37.801 T:6773    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/c/c2f16160.png
+2024-11-27 19:47:37.818 T:6771    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/0/012997e0.jpg
+2024-11-27 19:47:38.125 T:6761     info <general>: [service.upnext] UpNextMonitor -> Service started
+2024-11-27 19:47:38.215 T:6757    error <general>: /home/deck/.kodi/addons/plugin.video.twitch/resources/lib/twitch_addon/addon/common/kodi.py:174: SyntaxWarning: invalid escape sequence '\.'
+                                                     match = re.search('([0-9]+)\.([0-9]+)', version)
+                                                   
+2024-11-27 19:47:38.215 T:6757    error <general>: /home/deck/.kodi/addons/plugin.video.twitch/resources/lib/twitch_addon/addon/common/kodi.py:178: SyntaxWarning: invalid escape sequence '\w'
+                                                     match = re.search('\w+:(\w+-\w+)', version)
+                                                   
+2024-11-27 19:47:38.287 T:6752     info <general>: plugin.audio.spotify:service:<module>: Python version: 3.12.7 (main, Oct  1 2024, 11:15:50) [GCC 14.2.1 20240910].
+2024-11-27 19:47:38.288 T:6752     info <general>: plugin.audio.spotify:service:<module>: Python exe: /usr/bin/python3.
+2024-11-27 19:47:38.367 T:6752     info <general>: plugin.audio.spotify:service:<module>: Platform: Linux-6.8.12-valve7-1-neptune-68-g8c3c3d4f5307-x86_64-with-glibc2.40.
+2024-11-27 19:47:38.848 T:6756     info <general>: [plugin.video.netflix (0)] The debug logging is set as DISABLED
+2024-11-27 19:47:38.881 T:6760     info <general>: [service.manifests.mpd] <service> starting...
+2024-11-27 19:47:38.935 T:6770    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/7/7067421f.png
+2024-11-27 19:47:38.962 T:6773    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/d/de0a4a85.jpg
+2024-11-27 19:47:38.962 T:6760     info <general>: [service.manifests.mpd] <service.httpd> started on: ('127.0.0.1', 51769)
+2024-11-27 19:47:39.003 T:6744    error <general>: DoWork - Direct texture file loading failed for special://masterprofile/Thumbnails/f/f6be8d0f.png
+2024-11-27 19:47:39.280 T:6771    error <general>: CCurlFile::Open - <https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/plugin.video.invidious/resources/media/icon.png> Failed with code 404:
+                                                   
+2024-11-27 19:47:39.601 T:6753     info <general>: [Amazon VOD] Service: Proxy bound to 127.0.0.1:54895
+2024-11-27 19:47:39.616 T:6753     info <general>: [Amazon VOD] Service: Proxy server started
+2024-11-27 19:47:39.616 T:6753     info <general>: [Amazon VOD] Service started
+2024-11-27 19:47:39.812 T:6773    error <general>: AddonVersion: dd6b3d8a-omega is not a valid revision number
+2024-11-27 19:47:39.812 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/omega/zip/net.kodinerds.maven.kodi21.arm64-v8a/net.kodinerds.maven.kodi21.arm64-v8a-202411250522.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.812 T:6773    error <general>: AddonVersion: dd6b3d8a-omega is not a valid revision number
+2024-11-27 19:47:39.812 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/omega/zip/net.kodinerds.maven.kodi21.armeabi-v7a/net.kodinerds.maven.kodi21.armeabi-v7a-202411250405.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.812 T:6773    error <general>: AddonVersion: dd6b3d8a-omega is not a valid revision number
+2024-11-27 19:47:39.812 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/omega/zip/net.kodinerds.maven.kodi21.firetv.armeabi-v7a/net.kodinerds.maven.kodi21.firetv.armeabi-v7a-202411250641.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.812 T:6773    error <general>: AddonVersion: d154398d-omega is not a valid revision number
+2024-11-27 19:47:39.812 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/omega/zip/net.kodinerds.maven.kodi21.x86_64/net.kodinerds.maven.kodi21.x86_64-202411011352.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.826 T:6773    error <general>: AddonVersion: e00e52ee-nexus is not a valid revision number
+2024-11-27 19:47:39.826 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/nexus/zip/net.kodinerds.maven.kodi20.arm64-v8a/net.kodinerds.maven.kodi20.arm64-v8a-202403050234.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.826 T:6773    error <general>: AddonVersion: e00e52ee-nexus is not a valid revision number
+2024-11-27 19:47:39.826 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/nexus/zip/net.kodinerds.maven.kodi20.armeabi-v7a/net.kodinerds.maven.kodi20.armeabi-v7a-202403050127.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.826 T:6773    error <general>: AddonVersion: 75336646-nexus is not a valid revision number
+2024-11-27 19:47:39.826 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/nexus/zip/net.kodinerds.maven.kodi20.firetv.armeabi-v7a/net.kodinerds.maven.kodi20.firetv.armeabi-v7a-202403042222.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.826 T:6773    error <general>: AddonVersion: a31f25fd-nexus is not a valid revision number
+2024-11-27 19:47:39.826 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/nexus/zip/net.kodinerds.maven.kodi20.x86_64/net.kodinerds.maven.kodi20.x86_64-202202121153.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.872 T:6773    error <general>: AddonVersion: ac5a2c14-matrix is not a valid revision number
+2024-11-27 19:47:39.872 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/matrix/zip/net.kodinerds.maven.kodi.arm64-v8a/net.kodinerds.maven.kodi.arm64-v8a-202305130048.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.872 T:6773    error <general>: AddonVersion: ac5a2c14-matrix is not a valid revision number
+2024-11-27 19:47:39.872 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/matrix/zip/net.kodinerds.maven.kodi.armeabi-v7a/net.kodinerds.maven.kodi.armeabi-v7a-202305130005.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:39.872 T:6773    error <general>: AddonVersion: 7ddaf1ba-matrix is not a valid revision number
+2024-11-27 19:47:39.873 T:6773    error <general>: CAddonInfoBuilder::ParseXML: file 'https://repo.kodinerds.net/addons/matrix/zip/net.kodinerds.maven.kodi.firetv.armeabi-v7a/net.kodinerds.maven.kodi.firetv.armeabi-v7a-202305122217.zip' doesn't contain a valid add-on type name (android.binary)
+2024-11-27 19:47:41.293 T:6754     info <general>: [plugin.video.invidious] <service> starting...
+2024-11-27 19:47:41.297 T:6754     info <general>: [plugin.video.invidious] <service.instance> Url: https://inv.nadeko.net/api/v1
+2024-11-27 19:47:41.297 T:6754     info <general>: [plugin.video.invidious] <service.instance> Proxy videos: False
+2024-11-27 19:47:41.297 T:6754     info <general>: [plugin.video.invidious] <service.instance> Locale: (en-US) English (US)
+2024-11-27 19:47:41.297 T:6754     info <general>: [plugin.video.invidious] <service.instance> Region: (US) United States
+2024-11-27 19:47:41.297 T:6754     info <general>: [plugin.video.invidious] <service.instance.session> Timeout: (9.05, 10.0)
+2024-11-27 19:47:41.298 T:6754     info <general>: [plugin.video.invidious] <service.search> Search history: True
+2024-11-27 19:47:41.298 T:6754     info <general>: [plugin.video.invidious] <service.search> Query type: All
+2024-11-27 19:47:41.298 T:6754     info <general>: [plugin.video.invidious] <service.search> Sort order: Relevance
+2024-11-27 19:47:41.467 T:6663     info <general>: Loading skin file: DialogAddonSettings.xml, load type: KEEP_IN_MEMORY
+2024-11-27 19:47:41.750 T:6757     info <general>: Twitch: Service: Start
+2024-11-27 19:47:41.801 T:6752     info <general>: plugin.audio.spotify:main_service:__init__: Spotify plugin version: 1.3.10.
+2024-11-27 19:47:41.880 T:6752     info <general>: plugin.audio.spotify:spotty_helper:__get_linux_spotty_path: Reported architecture: 'x86_64'.
+2024-11-27 19:47:41.885 T:6752     info <general>: plugin.audio.spotify:spotty_helper:__get_spotty_path: Spotty architecture detected. Using spotty binary '/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64'.
+2024-11-27 19:47:41.907 T:6752     info <general>: plugin.audio.spotify:http_video_player_setter:set_http_rule: There is already a video http rule in '/home/deck/.kodi/userdata/playercorefactory.xml'. Nothing to do.
+2024-11-27 19:47:41.911 T:6752     info <general>: plugin.audio.spotify:main_service:run: Starting main service loop.
+2024-11-27 19:47:41.916 T:6752     info <general>: plugin.audio.spotify:main_service:run: Started bottle with port 52308.
+2024-11-27 19:47:41.931 T:6752     info <general>: plugin.audio.spotify:spotty_auth:renew_token: Retrieving auth token....
+2024-11-27 19:47:41.931 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:41.932 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:41.948 T:6836     info <general>: plugin.audio.spotify:bottle_manager:__bottle_stderr: ('Bottle v0.13-dev server starting up (using MyWSGIRefServer())...',)
+2024-11-27 19:47:41.949 T:6836     info <general>: plugin.audio.spotify:bottle_manager:__bottle_stderr: ('Listening on http://localhost:52308/',)
+2024-11-27 19:47:41.950 T:6836     info <general>: plugin.audio.spotify:bottle_manager:__bottle_stderr: ('Hit Ctrl-C to quit.\n',)
+2024-11-27 19:47:41.953 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:41.953 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:41.981 T:6836     info <general>: plugin.audio.spotify:bottle_manager:run: Starting wsgiref web server, timeout = 600.
+2024-11-27 19:47:42.665 T:6759     info <general>: script.module.slyguy - Shared Service: Started
+2024-11-27 19:47:42.665 T:6759     info <general>: script.module.slyguy - Python Version: 3.12.7 (main, Oct  1 2024, 11:15:50) [GCC 14.2.1 20240910]
+2024-11-27 19:47:42.696 T:6759     info <general>: script.module.slyguy - Proxy Started: http://127.0.0.1:52103/
+2024-11-27 19:47:42.697 T:6759     info <general>: script.module.slyguy - Visit donate.slyguy.uk to become a supporter and unlock perks!
+2024-11-27 19:47:42.697 T:6759     info <general>: script.module.slyguy - Widevine Level (fallback): 3
+2024-11-27 19:47:42.697 T:6759     info <general>: script.module.slyguy - HDCP Level (fallback): 0.0
+2024-11-27 19:47:42.954 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:42.955 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:42.958 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:42.959 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:43.962 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:43.963 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:43.967 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:43.967 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:44.969 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:44.970 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:44.976 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:44.977 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:45.979 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:45.980 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:45.985 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:45.985 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:46.835 T:6763     info <general>: [service.yt-dlp] <service> starting...
+2024-11-27 19:47:46.835 T:6763     info <general>: [service.yt-dlp] <service> Include automatic captions: False
+2024-11-27 19:47:46.835 T:6763     info <general>: [service.yt-dlp] <service.mpd> Limit framerate: No limit
+2024-11-27 19:47:46.835 T:6763     info <general>: [service.yt-dlp] <service.mpd> Framerate hinting: Integer
+2024-11-27 19:47:46.836 T:6763     info <general>: [service.yt-dlp] <service.mpd> Exclude codecs: None
+2024-11-27 19:47:46.869 T:6755     info <general>: [plugin.video.mytube] <service> starting...
+2024-11-27 19:47:46.873 T:6755     info <general>: [plugin.video.mytube] <service.session> Timeout: (9.05, 10.0)
+2024-11-27 19:47:46.873 T:6755     info <general>: [plugin.video.mytube] <service.session> Accept cookies: False
+2024-11-27 19:47:46.873 T:6755     info <general>: [plugin.video.mytube] <service.session> Language: English (US)
+2024-11-27 19:47:46.873 T:6755     info <general>: [plugin.video.mytube] <service.session> Location: United States
+2024-11-27 19:47:46.874 T:6755     info <general>: [plugin.video.mytube] <service.session.ytdlp> Include automatic captions: False
+2024-11-27 19:47:46.874 T:6755     info <general>: [plugin.video.mytube] <service.session.ytdlp> Limit framerate: No limit
+2024-11-27 19:47:46.875 T:6755     info <general>: [plugin.video.mytube] <service.session.ytdlp> Framerate hinting: Integer
+2024-11-27 19:47:46.875 T:6755     info <general>: [plugin.video.mytube] <service.session.ytdlp> Exclude codecs: None
+2024-11-27 19:47:46.876 T:6755     info <general>: [plugin.video.mytube] <service.search> Search history: True
+2024-11-27 19:47:46.876 T:6755     info <general>: [plugin.video.mytube] <service.search> Query type: All
+2024-11-27 19:47:46.877 T:6755     info <general>: [plugin.video.mytube] <service.search> Sort order: Relevance
+2024-11-27 19:47:46.986 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:46.987 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:46.991 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:46.991 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:47.992 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:47.993 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:47.996 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:47.996 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:48.997 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:48.998 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:49.001 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:49.001 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:50.002 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:50.003 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:50.007 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:50.007 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:51.008 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:51.009 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:51.012 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:51.012 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:51.388 T:6663     info <general>: Loading controller layout: /home/deck/.kodi/addons/game.controller.keyboard/resources/layout.xml
+2024-11-27 19:47:51.867 T:6663     info <general>: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+2024-11-27 19:47:52.013 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:52.014 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:52.017 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:52.017 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:52.797 T:6770    error <general>: CCurlFile::Open - <https://raw.githubusercontent.com/lekma/repository.lekma/master/nexus/plugin.video.invidious/resources/media/icon.png> Failed with code 404:
+                                                   
+2024-11-27 19:47:53.018 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:53.019 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:53.023 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:53.023 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:53.226 T:6663     info <general>: Loading skin file: DialogButtonMenu.xml, load type: KEEP_IN_MEMORY
+2024-11-27 19:47:54.024 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:54.025 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:54.028 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:54.028 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:54.299 T:6663     info <general>: Stopping the application...
+2024-11-27 19:47:54.300 T:6663     info <general>: Stopping player
+2024-11-27 19:47:54.300 T:6663     info <general>: Storing total System Uptime
+2024-11-27 19:47:54.300 T:6663     info <general>: Saving settings
+2024-11-27 19:47:54.302 T:6663     info <general>: Saving skin settings
+2024-11-27 19:47:54.303 T:6663     info <general>: Stopping all
+2024-11-27 19:47:54.303 T:6663     info <general>: ES: Stopping event server
+2024-11-27 19:47:54.360 T:6766     info <general>: ES: UDP Event server stopped
+2024-11-27 19:47:54.379 T:6663     info <general>: CWSDiscoveryListenerUDP::Stop - Stopped
+2024-11-27 19:47:55.030 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:55.030 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:55.034 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:55.034 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:56.035 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:56.035 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:56.039 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:56.039 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:57.040 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:57.040 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:57.044 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:57.044 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:58.045 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:58.046 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:58.049 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:58.050 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:59.051 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Running spotty...
+2024-11-27 19:47:59.052 T:6752     info <general>: plugin.audio.spotify:spotty:run_spotty: Spotty args: /home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/deps/spotty/x86-linux/spotty-x86_64 --cache /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache --verbose --name Kodi-Spotty --client-id 2eb96f9b37494be1824999d58028a305 --scope user-read-playback-state,user-read-currently-playing,user-modify-playback-state,playlist-read-private,playlist-read-collaborative,playlist-modify-public,playlist-modify-private,user-follow-modify,user-follow-read,user-library-read,user-library-modify,user-read-private,user-read-email,user-top-read --save-token /home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token
+2024-11-27 19:47:59.055 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Traceback (most recent call last):
+                                                      File "/home/deck/.kodi/addons/plugin.audio.spotify/resources/lib/spotty_auth.py", line 143, in __get_token
+                                                       with open(self.__spotty.get_spotty_token_file()) as f:
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                    FileNotFoundError: [Errno 2] No such file or directory: '/home/deck/.kodi/userdata/addon_data/plugin.audio.spotify/spotty-cache/spotty-token'
+                                                   
+2024-11-27 19:47:59.055 T:6752    error <general>: plugin.audio.spotify:spotty_auth:__get_token: Exception --> Get Spotify token error.
+2024-11-27 19:47:59.393 T:6663    error <general>: CPythonInvoker(0, /home/deck/.kodi/addons/plugin.audio.spotify/service.py): script didn't stop in 5 seconds - let's kill it
+2024-11-27 19:47:59.393 T:6753     info <general>: [Amazon VOD] Service stopped
+2024-11-27 19:47:59.849 T:6753     info <general>: [Amazon VOD] Service: Proxy server stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service.feed> stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service.search> stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service.instance.yt-dlp> stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service.instance.session> stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service.instance> stopped
+2024-11-27 19:47:59.871 T:6754     info <general>: [plugin.video.invidious] <service> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service.feed> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service.search> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service.browse> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service.session.ytdlp> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service.session> stopped
+2024-11-27 19:47:59.908 T:6755     info <general>: [plugin.video.mytube] <service> stopped
+2024-11-27 19:48:00.433 T:6757     info <general>: Twitch: Service: Shutdown
+2024-11-27 19:48:01.408 T:6759     info <general>: script.module.slyguy - Shared Service: Stopped
+2024-11-27 19:48:01.658 T:6760     info <general>: [service.manifests.mpd] <service.httpd> stopped
+2024-11-27 19:48:01.658 T:6760     info <general>: [service.manifests.mpd] <service> stopped
+2024-11-27 19:48:01.676 T:6761     info <general>: [service.upnext] UpNextMonitor -> Service stopped
+2024-11-27 19:48:01.678 T:6761    error <general>: EXCEPTION: No valid addon id could be obtained. None was passed and the script wasn't executed in a normal Kodi manner.
+2024-11-27 19:48:01.682 T:6663     info <general>: CServiceAddonManager: failed to stop service.xbmc.versioncheck (may have ended)
+2024-11-27 19:48:01.682 T:6763     info <general>: [service.yt-dlp] <service.hls> stopped
+2024-11-27 19:48:01.682 T:6763     info <general>: [service.yt-dlp] <service.mpd> stopped
+2024-11-27 19:48:01.682 T:6763     info <general>: [service.yt-dlp] <service> stopped
+2024-11-27 19:48:02.092 T:6663     info <general>: Application stopped
+2024-11-27 19:48:02.878 T:6663     info <general>: AddOnLog: peripheral.joystick: Disabling joystick interface "linux"
+2024-11-27 19:48:02.879 T:6663     info <general>: ADDON: Dll Destroyed - Joystick Support
+2024-11-27 19:48:02.879 T:6663     info <general>: unload skin
+2024-11-27 19:48:02.896 T:6663     info <general>: Unloaded skin
+2024-11-27 19:48:02.901 T:6663     info <general>: unload sections
+2024-11-27 19:48:02.902 T:6663     info <general>: CWSDiscoveryListenerUDP::Stop - Stopped
+2024-11-27 19:48:02.925 T:6663     info <general>: XRANDR: /usr/lib/kodi/kodi-xrandr --screen 0 --output DisplayPort-1 --mode 0x5b
+2024-11-27 19:48:02.944 T:6663     info <general>: Exiting the application...

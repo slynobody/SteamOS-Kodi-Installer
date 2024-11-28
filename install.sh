@@ -8,7 +8,9 @@ sudo pacman -S  gstreamer-vaapi gst-plugin-pipewire gst-plugins-bad-libs gst-plu
 steamos-add-to-steam /usr/bin/kodi
 cp -R ./.kodi /home/deck
 sudo steamos-readonly enable
+echo "---------------------------------
+echo "want surround on your headphones? also install https://github.com/slynobody/SteamOS-surround
 echo "-----------------------------------------------------------------------------------------------------------------------"
-echo "if  you plan to use netflix, please !also install the Brave-Browser! through the App-Store! (needed to get credentials)"
+echo "if  you plan to use netflix, please !also install firefox through the App-Store! (needed to get credentials)"
 echo "-----------------------------------------------------------------------------------------------------------------------"
 

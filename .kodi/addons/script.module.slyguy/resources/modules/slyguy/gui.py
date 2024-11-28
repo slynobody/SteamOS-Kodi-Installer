@@ -342,7 +342,8 @@ class Item(object):
                 li.setProperty('{}.stream_headers'.format(self.inputstream.addon_id), headers)
                 li.setProperty('{}.manifest_headers'.format(self.inputstream.addon_id), headers)
 
-            if 'original_language' in self.proxy_data:
+            # IA does not support HLS original language attribute (only dash) so need to use property
+            if self.proxy_data.get('original_language'):
                 li.setProperty('{}.original_audio_language'.format(self.inputstream.addon_id), self.proxy_data['original_language'])
 
             if KODI_VERSION >= 21:
@@ -393,9 +394,9 @@ class Item(object):
                 proxy_data['middleware'][url] = {'type': MIDDLEWARE_CONVERT_SUB}
                 mimetype = 'text/vtt'
 
-            proxy_url = '{}{}.srt'.format(language, '.forced' if forced else '')
+            # kodi language urls only support basic language (no regional)
+            proxy_url = '{}{}.srt'.format(language.split('-')[0], '.forced' if forced else '')
             proxy_data['path_subs'][proxy_url] = url
-
             return u'{}{}'.format(proxy_path, proxy_url)
 
         if self.path and playing:
@@ -423,6 +424,7 @@ class Item(object):
                     'audio_whitelist': settings.get('audio_whitelist', ''),
                     'subs_whitelist':  settings.get('subs_whitelist', ''),
                     'audio_description': settings.getBool('audio_description', True),
+                    'interface_language': xbmc.getLanguage(xbmc.ISO_639_1),
                     'subs_forced': settings.getBool('subs_forced', True),
                     'subs_non_forced': settings.getBool('subs_non_forced', True),
                     'remove_framerate': False,
