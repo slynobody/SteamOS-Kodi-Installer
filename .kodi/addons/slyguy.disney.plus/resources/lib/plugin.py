@@ -386,8 +386,6 @@ def _parse_video(row):
         info  = {
             'plot': _get_text(row, 'description', 'program'),
             'duration': row['mediaMetadata']['runtimeMillis']/1000,
-            'year': row['releases'][0]['releaseYear'] if row['releases'][0]['releaseDate'] else None,
-            'aired': row['releases'][0]['releaseDate'],
             'mediatype': 'movie',
             'trailer': plugin.url_for(play_trailer, family_id=row['family']['encodedFamilyId']),
         },
@@ -395,6 +393,12 @@ def _parse_video(row):
         path = _get_play_path(content_id=row['contentId']),
         playable = True,
     )
+
+    try:
+        item.info['year'] = row['releases'][0]['releaseYear']
+        item.info['aired'] = row['releases'][0]['releaseDate']
+    except IndexError:
+        pass
 
     if row['programType'] == 'episode':
         item.info.update({
@@ -540,6 +544,8 @@ def series(series_id, **kwargs):
     folder = plugin.Folder(title, fanart=art.get('fanart'))
 
     for row in data['seasons']['seasons']:
+        if row['seasonSequenceNumber'] < 0:
+            continue
         item = _parse_season(row, data['series'])
         folder.add_items(item)
 
@@ -697,7 +703,7 @@ def _play(family_id=None, content_id=None, **kwargs):
         #v5
         media_stream = playback_data['stream']['complete'][0]['url']
 
-    original_language = video.get('originalLanguage') or 'en'
+    original_language = video.get('originalLanguage') or ''
     item = _parse_video(video)
     item.update(
         path = media_stream,

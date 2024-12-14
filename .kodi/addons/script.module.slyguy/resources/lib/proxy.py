@@ -389,7 +389,7 @@ class RequestHandler(BaseHTTPRequestHandler):
             elif not stream['res_ok']:
                 color = 'orange'
             else:
-                color = 'blue'
+                color = None
 
             return _(_.QUALITY_BITRATE, bandwidth=int((stream['bandwidth']/10000.0))/100.00, resolution=resolution, fps=fps, codecs=codec_string, _color=color).replace('  ', ' ')
 
@@ -644,7 +644,8 @@ class RequestHandler(BaseHTTPRequestHandler):
                     if 'video' in attribs.get('mimeType', '') and not is_trick:
                         is_hdr = False
                         for supplem in adap_set.getElementsByTagName('SupplementalProperty'):
-                            if supplem.getAttribute('schemeIdUri') == 'http://dashif.org/metadata/hdr':
+                            if supplem.getAttribute('schemeIdUri') == 'http://dashif.org/metadata/hdr' or \
+                                    (supplem.getAttribute('schemeIdUri') == 'urn:mpeg:mpegB:cicp:TransferCharacteristics' and supplem.getAttribute('value') == '16'):
                                 is_hdr = True
                                 break
 

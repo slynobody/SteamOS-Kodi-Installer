@@ -159,13 +159,43 @@ def extractGridPlaylist(obj):
 def extractRichItem(obj):
     return __extract__(obj["content"])
 
+
+# ------------------------------------------------------------------------------
+
+# this is all stupid :(
+
+def extractLockupContentPlaylist(obj):
+    #from nuttig import Logger
+    #logger = Logger()
+    metadataViewModel = obj["metadata"]["lockupMetadataViewModel"]
+    thumbnailViewModel = obj["contentImage"]["collectionThumbnailViewModel"]["primaryThumbnail"]["thumbnailViewModel"]
+    playlist = {
+        "type": "playlist",
+        "playlistId": obj["contentId"],
+        "title": metadataViewModel["title"]["content"],
+        "thumbnail": getUrl(thumbnailViewModel["image"]["sources"][-1]["url"]),
+        "videosText": traverse(thumbnailViewModel, "overlays", 0, "thumbnailOverlayBadgeViewModel", "thumbnailBadges", 0, "thumbnailBadgeViewModel", "text"),
+    }
+    return playlist
+
+__lockupContentType__ = {
+    "LOCKUP_CONTENT_TYPE_PLAYLIST": extractLockupContentPlaylist
+}
+
+def extractLockupViewModel(obj):
+    return __lockupContentType__[obj["contentType"]](obj)
+
+
+# ------------------------------------------------------------------------------
+
 __extractors__ = {
     "videoRenderer": extractVideo,
     "channelRenderer": extractChannel,
     "playlistRenderer": extractPlaylist,
     "shortsLockupViewModel": extractShort,
     "gridPlaylistRenderer": extractGridPlaylist,
-    "richItemRenderer": extractRichItem
+    "richItemRenderer": extractRichItem,
+    "lockupViewModel": extractLockupViewModel
 }
 
 def __extract__(data, **defaults):
@@ -199,11 +229,32 @@ def renderPlaylist(obj):
 def renderShelf(obj):
     yield from __render__(obj["content"])
 
+def renderLockupViewModel(obj):
+    channelParts = traverse(
+        obj,
+        "metadata",
+        "lockupMetadataViewModel",
+        "metadata",
+        "contentMetadataViewModel",
+        "metadataRows",
+        0,
+        "metadataParts",
+        0,
+        "text",
+        default={}
+    )
+    yield dict(
+        extractLockupViewModel(obj),
+        channelId=channelParts["commandRuns"][0]["onTap"]["innertubeCommand"]["browseEndpoint"]["browseId"],
+        channel=channelParts["content"]
+    )
+
 __renderers__ = {
     "videoRenderer": renderVideo,
     "channelRenderer": renderChannel,
     "playlistRenderer": renderPlaylist,
     "shelfRenderer": renderShelf,
+    "lockupViewModel": renderLockupViewModel,
     "verticalListRenderer": lambda obj: renderList(obj["items"])
 }
 

@@ -1,3 +1,7 @@
+1.0.2
+- support 5.1 surround sound audio
+- moving text strings displayed in the user interface to string.po file
+- implementation of new drm configuration (since ISA v22.1.5)
 1.0.1
 - added "client country" header generator
 - infoTags addapted for Kodi ver >=20 

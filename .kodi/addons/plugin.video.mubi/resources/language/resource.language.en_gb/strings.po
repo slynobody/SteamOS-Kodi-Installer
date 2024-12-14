@@ -1,0 +1,171 @@
+# Kodi Media Center language file
+# Addon Name: MUBI
+# Addon id: plugin.video.mubi
+# Addon Provider: lg
+msgid ""
+msgstr ""
+
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgctxt "#30001"
+msgid "Browse"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Search"
+msgstr ""
+
+msgctxt "#30003"
+msgid "LOG OUT"
+msgstr ""
+
+msgctxt "#30004"
+msgid "LOG IN"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Films"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Collections"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Cast & Crew"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Lists"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Awards & Festivals"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Filter by"
+msgstr ""
+
+msgctxt "#30011"
+msgid "show items"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Unavailable"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Since"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Till"
+msgstr ""
+
+msgctxt "#30015"
+msgid "Languages"
+msgstr ""
+
+msgctxt "#30016"
+msgid "next page"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Winners"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Screened/Nominations"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Others"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Year"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Status"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Subtitles"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Media features"
+msgstr ""
+
+msgctxt "#30025"
+msgid "No data"
+msgstr ""
+
+#Dialogs
+
+msgctxt "#30100"
+msgid "Sort"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Category"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Language details"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Error"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Unavailable"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Log In"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Enter code %s on website [B]https://mubi.com/android[/B] and then click OK"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Error during code generating"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Error - you are still logged"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Search, Phrase"
+msgstr ""
+
+#settings
+
+msgctxt "#30200"
+msgid "Searching"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Show only playable films"
+msgstr ""
+
+msgctxt "#30202"
+msgid "Language"
+msgstr ""

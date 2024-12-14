@@ -26,12 +26,16 @@ PATH=addon.getAddonInfo('path')
 PATH_profile=xbmcvfs.translatePath(addon.getAddonInfo('profile'))
 if not xbmcvfs.exists(PATH_profile):
     xbmcvfs.mkdir(PATH_profile)
-img_empty=PATH+'/resources/empty.png'
-fanart=''
+img_path=PATH+'/resources/img/'
+img_empty=img_path+'empty.png'
+fanart=img_path+'fanart.jpg'
 
 UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0'
 baseurl='https://mubi.com/'
 apiURL='https://api.mubi.com/v3/'
+
+langs={'English':'en','Deutsch':'de','español':'es','français':'fr','italiano':'it','Nederlands':'nl','português':'pt','Türkçe':'tr'} 
+lng=langs[addon.getSetting('lng')]
 
 def heaATVGen():
     getCliCountry()
@@ -60,9 +64,10 @@ def heaGen():
         'Authorization':'Bearer '+addon.getSetting('token'),
         'Anonymous_user_id':addon.getSetting('deviceID'),
         'Client':'web',
-        'Client-Accept-Audio-Codecs':'aac',
+        'Client-Accept-Audio-Codecs':'eac3,aac',
         'Client-Accept-Video-Codecs':'h265,vp9,h264',
-        'Client-Country':addon.getSetting('client_country')
+        'Client-Country':addon.getSetting('client_country'),
+        'accept-language':lng
     }
     return HEA
 
@@ -130,7 +135,7 @@ def directPlayer(stream_url):
     play_item = xbmcgui.ListItem(path=stream_url)
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem=play_item)
     
-def ISAplayer(protocol,stream_url, isDRM=False, licURL=False):
+def ISAplayer(protocol,stream_url, isDRM=False, lickey=False, drm_config=''):
     heaPlay={
         'User-Agent':UA,
         'Referer':baseurl,
@@ -148,13 +153,17 @@ def ISAplayer(protocol,stream_url, isDRM=False, licURL=False):
         play_item.setMimeType('application/xml+dash')
         play_item.setContentLookup(False)
         play_item.setProperty('inputstream', is_helper.inputstream_addon)        
-        play_item.setProperty("IsPlayable", "true")
-        play_item.setProperty('inputstream.adaptive.manifest_type', PROTOCOL)
+        play_item.setProperty('IsPlayable', 'true')
         play_item.setProperty('inputstream.adaptive.stream_headers', hp)
         play_item.setProperty('inputstream.adaptive.manifest_headers', hp)
+        play_item.setProperty('inputstream.adaptive.manifest_type', PROTOCOL)
         if isDRM:
-            play_item.setProperty('inputstream.adaptive.license_type', DRM)
-            play_item.setProperty('inputstream.adaptive.license_key', licURL)
+            kodiVer=xbmc.getInfoLabel('System.BuildVersion')
+            if int(kodiVer.split('.')[0])<22:
+                play_item.setProperty('inputstream.adaptive.license_type', DRM)
+                play_item.setProperty('inputstream.adaptive.license_key', lickey)
+            else:
+                play_item.setProperty('inputstream.adaptive.drm', json.dumps(drm_config))
 
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem=play_item)
 
@@ -165,28 +174,33 @@ def code_gen(x):
         code+=base[random.randint(0,15)]
     return code
 
+def translate(txtId):
+    return addon.getLocalizedString(txtId)
+    
+nextPageLabel='[COLOR=cyan][B]>>> %s[/B][/COLOR]'%(translate(30016))
+
 def main_menu():
     items=[]
     if addon.getSetting('logged')=='true':
         items=[
-            ['Browse','browserList','DefaultAddonVideo.png'],
-            ['Search','search','DefaultAddonsSearch.png'],
-            ['LOG OUT','logOut','DefaultUser.png']
+            [translate(30001),'browserList','DefaultAddonVideo.png'],#Browse
+            [translate(30002),'search','DefaultAddonsSearch.png'],#Search
+            [translate(30003),'logOut','DefaultUser.png']#LOG OUT
         ]
     else:
         items=[
-            ['LOG IN','logIn','DefaultUser.png']
+            [translate(30004),'logIn','DefaultUser.png']#LOG IN
         ]
     for i in items:
-        setArt={'icon': i[2]}
+        setArt={'icon': i[2],'fanart':fanart}
         url = build_url({'mode':i[1]})
         addItemList(url, i[0], setArt)
     xbmcplugin.endOfDirectory(addon_handle)   
 
 def browserList():
-    browser={'Films':'films','Collections':'film_groups','Cast & Crew':'cast_members','Lists':'lists','Awards & Festivals':'industry_events'}
+    browser={translate(30005):'films',translate(30006):'film_groups',translate(30007):'cast_members',translate(30008):'lists',translate(30009):'industry_events'}
     for b in list(browser.keys()):
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': 'DefaultAddonVideo.png', 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': 'DefaultGenre.png', 'fanart': fanart}
         url = build_url({'mode':'browsStngs','categ':browser[b]})
         addItemList(url, b, setArt)
     xbmcplugin.endOfDirectory(addon_handle)
@@ -198,7 +212,7 @@ def browsStngs(cat):
         sort=None
         filters=None
         html_categ={'films':'films','film_groups':'collections','cast_members':'cast','lists':'lists','industry_events':'awards-and-festivals'}
-        url=baseurl+'en/'+html_categ[cat]
+        url=baseurl+lng+'/'+html_categ[cat]
         hea={'User-Agent':UA}
         resp=requests.get(url,headers=hea).text
         resp1=resp.split('application/json\">')[1].split('</script')[0]
@@ -237,7 +251,7 @@ def browsStngs(cat):
                 setArt={'icon': 'DefaultTags.png'}
                 url = build_url({'mode':'browsFilter','categ':cat,'filte':ff})
                 filterVal=filtersData[ff][filters[ff]] if filters[ff]!='' else 'all'
-                addItemList(url, 'Filter by '+ff + ': [B]'+filterVal+'[/B]', setArt, isF=False)
+                addItemList(url, '%s %s: [B]%s[/B]'%(translate(30010),ff,filterVal), setArt, isF=False)
     
     else: #po zmianie parametrów przez użytkownika (funkcje browsSort/browsFilter)
         sort=addon.getSetting('sort')
@@ -259,7 +273,7 @@ def browsStngs(cat):
                 setArt={'icon': 'DefaultTags.png'}
                 url = build_url({'mode':'browsFilter','categ':cat,'filte':ff})
                 filterVal=filtersData[ff][filters[ff]] if filters[ff]!='' else 'all'
-                addItemList(url, 'Filter by '+ff + ': [B]'+filterVal+'[/B]', setArt, isF=False)
+                addItemList(url, '%s %s: [B]%s[/B]'%(translate(30010),ff,filterVal), setArt, isF=False)
     
     addon.setSetting('sort',sort)
     addon.setSetting('filters',str(filters))
@@ -274,7 +288,7 @@ def browsStngs(cat):
     
     setArt={'icon': 'DefaultAddonVideo.png'}
     url = build_url({'mode':'contList','categ':cat,'sort':sort,'filters':str(filters)})
-    addItemList(url, '>>> show items', setArt)
+    addItemList(url, '>>> %s'%(translate(30011)), setArt)
     
     xbmcplugin.endOfDirectory(addon_handle)
     
@@ -283,7 +297,7 @@ def browsSort(cat):
     sortData=eval(addon.getSetting('sortData'))
 
     labels=[s['label'] for s in sortData]
-    select = xbmcgui.Dialog().select('Sort', labels)
+    select = xbmcgui.Dialog().select(translate(30100), labels)
     if select > -1:
         sort=sortData[select]['value']
 
@@ -297,7 +311,7 @@ def browsFilter(cat,ft):
     filtersData=eval(addon.getSetting('filtersData'))
 
     labels=[filtersData[ft][k] for k in list(filtersData[ft].keys())]
-    select = xbmcgui.Dialog().select('Category', labels)
+    select = xbmcgui.Dialog().select(translate(30101), labels)
     if select > -1:
         ftVal=list(filtersData[ft].keys())[select]
     else:
@@ -326,7 +340,7 @@ def addFilmToList(r): #helper
         url=build_url({'mode':'noPlay'})
         isPlayable='false'
         titleToList='[I]%s[/I]'%(title)
-        desc='[B]Unavailable[/B]\n'+desc
+        desc='[B]'+translate(30012)+'[/B]\n'+desc
         cm=False
         cmItems=[]
     else:
@@ -339,7 +353,7 @@ def addFilmToList(r): #helper
             te=None
             dateEnd='n/a'
         dateStart=ts.strftime('%Y-%m-%d %H:%M')
-        desc='[B]Since: [/B]%s\n[B]Till: [/B]%s\n'%(dateStart,dateEnd) +desc
+        desc='[B]%s: [/B]%s\n[B]%s: [/B]%s\n'%(translate(30013),dateStart,translate(30014),dateEnd) +desc
         
         if (te!=None and now>ts and now<te) or (te==None and now>ts):           
             url=build_url({'mode':'playMubi','vid':vid})
@@ -351,7 +365,7 @@ def addFilmToList(r): #helper
             titleToList='[I]%s[/I]'%(title)
         
         cm=True
-        cmItems=[('[B]Languages[/B]','RunPlugin(plugin://plugin.video.mubi?mode=lang&vid='+vid+')')]
+        cmItems=[('[B]%s[/B]'%(translate(30015)),'RunPlugin(plugin://plugin.video.mubi?mode=lang&vid='+vid+')')]
     
     trailerURL=''    
     if 'trailer_url' in r:
@@ -359,7 +373,7 @@ def addFilmToList(r): #helper
             trailerURL=build_url({'mode':'trailer','url':r['trailer_url']})
     
     iL={'title': title,'originaltitle':original_title,'sorttitle': title,'plot': desc,'year':year,'genre':genres,'duration':dur*60,'director':directors,'cast':[],'trailer':trailerURL,'mediatype':'movie'}        
-    setArt={'thumb': img, 'poster': img, 'banner': img, 'icon': img, 'fanart': ''}
+    setArt={'thumb': img, 'poster': img, 'banner': img, 'icon': img, 'fanart': fanart}
     addItemList(url, titleToList, setArt, 'video', iL, False, isPlayable, cm, cmItems)
 
    
@@ -382,9 +396,9 @@ def films(s,f,p): #Browser Lev.1 [lista filmów]
         addFilmToList(r)
         
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'contList','categ':'films','sort':s,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
         
     
     xbmcplugin.setContent(addon_handle, 'videos')
@@ -405,14 +419,14 @@ def collections(s,f,p): #Browser Lev.1
         img=r['image']
         
         iL={'plot':desc}
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':'film_groups','iid':cid,'page':'1'})
         addItemList(url, title, setArt, 'video', iL)
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'contList','categ':'film_groups','sort':s,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
 
     xbmcplugin.endOfDirectory(addon_handle)
     
@@ -435,14 +449,14 @@ def cast(s,f,p): #Browser Lev.1
         slug=r['slug']
         
         iL={'plot':role}
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':'cast_members','pid':pid,'slug':slug})
         addItemList(url, name, setArt, 'video', iL)
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'contList','categ':'cast_members','sort':s,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)    
+        addItemList(url, nextPageLabel, setArt)    
     
     xbmcplugin.endOfDirectory(addon_handle)
 
@@ -464,14 +478,14 @@ def lists(s,f,p): #Browser Lev.1
         plot='[B]Films: [/B]%s\n[B]Followers: [/B]%s\n[I]%s[/I]'%(films,fans,desc)
         
         iL={'plot':plot}
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':'lists','slug':slug,'page':'1'})
         addItemList(url, title, setArt, 'video', iL)
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'contList','categ':'lists','sort':s,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url,nextPageLabel, setArt)
 
     xbmcplugin.endOfDirectory(addon_handle)
 
@@ -493,14 +507,14 @@ def events(s,f,p): #Browser Lev.1
         eid=str(r['id'])
         img=r['white_logo_url'] if r['white_logo_url']!=None else 'https://assets.mubicdn.net/website/industry_event_logo_placeholder-small_black.png'
         
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':'industry_events','slug':slug,'eid':eid})
         addItemList(url, name, setArt)
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'contList','categ':'industry_events','sort':s,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
 
     xbmcplugin.endOfDirectory(addon_handle)
 
@@ -521,9 +535,9 @@ def itemListColl(c,iid,p): #Browser Lev.2 - Coll [lista filmów]
             continue #??? czy będą jakieś inne elementy
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':c,'iid':iid,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
     
     xbmcplugin.setContent(addon_handle, 'videos')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -539,7 +553,7 @@ def roleListCast(c,pid,slug): #Browser Lev.2 - Cast
         plot=name
         
         iL={'plot':plot}
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
         url=build_url({'mode':'itemListCastFilms','pid':pid,'role':rid,'page':'1'})
         addItemList(url, role, setArt, 'video', iL)
         
@@ -557,9 +571,9 @@ def itemListCastFilms(pid,r,p): #Browser Lev.3 - Cast [lista filmów]
         addFilmToList(r)
         
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'itemListCastFilms','pid':pid,'role':r,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
     
     xbmcplugin.setContent(addon_handle, 'videos')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -579,9 +593,9 @@ def itemListLists(slug,p): #Browser Lev.2 - Listy [lista filmów]
             continue
         
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'itemList','categ':'lists','slug':slug,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
     
     xbmcplugin.setContent(addon_handle, 'videos')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -594,20 +608,20 @@ def itemListEvents(slug,eid): #Browser Lev.2 - Events filtry
         resp=requests.get(url,headers=heaGen()).json()
         for r in resp:
             fy[str(r)]=str(r)
-        fs={'1':'Winners','0':'Screened/Nominations','6':'Others'}
+        fs={'1':translate(30017),'0':translate(30018),'6':translate(30019)}
         #domyślne
         filtersEvents={
             'year':list(fy.keys())[0],
             'status':''
         }
         
-        filters={'year':'Year','status':'Status'}
+        filters={'year':translate(30020),'status':translate(30021)}
         filtersEventsData={'year':fy,'status':fs}
         for ff in list(filters.keys()):
             setArt={'icon': 'DefaultTags.png'}
             url = build_url({'mode':'eventsFilter','slug':slug,'eid':eid,'filte':ff})
             filterVal=filtersEventsData[ff][filtersEvents[ff]] if filtersEvents[ff]!='' else 'all'
-            addItemList(url, 'Filter by '+filters[ff] + ': [B]'+filterVal+'[/B]', setArt, isF=False)
+            addItemList(url, '%s %s: [B]%s[/B]'%(translate(30010),filters[ff],filterVal), setArt, isF=False)
     
     else:
         filtersEventsData=eval(addon.getSetting('filtersEventsData'))
@@ -616,7 +630,7 @@ def itemListEvents(slug,eid): #Browser Lev.2 - Events filtry
             setArt={'icon': 'DefaultTags.png'}
             url = build_url({'mode':'eventsFilter','slug':slug,'eid':eid,'filte':ff})
             filterVal=filtersEventsData[ff][filtersEvents[ff]] if filtersEvents[ff]!='' else 'all'
-            addItemList(url, 'Filter by '+ff + ': [B]'+filterVal+'[/B]', setArt, isF=False)
+            addItemList(url, '%s %s: [B]%s[/B]'%(translate(30010),ff,filterVal), setArt, isF=False)
     
     addon.setSetting('filtersEvents',str(filtersEvents))
     addon.setSetting('filtersEventsData',str(filtersEventsData))
@@ -633,7 +647,7 @@ def eventsFilter(slug,eid,ft):
     filtersEventsData=eval(addon.getSetting('filtersEventsData'))
     
     labels=[filtersEventsData[ft][k] for k in list(filtersEventsData[ft].keys())]
-    select = xbmcgui.Dialog().select('Kategoria', labels)
+    select = xbmcgui.Dialog().select(translate(30101), labels)
     if select > -1:
         ftVal=list(filtersEventsData[ft].keys())[select]
     else:
@@ -663,18 +677,18 @@ def itemListEventsFilms(eid,f,p): #Browser Lev.3 - Listy [lista filmów]
         addFilmToList(r)
         
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'itemListEventsFilms','eid':eid,'filters':f,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
         
     
     xbmcplugin.setContent(addon_handle, 'videos')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def searchResults(query):
-    groups={'films':'Films','cast_members':'Cast & Crew'}
+    groups={'films':translate(30005),'cast_members':translate(30007)}
     for r in list(groups.keys()):    
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': 'DefaultAddonsSearch.png', 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': 'DefaultAddonsSearch.png', 'fanart': fanart}
         url=build_url({'mode':'searchList','type':r,'query':query,'page':'1'})
         addItemList(url, groups[r], setArt)
     
@@ -705,14 +719,14 @@ def searchList(type,query,p):
             slug=r['slug']
             
             iL={'plot':role}
-            setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': ''}
+            setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img, 'fanart': fanart}
             url=build_url({'mode':'itemList','categ':'cast_members','pid':pid,'slug':slug})
             addItemList(url, name, setArt, 'video', iL)
     
     if resp['meta']['next_page']!=None:
-        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': ''}
+        setArt={'thumb': '', 'poster': '', 'banner': '', 'icon': img_empty, 'fanart': fanart}
         url=build_url({'mode':'searchList','type':type,'query':query,'page':str(resp['meta']['next_page'])})
-        addItemList(url, '[B][COLOR=yellow]>>> następna strona[/B][/COLOR]', setArt)
+        addItemList(url, nextPageLabel, setArt)
         
     xbmcplugin.endOfDirectory(addon_handle)
     
@@ -744,11 +758,25 @@ def playMubi(vid):
             'Origin':'https://mubi.com',
             'Content-Type':''
         }
-        lic='https://lic.drmtoday.com/license-proxy-widevine/cenc/|'+urlencode(heaLic)+'|R{SSM}|JBlicense'
-        ISAplayer('mpd',stream_url, True, lic)
+        licURL='https://lic.drmtoday.com/license-proxy-widevine/cenc/'
+        #K21
+        lickey='%s|%s|R{SSM}|JBlicense'%(licURL,urlencode(heaLic))
+        #K22
+        drm_config={
+            "com.widevine.alpha": {
+                "license": {
+                    "server_url": licURL,
+                    "req_headers": urlencode(heaLic),
+                    "unwrapper":"json,base64",
+                    "unwrapper_params": {"path_data": "license"},
+                }
+            }
+        }
+        
+        ISAplayer('mpd',stream_url, True, lickey, drm_config)
     else:
         message=resp['user_message'] if 'user_message' in resp else ''
-        xbmcgui.Dialog().notification('MUBI', 'Error: '+message, xbmcgui.NOTIFICATION_INFO)
+        xbmcgui.Dialog().notification('MUBI', '%s: %s'%(translate(30103),message), xbmcgui.NOTIFICATION_INFO)
         xbmcplugin.setResolvedUrl(addon_handle, False, xbmcgui.ListItem())
         
 
@@ -756,20 +784,20 @@ def trailer(u):
     if '.mp4' in u:
         directPlayer(u)
     else:
-        xbmcgui.Dialog().notification('MUBI', 'Unavailable', xbmcgui.NOTIFICATION_INFO)
+        xbmcgui.Dialog().notification('MUBI', translate(30104), xbmcgui.NOTIFICATION_INFO)
         
 def lang(v):
     url=apiURL+'films/'+v+'/playback_languages'
     try:
         resp=requests.get(url,headers=heaGen()).json()
-        plot='[B]Audio: [/B]'+', '.join(resp['audio_options'])+'\n'
-        plot+='[B]Subtitles: [/B]'+', '.join(resp['subtitle_options'])+'\n'
-        plot+='[B]Media features: [/B]'+', '.join(resp['media_features'])+'\n'
+        plot='[B]%s: [/B]%s\n'%(translate(30022),', '.join(resp['audio_options']))
+        plot+='[B]%s: [/B]%s\n'%(translate(30023),', '.join(resp['subtitle_options']))
+        plot+='[B]%s: [/B]%s\n'%(translate(30024),', '.join(resp['media_features']))
     except:
-        plot='No data'
+        plot=translate(30025)
     
     dialog = xbmcgui.Dialog()
-    dialog.textviewer('Language details', plot)
+    dialog.textviewer(translate(30102), plot)
     
 def getCliCountry():
     if addon.getSetting('client_country')=='':
@@ -793,7 +821,7 @@ def logIn():
     
     code=getCode()
     if 'auth_token' in code and 'link_code' in code:
-        ok=xbmcgui.Dialog().ok("Log in", 'Enter code [COLOR=yellow][B]'+code['link_code']+'[/B][/COLOR] on website [B]https://mubi.com/android[/B] and then click OK')
+        ok=xbmcgui.Dialog().ok(translate(30105), translate(30106)%('[COLOR=yellow][B]'+code['link_code']+'[/B][/COLOR]'))
         if ok:
             urlAuth=apiURL+'authenticate'
             data={'auth_token':code['auth_token']}
@@ -803,14 +831,11 @@ def logIn():
                 addon.setSetting('userID',str(respAuth['user']['id']))
                 addon.setSetting('logged','true')
             else:
-                xbmcgui.Dialog().notification('MUBI', 'Błąd: '+respAuth['message'], xbmcgui.NOTIFICATION_INFO)
-                xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
-                xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
+                xbmcgui.Dialog().notification('MUBI', '%s: %s'%(translate(30103),respAuth['message']), xbmcgui.NOTIFICATION_INFO)
     
     else:    
-        xbmcgui.Dialog().notification('MUBI', 'Error during code generating.', xbmcgui.NOTIFICATION_INFO)
-        xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
-        xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
+        xbmcgui.Dialog().notification('MUBI', translate(30107), xbmcgui.NOTIFICATION_INFO)
+
  
 def logOut():
     url=apiURL+'sessions'
@@ -824,9 +849,7 @@ def logOut():
         addon.setSetting('logged','false')
         addon.setSetting('client_country','')
     else:
-        xbmcgui.Dialog().notification('MUBI', 'Error - you are still logged.', xbmcgui.NOTIFICATION_INFO)
-        xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
-        xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')        
+        xbmcgui.Dialog().notification('MUBI', translate(30108), xbmcgui.NOTIFICATION_INFO)      
     
 mode = params.get('mode', None)
 
@@ -834,8 +857,7 @@ if not mode:
     if addon.getSetting('deviceID')=='' or addon.getSetting('deviceID')==None:#
         addon.setSetting('deviceID',"%s-%s-%s-%s-%s" %(code_gen(8),code_gen(4),code_gen(4),code_gen(4),code_gen(12)))
     main_menu()
-   
-    
+       
 else:
     if mode=='browserList':
         addon.setSetting('init','true')
@@ -910,7 +932,7 @@ else:
         eventsFilter(slug,eid,filte)
     
     if mode=='search':   
-        query = xbmcgui.Dialog().input(u'Search, Phrase:', type=xbmcgui.INPUT_ALPHANUM)
+        query = xbmcgui.Dialog().input('%s:'%(translate(30109)), type=xbmcgui.INPUT_ALPHANUM)
         if query:
             searchResults(query)
 
@@ -942,14 +964,12 @@ else:
         lang(vid)
     
     if mode=='logIn':
-        logIn()
-        if addon.getSetting('logged')=='true':
-            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
-            xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
+        logIn()        
+        xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+        xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
             
     if mode=='logOut':
         logOut()
-        if addon.getSetting('logged')=='false':
-            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
-            xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
+        xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+        xbmc.executebuiltin('Container.Update(plugin://plugin.video.mubi/,replace)')
     

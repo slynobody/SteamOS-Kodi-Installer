@@ -1,0 +1,10 @@
+<settings version="2">
+    <setting id="crunchyroll_username" default="true" />
+    <setting id="crunchyroll_password" default="true" />
+    <setting id="device_id">0pfc3rn8-KODI-xbf1-gvlf-s611lwm5qa36</setting>
+    <setting id="session_id" default="true" />
+    <setting id="auth_token" default="true" />
+    <setting id="subtitle_language" default="true">0</setting>
+    <setting id="sync_playtime">true</setting>
+    <setting id="inputstream_adaptive" default="true" />
+</settings>

@@ -1,9 +1,0 @@
-<settings version="2">
-    <setting id="video_quality">720p</setting>
-    <setting id="timeout">8</setting>
-    <setting id="clear_cache" default="true" />
-    <setting id="DebugMode" default="true">false</setting>
-    <setting id="forceViewMode" default="true">false</setting>
-    <setting id="MenuMode">500</setting>
-    <setting id="VideoMode">51</setting>
-</settings>
